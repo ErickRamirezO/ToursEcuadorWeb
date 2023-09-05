@@ -1,3 +1,6 @@
+<?php 
+echo "<p>Hola</p>";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
