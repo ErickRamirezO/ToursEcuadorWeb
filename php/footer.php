@@ -1,7 +1,8 @@
 <footer>
   <div class="footer_arriba w3-mobile w3-center">
-    <div align="center" class="w3-mobile w3-center">
-      <img class="logo" src="../img/logoToursEcuador.png">
+    <div class="w3-mobile w3-center">
+      <a href="../index.php">
+          <img src="../img/logoToursEcuador.png" class="logo"></a>
       <p style="font-weight: bold;" class="frase_tours_ecuador">“Vive y viaja mientras puedas”</p>
     </div>
     <div align="center" class="w3-mobile w3-center">
@@ -22,7 +23,7 @@
       </div>
       <div class="ubicacion_footer w3-mobile w3-center">
         <i class="fa-solid fa-location-dot w3-hide-small"></i>
-        <p>Venezuela y espejo</p>
+        <p>Calle Venezuela y Espejo</p>
       </div>
     </div>
     <div align="center" class="w3-hide-small">
