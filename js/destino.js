@@ -50,4 +50,22 @@ document.addEventListener("DOMContentLoaded", function() {
 		easing: "easeOutExpo",
 		delay: anime.stagger(150),
 	});
+
+  //Información del destino
+  anime({
+		targets: ".reservas-primero div",
+		translateY: [20, 0],
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		delay: anime.stagger(100),
+	});
+	anime({
+		targets: ".reservas-primero",
+		translateX: [100, 0],
+		opacity: [0, 1],
+		duration: 1800,
+		easing: "easeOutExpo",
+		delay: anime.stagger(150),
+	});
+  
 });

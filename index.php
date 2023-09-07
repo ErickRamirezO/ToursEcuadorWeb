@@ -1,6 +1,3 @@
-<?php 
-echo "<p>Hola</p>";
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,6 +5,7 @@ echo "<p>Hola</p>";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tours Ecuador</title>
+  <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="css/estilo_index.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="
@@ -30,21 +28,21 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
   <div class="principal">
     <div class="cabecera">
       <div class="logo">
-        <a href="index.html">
+        <a href="index.php">
           <img src="img/logoToursEcuador.png"></a>
       </div>
       <div class="menu">
         <div id="inicio">
-          <p>Inicio</p>
+          <a href="../index.php"> <p> Inicio</p></a>
         </div>
         <div id="tours">
           <p>Tours <i class="fa-solid fa-chevron-up"></i></p>
         </div>
         <div id="acerca">
-          <p>Acerca de nosotros <i class="fa-solid fa-chevron-up"></i></p>
+          <a href="php/acerca.php"><p>Acerca de nosotros</p></a>
         </div>
         <div id="contacto">
-          <p>Contacto</p>
+          <a href="php/contacto.php"><p>Contacto</p></a>
         </div>
         <div id="traduccion">
           <label class="switch">
@@ -55,7 +53,7 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
           </label>
         </div>
       </div>
-    </div>
+</div>
     <div class="portada">
       <div class="encabezado">
         <img src="img/FotoJet.jpg">
@@ -103,24 +101,24 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
 
     <div id="tours_populares">
       <section class="splide" aria-label="Splide Basic HTML Example">
-        <h2 style="text-align:center;font-weight:bold;">Tours populares</h2>
+        <h2 style="text-align:center;font-weight:bold;" class="toursPopulares">Tours populares</h2>
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/uno.jpg">
+                  <img src="img/BañosP.jpg">
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>TITULO TOUR</p>
+                    <p>Baños</p>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
-                      <button>Disponible</button>
+                      <button class="disponibilidad">Disponible</button>
                     </div>
                     <div>
-                      <p><i class="fa-solid fa-location-dot"></i> Ciudad</p>
+                      <p><i class="fa-solid fa-location-dot"></i> Baños De Agua Santa</p>
                     </div>
                   </div>
                 </div>
@@ -129,18 +127,18 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/uno.jpg">
+                  <img src="img/cotopaxiP.jpg">
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>TITULO TOUR</p>
+                    <p>Volcán Cotopaxi</p>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
-                      <button>Disponible</button>
+                      <button class="disponibilidad">Disponible</button>
                     </div>
                     <div>
-                      <p><i class="fa-solid fa-location-dot"></i> Ciudad</p>
+                      <p><i class="fa-solid fa-location-dot"></i> Latacunga</p>
                     </div>
                   </div>
                 </div>
@@ -149,18 +147,18 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/uno.jpg">
+                  <img src="img/QuilotoaP.jpg">
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>TITULO TOUR</p>
+                    <p>Quilotoa</p>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
-                      <button>Disponible</button>
+                      <button class="disponibilidad">Disponible</button>
                     </div>
                     <div>
-                      <p><i class="fa-solid fa-location-dot"></i> Ciudad</p>
+                      <p><i class="fa-solid fa-location-dot"></i> Latacunga</p>
                     </div>
                   </div>
                 </div>
@@ -169,18 +167,18 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/uno.jpg">
+                  <img src="img/otavaloP.jpg">
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>TITULO TOUR</p>
+                    <p>Otavalo</p>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
-                      <button>Disponible</button>
+                      <button class="disponibilidad">Disponible</button>
                     </div>
                     <div>
-                      <p><i class="fa-solid fa-location-dot"></i> Ciudad</p>
+                      <p><i class="fa-solid fa-location-dot"></i> Otavalo</p>
                     </div>
                   </div>
                 </div>
@@ -189,18 +187,38 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/uno.jpg">
+                  <img src="img/papallactaP.jpg">
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>TITULO TOUR</p>
+                    <p>Papallacta</p>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
-                      <button>Disponible</button>
+                      <button class="disponibilidad">Disponible</button>
                     </div>
                     <div>
-                      <p><i class="fa-solid fa-location-dot"></i> Ciudad</p>
+                      <p><i class="fa-solid fa-location-dot"></i> Quijos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="tours_populares_item">
+                <div class="tours_populares_imagen">
+                  <img src="img/mindoP.jpg">
+                </div>
+                <div class="tours_populares_info">
+                  <div class="tours_populares_info_titulo">
+                    <p>Mindo</p>
+                  </div>
+                  <div class="tours_populares_info_dis_y_pais">
+                    <div>
+                      <button class="disponibilidad">Disponible</button>
+                    </div>
+                    <div>
+                      <p><i class="fa-solid fa-location-dot"></i> San Miguel de los Bancos</p>
                     </div>
                   </div>
                 </div>
@@ -209,44 +227,10 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
           </ul>
         </div>
       </section>
-      <button class="tours_populares_button">Ver todos los tours</button>
+     <a href="php/tours.php" class="tours-b"> <button class="tours_populares_button">Ver todos los tours</button>     </a>
     </div>
 
-    <footer>
-      <div class="footer_arriba">
-        <div align="center">
-          <img class="logo" src="img/logoToursEcuador.png">
-          <p style="font-weight: bold;" class="frase_tours_ecuador">“Vive y viaja mientras puedas”</p>
-        </div>
-        <div align="center">
-          <p style="font-weight:bold;" class="siguenos">SÍGUENOS</p>
-          <div class="redes_sociales_footer">
-            <div>
-              <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-tiktok"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-facebook-f"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-whatsapp"></i>
-            </div>
-          </div>
-          <div class="ubicacion_footer">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>Venezuela y espejo</p>
-          </div>
-        </div>
-        <div align="center">
-          <p>Imagen avion</p>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>© Copyright Tours Ecuador ® All rights reserved. Quito, Ecuador.</p>
-      </div>
-    </footer>
+    <?php include "php/footer.php";?>
   </div>
   <script src="js/translate.js"></script>
   <script src="js/slider.js"></script>

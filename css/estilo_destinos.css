@@ -48,6 +48,7 @@
   height: 100%;
   border-radius: 30px;
   object-fit: cover;
+  cursor:pointer;
 }
 
 .imagenes-portada-segunda img {
@@ -55,6 +56,7 @@
   height: 100%;
   border-radius: 30px;
   object-fit: cover;
+  cursor:pointer;
 }
 
 .imagenes-portada img {
@@ -103,23 +105,23 @@
 
 .table-of-contents ul li a {
   color: black;
-  transition: color 0.5s;
+  transform: translateX(0px)!important;
+  transition: transform, color 0.5s!important;
   text-decoration: none;
 }
 
 .table-of-contents ul li a:hover {
   color: gray;
-  border-left: 2px solid #00738a;
-  transition: border-left 0.5s, color 0.5s;
+  transform: translateX(2px)!important;
+  transition: transform, color 0.5s!important;
 }
 
 .linea-tiempo {
   width: 100%;
-  background-color: beige;
 }
 
 .reservas {
-  width: 250px;
+  width: 270px;
   height: 800px;
   position: sticky;
   top: 15%;
@@ -129,7 +131,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   width: 96%;
   height: 50%;
   background-color: transparent;
@@ -149,9 +151,16 @@
   height: 13%;
   margin: auto;
   border-radius: 15px;
-  border: 1px solid black;
-
+  border: 3px solid #69696956;
+  cursor: pointer;
+  transform: translateY(0px)!important;
+  transition: transform 0.3s ease!important;
 }
+
+.reservas-primero > div:hover {
+  transform: translateY(-4px)!important;
+}
+
 
 .contacto-reserva {
   display: flex;
@@ -159,7 +168,6 @@
   justify-content: flex-start;
   align-items: center;
   padding-left: 10px;
-
 }
 
 .reserva-primero {
@@ -204,7 +212,7 @@
   margin: 0 auto;
   width: 75%;
   height: 100%;
-  background-color: beige;
+  /*background-color: beige;*/
 }
 
 .ag-timeline-block {
@@ -223,7 +231,6 @@
 }
 
 .ag-timeline_title {
-  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
@@ -307,7 +314,7 @@
   align-items: center;
   text-align: center;
   font-family: 'ESL Legend', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #FFF;
 
   -webkit-border-radius: 50%;
@@ -346,14 +353,15 @@
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: gray;
+  color: #0182a2;
 }
 
 .ag-timeline-card_item {
   display: inline-block;
   width: 45%;
+  height:auto;
   margin: -77px 0 0;
-  background-color: #282828;
+  background-color: #e3e3e3;
 
   opacity: 0;
 
@@ -401,38 +409,13 @@
   transform: translateX(0);
 }
 
-.ag-timeline-card_arrow {
-  height: 18px;
-  width: 18px;
-  margin-top: 20px;
-  background-color: #282828;
-
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
-  margin-left: calc(-18px / 2);
-  margin-right: calc(-18px / 2);
-}
-
-.ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
-  margin-left: -10px;
-
-  right: auto;
-  left: 0;
-}
-
 .ag-timeline-card_img {
   width: 100%;
+  height:130px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .ag-timeline-card_info {
@@ -446,14 +429,14 @@
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: #0182a2;
 }
 
 .ag-timeline-card_desc {
   line-height: 1.45;
-
-  font-size: 16px;
-  color: #FFF;
+  
+  font-size: 14px;
+  color: #000000;
 }
 
 
@@ -488,7 +471,8 @@
 
   .ag-timeline-card_item {
     width: auto;
-    margin: -65px 0 0 75px
+    height:300px;
+    margin: -65px 0 0 75px;
   }
 
   .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
@@ -500,18 +484,10 @@
     transform: translateX(200%);
   }
 
-  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
-    right: auto;
-    left: 0;
-  }
-
   .ag-timeline-card_title {
     display: block;
   }
 
-  .ag-timeline-card_arrow {
-    margin-top: 12px;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -520,8 +496,28 @@
   }
 
   .ag-timeline-card_img {
-    height: auto;
-    width: auto;
+    width: 100%;
+    height:130px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+    .ag-timeline_block {
+    flex-direction: column;
+  }
+
+  .js-timeline_line-progress {
+    height: auto; /* Ajusta la altura del progreso para dispositivos móviles */
+  }
+  
+  .ag-timeline_list {
+    display: flex;
+    flex-direction: column; /* Coloca las tarjetas en una columna en dispositivos móviles */
+  }
+
+  .js-timeline_item {
+    margin: 20px 0; /* Agrega espacio entre las tarjetas en dispositivos móviles */
   }
 }
 
@@ -535,7 +531,7 @@
   }
 
   .ag-timeline-card_desc {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -543,14 +539,20 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
-    width: 750px;
+    width: 98%;
   }
 
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
   .ag-format-container {
-    width: 960px;
+    width: 200px;
   }
 
 }
+
+.reservas  a{
+  text-decoration: none;
+  
+}
+ag-timeline-card_inner

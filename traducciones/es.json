@@ -2,6 +2,7 @@
   "inicio": "Inicio",
   "acerca": "Acerca de nosotros ",
   "contacto": "Contacto",
+  "contactanos": "Contáctanos",
 
   "frase": "Vive y viaja mientras puedas",
   "siguenos": "SÍGUENOS",
@@ -9,5 +10,19 @@
   
   "viaja": "Viaja",
   "explora": "Explora",
-  "descubre": "Descubre"
+  "descubre": "Descubre",
+
+  "fraseTours": "Destinos",
+  "disponible": "Disponible",
+  "disponibleN": "No Disponible",
+
+  "toursPopulares":"Tours populares",
+  
+  "amazonia": "Misahualli Amazonia",
+  "selva": "Indichuris Selva",
+  "mitad": "Mitad del mundo",
+  "laguna": "Laguna del Quilotoa",
+  "cotopaxi": "Volcán Cotopaxi",
+  "chimborazo": "Volcán Chimborazo"
+  
 }

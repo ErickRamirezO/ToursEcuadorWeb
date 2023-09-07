@@ -2,6 +2,7 @@
   "inicio": "Index",
   "acerca": "About us ",
   "contacto": "Contact",
+  "contactanos": "Contact us",
   
   "frase": "Live and travel as long as you can",
   "siguenos": "FOLLOW US",
@@ -9,5 +10,18 @@
   
   "viaja": "Travel",
   "explora": "Explore",
-  "descubre": "Discover"
+  "descubre": "Discover",
+
+  "fraseTours": "Destinations",
+  "disponible": "Available",
+  "disponibleN": "Not Available",
+
+  "toursPopulares":"Popular tours",
+
+  "amazonia": "Misahualli Amazone",
+  "selva": "Indichuris Jungle",
+  "mitad": "Middle of the World",
+  "laguna": "Lagoon of Quilotoa",
+  "cotopaxi": "Cotopaxi Volcano",
+  "chimborazo": "Chimborazo Volcano"
 }

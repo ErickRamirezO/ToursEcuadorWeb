@@ -1,6 +1,14 @@
+.cabecera-tours a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
 .portada-tours {
   width: 100%;
-  height: 600px;
+  height: 500px;
   top: 0;
 
 }
@@ -12,7 +20,7 @@
 .portada-tours-primero {
   width: 100%;
   height: 100%;
-  background: url('../img/uno.jpg');
+  background: url('../img/Fondo1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -24,16 +32,17 @@
   font-weight: bold;
   color:white;
   text-align: center;
+  
 }
 
 .informacion-tours {
   width: 100%;
-  height: 900px;
+  height: auto;
 }
 
 .informacion-tours>div {
   width: 100%;
-  height: 48%;
+  height: 300px;
   margin-top: 1%;
   display: flex;
 
@@ -47,32 +56,32 @@
   height: 100%;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 40px;
+  border-radius: 18px;
   position: relative;
   overflow: hidden;
 }
 
 .informacion-tours div .informacion-tours-seccion {
   width: 100%;
-  font-size: 35px;
+  font-size: 20px;
   position: absolute;
   top: 75%;
   left: 5%;
+   
 }
 
 .tours_populares_dispinibilidad {
-  margin-left: 50%;
+  margin-left: 40%;
+  
 }
 
-.ocultar {
-  display: none;
-}
+
 
 .no-disponible button {
   background-color: red;
 }
 
-a {
+.informacion-tours a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -82,17 +91,16 @@ a {
 
 .segundo {
   display: none;
-  background-color: blue;
 }
 
 .tercero {
-  background-color: yellow;
   display: none;
+
 }
 
 .paginacion {
   width: 100%;
-  height: 100px;
+  height: 70px;
   margin-bottom: 1%;
 }
 
@@ -109,7 +117,8 @@ a {
 .paginacion-principal div p {
   text-align: center;
   margin: auto;
-  font-size: 30px;
+  font-size: 25px;
+ 
 
 }
 
@@ -133,9 +142,10 @@ a {
 .informacion-tours img {
   width: 100%;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 18px;
   filter: blur(0px);
   transform: scale(1);
+  object-fit: cover;
   transition: transform, filter, 0.7s ease;
 }
 
@@ -143,4 +153,14 @@ a {
   filter: blur(2px);
   transform: scale(1.3);
   transition: filter, transform, 0.9s ease;
+}
+.tours_populares_dispinibilidad button{
+  border-radius:8px;
+}
+.ocultar {
+  display: none;
+}
+.informacion-tours-seccion p{
+    text-shadow: 2px -2px 4px rgba(1, 1, 1, 1);
+  
 }

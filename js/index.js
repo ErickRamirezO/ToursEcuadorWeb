@@ -1,18 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
 	// Obtener el texto
+
 	const textOverlay = document.querySelector('.text-overlay');
-	const text = textOverlay.textContent;
+	var text = textOverlay.textContent;
 	textOverlay.textContent = "";
 
 	// Crear un span para cada letra del texto
 	for (let i = 0; i < text.length; i++) {
-		const letter = document.createElement('span');
+		var letter = document.createElement('span');
 		letter.textContent = text[i];
 		textOverlay.appendChild(letter);
 	}
 
 	// Animación de cada letra del texto
-	const letters = textOverlay.querySelectorAll('span');
+	var letters = textOverlay.querySelectorAll('span');
 
 	anime({
 		targets: letters,
@@ -34,4 +35,5 @@ document.addEventListener("DOMContentLoaded", function() {
 		easing: 'easeOutExpo',
 		delay: anime.stagger(500),
 	});
+  
 });
