@@ -6,7 +6,7 @@
 .portada-tours-primero {
   width: 100%;
   height: 100%;
-  background: url('../img/portadaC.jpg');
+  background: url('../img/acercaDeNosotrosFoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -22,4 +22,9 @@
 
 .mision_vision{
   padding: 50px!important;
+}
+
+.splide__track {
+  margin: 40px!important;
+  padding-bottom:40px!important;
 }
