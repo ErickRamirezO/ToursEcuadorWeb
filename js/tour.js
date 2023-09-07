@@ -27,25 +27,19 @@ $(document).ready(function() {
   
 
 
-const primero = document.querySelector('.primero'),
-  segundo = document.querySelector('.segundo'),
-  tercero = document.querySelector('.tercero');
-document.addEventListener('click', e => {
-  if (e.target.matches('.paginacion-pri')) {
-    primero.style.display = 'block';
-    segundo.style.display = 'none';
-    tercero.style.display = 'none';
-  } else if (e.target.matches('.paginacion-seg')) {
-    primero.style.display = 'none';
-    segundo.style.display = 'block';
-    tercero.style.display = 'none';
-  } else if (e.target.matches('.paginacion-ter')) {
-    primero.style.display = 'none';
-    segundo.style.display = 'none';
-    tercero.style.display = 'block';
-  }
+$('.paginacion-pri').on('click', function () {
+        $('.primero').fadeIn(900);
+        $('.segundo, .tercero').hide(900);
+      });
 
+      $('.paginacion-seg').on('click', function () {
+        $('.segundo').fadeIn(900);
+        $('.primero, .tercero').hide(900);
+      });
 
-})
+      $('.paginacion-ter').on('click', function () {
+        $('.tercero').fadeIn(900);
+        $('.primero, .segundo').hide(900);
+      });
 
-  });
+	});

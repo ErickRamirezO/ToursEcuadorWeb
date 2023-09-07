@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 		type: 'loop',
 		perPage: 3,
 		autoplay: true,
+    breakpoints: {
+        '640': {
+            perPage: 1,
+        },
+        '768': {
+            perPage: 2, // Para tablets
+        },
+    },
 	});
 
 	splide.mount();
