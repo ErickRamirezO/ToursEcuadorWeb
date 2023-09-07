@@ -17,13 +17,12 @@ body,h1, h2, h3, h4, h5, h6, p {
 }
 /*****CABECERA*******/
 .cabecera {
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(20px);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 10px;
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
@@ -31,23 +30,34 @@ body,h1, h2, h3, h4, h5, h6, p {
   z-index: 3;
 }
 
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  
+  .hamburguer-icon {
+    order: 1;
+  }
+
+  .logo {
+    order: 2;
+  }
+}
 
 .logo {
-  width: 10%;
-  height: 100%;
+  flex: 1; /* Hace que el logo tome todo el espacio disponible */
+  margin-right: 170px; 
+  margin-left: 25px;
 }
 
 .logo img {
-  width: 50%;
-  height: 100%;
-  margin-left: 20%;
+  max-width: 70px;
+  height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .menu {
-  width: 90%;
-  height: 100%;
+  flex: 2; /* Hace que el menú tome el doble de espacio que el logo */
   display: flex;
-  padding-left: 30%;
+  justify-content: flex-end; /* Coloca los elementos del menú en el extremo derecho */
+  align-items: center;
 }
 
 .menu div{
@@ -81,6 +91,10 @@ body,h1, h2, h3, h4, h5, h6, p {
   display:none;
 }
 
+.hamburguer-icon:hover{
+  color: #0087a8;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -88,7 +102,7 @@ body,h1, h2, h3, h4, h5, h6, p {
   z-index: 10;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #f5f5f5;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -98,13 +112,13 @@ body,h1, h2, h3, h4, h5, h6, p {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #000000;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #0087a8;
 }
 
 .sidenav .closebtn {
@@ -143,6 +157,11 @@ body,h1, h2, h3, h4, h5, h6, p {
 #mySidenav {
   transition: width 0.7s, opacity 0.7s;
 }
+
+#mySidenav a {
+  cursor:pointer;
+}
+
 
 #mySidenav.open {
   opacity: 1;

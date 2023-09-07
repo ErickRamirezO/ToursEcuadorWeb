@@ -1,3 +1,5 @@
+<div id="overlay"></div>
+
 <div class="cabecera cabecera-tours">
       <div class="logo">
         <a href="../index.php">
@@ -24,6 +26,9 @@
             <span class="language-text">ES</span>
           </label>
         </div>
+        <div class="hamburguer-icon">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
       </div>
-      </div>
-    </div>
+</div>
+<script src="../js/sidenav.js"></script>

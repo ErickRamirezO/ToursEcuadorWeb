@@ -26,6 +26,18 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
 
 <body>
   <div class="principal">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.php"><p>Inicio</p></a>
+      <a onclick="toggleTours()"><p>Tours &nbsp;<i class="fa fa-caret-down" style="display: none;"></i><i class="fa fa-caret-up"></i></p></a>
+      <div id="toursDropdown">
+        <a href="tours.php"><p>Destinos</p></a>
+        <a href=""><p>Tours privados</p></a>
+        <a href=""><p>Guianzas</p></a>
+      </div>
+      <a href="acerca.php"><p>Acerca de nosotros</p></a>
+      <a href="contacto.php"><p>Contacto</p></a>
+    </div>
     <div class="cabecera">
       <div class="logo">
         <a href="index.php">
@@ -51,6 +63,9 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <span class="language-text">EN</span>
             <span class="language-text">ES</span>
           </label>
+        </div>
+        <div class="hamburguer-icon">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </div>
       </div>
 </div>
@@ -107,11 +122,11 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/BañosP.jpg">
+                  <a href="php/baños.php"> <img src="img/BañosP.jpg"><a>
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>Baños</p>
+                    <a href="php/baños.php"><p>Baños</p> </a>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
@@ -127,11 +142,11 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/cotopaxiP.jpg">
+                 <a href="php/cotopaxi.php"> <img src="img/cotopaxiP.jpg"></a>
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>Volcán Cotopaxi</p>
+                 <a href="php/cotopaxi.php">   <p class="cotopaxi">Volcán Cotopaxi</p></a>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
@@ -147,11 +162,11 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/QuilotoaP.jpg">
+                  <a href="php/quilotoa.php">  <img src="img/QuilotoaP.jpg"></a>
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>Quilotoa</p>
+                    <a href="php/quilotoa.php">  <p>Quilotoa</p></a>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
@@ -167,11 +182,11 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             <li class="splide__slide">
               <div class="tours_populares_item">
                 <div class="tours_populares_imagen">
-                  <img src="img/otavaloP.jpg">
+                <a href="php/otavalo.php">  <img src="img/otavaloP.jpg"></a>
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <p>Otavalo</p>
+                   <a href="php/otavalo.php"> <p>Otavalo</p></a>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
@@ -235,6 +250,7 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
   <script src="js/translate.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/sidenav.js"></script>
 </body>
 
 </html>

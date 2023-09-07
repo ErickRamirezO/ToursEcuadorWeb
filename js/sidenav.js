@@ -30,3 +30,21 @@ function closeNavOnResize() {
 }
 
 window.addEventListener("resize", closeNavOnResize);
+
+function toggleTours() {
+    var toursDropdown = document.getElementById("toursDropdown");
+    var caretDown = document.querySelector(".fa-caret-down");
+    var caretUp = document.querySelector(".fa-caret-up");
+
+    if (toursDropdown.classList.contains("open")) {
+      // Ocultar los elementos de tours con una animación de acordeón
+      toursDropdown.classList.remove("open");
+      caretDown.style.display = "none";
+      caretUp.style.display = "inline";
+    } else {
+      // Mostrar los elementos de tours con una animación de acordeón
+      toursDropdown.classList.add("open");
+      caretDown.style.display = "inline";
+      caretUp.style.display = "none";
+    }
+  }
