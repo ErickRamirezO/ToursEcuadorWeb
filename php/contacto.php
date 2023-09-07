@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tours Ecuador</title>
+  <title>Contacto - Tours Ecuador</title>
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
 
@@ -29,6 +29,7 @@
 
 <body>
   <div class="principal">
+    <?php include "sidenav.php";?>
     <?php include "navbar.php";?>
     <div class="portada-tours">
       <div class="portada-tours-primero">
@@ -36,16 +37,28 @@
       </div>
     </div>
     <br><br>
-<div class="w3-container formulario-container">
-    <form id="formularioContacto" method="post">
+    <div class="w3-row contacto_contenedor">
+      <div class="w3-half w3-container">
+        <h3><b><i class="fa-solid fa-location-dot"></i>&nbsp; Dirección</b></h3>
+        <p>Calle Venezuela y Espejo, frente al Palacio de la Presidencia en el punto de Información Turística "El Quinde".</p>
+        <div class="w3-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.788732555902!2d-78.51442112587328!3d-0.22065693538804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d599b58c9b5595%3A0xdd21c90083fe9f79!2sTours%20Ecuador%20Travel%20Agency!5e0!3m2!1ses-419!2sec!4v1694053254735!5m2!1ses-419!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <h3><b><i class="fa-solid fa-phone"></i>&nbsp; Teléfonos</b></h3>
+        <a href="https://api.whatsapp.com/send?phone=593978622270" target="new" class="w3-button w3-round-large w3-green w3-hover-teal"><i class="fab fa-whatsapp"></i>&nbsp; Chatear en WhatsApp </a>
+        <h3><b><i class="fa-solid fa-envelope"></i>&nbsp; Correo electrónico</b></h3>
+        <p>tours_ecuador@hotmail.com</p>
+      </div>
+      <div class="w3-half w3-container formulario-container">
+        <form id="formularioContacto" method="post">
+          <h3><b>Formulario de contacto</b></h3>
         <div class="w3-row-padding">
             <div class="w3-half">
                 <label for="nombre">Nombre y Apellido</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre y apellido">
+                <input type="text" id="nombre" name="nombre" placeholder="Juan Perez">
             </div>
             <div class="w3-half">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Ingresa una dirección de e-mail">
+                <input type="email" id="email" name="email" placeholder="micorreo@ejemplo.com">
             </div>
         </div>
 
@@ -251,14 +264,14 @@
             </div>
             <div class="w3-half">
                 <label for="telefono">Teléfono</label>
-                <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
+                <input type="text" id="telefono" name="telefono" placeholder="0987654310">
             </div>
         </div>
 
         <div class="w3-row-padding">
             <div class="w3-half">
                 <label for="asunto">Asunto</label>
-                <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                <input type="text" id="asunto" name="asunto" placeholder="Escriba el Asunto">
             </div>
         </div>
 
@@ -273,10 +286,10 @@
             <button type="submit" name="enviar" id="enviar_btn" class="w3-btn w3-round-large w3-blue">Enviar</button>
         </div>
     </form>
-</div><br><br>
-    
-    <?php include "footer.php";?>
-  </div>
+      </div>
+    </div>
+  </div><br>
+  <?php include "footer.php";?>
   <script src="../js/contacto.js"></script>
   <script src="../js/translate.js"></script>
 </body>

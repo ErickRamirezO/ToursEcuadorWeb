@@ -35,26 +35,43 @@ $(document).ready(function() {
     var telefonoCliente = formulario.find("input[name='telefono']").val();
     var numero= codigoPais + telefonoCliente;
     var asunto = formulario.find("input[name='asunto']").val();
-    var mensaje = formulario.find("textarea[name='mensaje']").val();
+    var mensaje = formulario.find("textarea[name='mensaje']").val()
 
     // Verificar que haya exactamente dos palabras
     var palabras = nombreCliente.trim().split(" ");
     if (palabras.length !== 2) {
-      Swal.fire("Error", "Ingresa un Nombre y un Apellido", "error");
+      Swal.fire({
+        title: "Error",
+        text: "Ingresa un Nombre y un Apellido",
+        icon: "error",
+        confirmButtonColor: "#3085d6"
+      });
+      
       return; // Detener el proceso si no hay dos palabras
     }
-
-    // Validar el formato del teléfono
-    var telefonoRegex = /^\d{10}$/; // Expresión regular para 10 dígitos numéricos
-    if (!telefonoRegex.test(telefonoCliente)) {
-      Swal.fire("Error", "Ingresa un número de teléfono válido de 10 dígitos", "error");
-      return; // Detener el proceso si el teléfono no es válido
-    }
-
+    
     //Validar correo electronico
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!telefonoRegex.test(emailCliente)) {
-      Swal.fire("Error", "Ingrese una dirección de correo electrónico válida", "error");
+    if (!emailRegex.test(emailCliente)) {
+      Swal.fire({
+        title: "Error",
+        text: "Ingresa una dirrección de correo electrónico válida",
+        icon: "error",
+        confirmButtonColor: "#3085d6"
+      });
+      return;
+    }
+    
+    // Validar el formato del teléfono
+    var telefonoRegex = /^\d{10}$/; // Expresión regular para 10 dígitos numéricos
+    if(!telefonoRegex.test(telefonoCliente)) {
+      Swal.fire({
+        title: "Error",
+        text: "Ingresa un número de teléfono válido de 10 dígitos",
+        icon: "error",
+        confirmButtonColor: "#3085d6"
+      });
+      return; // Detener el proceso si el teléfono no es válido
     }
     
     if (nombreCliente.trim() === '' || emailCliente.trim() === '' || telefonoCliente.trim() === '' || asunto.trim() === '' || mensaje.trim() === '') {
