@@ -50,6 +50,12 @@ $(document).ready(function() {
          $('.chimborazo').text(data['chimborazo']);
         //Titulo pagina contactanos
         $('.contactanos').text(data['contactanos']);
+        //Traducción de los testimonios
+        $('.t_Ire_Ale_Mui').text(data['Ire_Ale_Mui']);
+        $('.t_Kleber_Mosquera').text(data['Kleber_Mosquera']);
+        $('.t_Pauline_Schorter').text(data['Pauline_Schorter']);
+        $('.t_Jean-Baptiste_Blaise').text(data['Jean-Baptiste_Blaise']);
+        $('.t_Mathieu_Mokrzycki').text(data['Mathieu_Mokrzycki']);
       },
       error: function() {
         console.error('Error al cargar las traducciones de los elementos');
