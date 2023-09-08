@@ -35,7 +35,16 @@ body,h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .menu > div {
+    display: none;
+  }
+  .menu > .hamburguer-icon {
+    display: block;
+  }
+  .tours_populares_item {
+    margin: 10px!important;
+  }
   
   .hamburguer-icon {
     order: 1;
@@ -174,18 +183,6 @@ body,h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-@media screen and (max-width: 640px) {
-  .menu > div {
-    display: none;
-  }
-  .menu > .hamburguer-icon {
-    display: block;
-  }
-  .tours_populares_item {
-    margin: 10px!important;
-  }
 }
 
 /*

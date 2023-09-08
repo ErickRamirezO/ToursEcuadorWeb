@@ -7,6 +7,7 @@
   <title>Tours Ecuador</title>
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="css/estilo_index.css" type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -72,12 +73,12 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
     <div class="portada">
       <div class="encabezado">
         <img src="img/FotoJet.jpg">
-        <div class="text-overlay frase_tours_ecuador">
+        <div class="text-overlay frase_tours_ecuador w3-mobile w3-center">
           Vive y viaja mientras puedas
         </div>
       </div>
       <div class="indexportada">
-        <div id="primera-portada">
+        <div id="primera-portada" class="w3-hide-small w3-hide-medium">
           <figure class="c4-izmir c4-gradient-bottom c4-image-zoom-in">
             <img src="img/uno.jpg">
             <figcaption class="c4-layout-bottom-center">
@@ -99,7 +100,7 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
             </figcaption>
           </figure>
         </div>
-        <div id="tercera-portada">
+        <div id="tercera-portada" class="w3-hide-small w3-hide-medium">
           <figure class="c4-izmir c4-gradient-bottom c4-image-zoom-in">
             <img src="img/dos.jpg">
             <figcaption class="c4-layout-bottom-center">

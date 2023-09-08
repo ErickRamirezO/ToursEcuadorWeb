@@ -2,7 +2,7 @@
   <div class="footer_arriba w3-mobile w3-center">
     <div class="w3-mobile w3-center">
       <a href="../index.php">
-          <img src="../img/logoToursEcuador.png" class="logo"></a>
+          <img src="../img/logoToursEcuador.png" class="logo w3-hide-small"></a>
       <p style="font-weight: bold;" class="frase_tours_ecuador">“Vive y viaja mientras puedas”</p>
     </div>
     <div align="center" class="w3-mobile w3-center">
