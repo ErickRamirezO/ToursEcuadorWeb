@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baños - Tours Ecuador</title>
+  <title>Guanabana - Tours Ecuador</title>
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
   <link rel="stylesheet" href="../css/estilo_destinos.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="../css/vertical-timeline.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -28,21 +27,21 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Baños de Agua Santa &nbsp;</h1>
+      <h1 class="titulo">Guanabana Republic  &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/baños1_1.jpg" class="w3-hover-opacity">
+        <img src="../img/guanabanaP0.jpg" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_5.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP3.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP2.jpg" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP4.jpg" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -50,7 +49,7 @@
     <div class="contenedor-informacion">
       <div class="table-of-contents-sticky w3-hide-small">
         <div class="table-of-contents">
-          <h3>Tour Baños de Agua Santa</h3>
+          <h3>Tour Guanabana Republic</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
@@ -68,12 +67,12 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Ruta de los volcanes</h3>
-                <p> Comenzamos con nuestra aventura por
-la "Avenida de los Volcanes" , en su trayecto podremos apreciar Ilinizas, Rumiñahui, y el volcán Cotopaxi</p>
+                <h3>Cayambe</h3>
+                <p>Parada en Cayambe para degustar un
+delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe. </p>
               </div>
             </div>
             <div data-vtdate="Segunda parada">
@@ -84,9 +83,8 @@ la "Avenida de los Volcanes" , en su trayecto podremos apreciar Ilinizas, Rumiñ
                 <img src="../img/rutaC.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Ruta de las cascadas</h3>
-                <p>Continuamos con la ruta de las cascadas,
-realizaremos varias paradas para explorar la zona, observaremos la Cascada del Agoyán, y haremos una parada en Manto de la Novia dónde tendremos la oportunidad de cruzar en una tarabita considerada una de las más grandes del Ecuador. (Opcional no incluye)  </p>
+                <h3>Mirador de Mira Lago</h3>
+                <p>Visita al Mirador de Mira Lago con grandiosas vistas hacia el Lago San Pablo y al Taita Imbabura, además cuenta con artesanías de la historia de la provincia. En el transcurso del viaje observaremos hermosos paisajes como lagunas, flora y fauna del entorno. Tomamos rumbo por la ciudad de Otavalo, Atuntaqui e Ibarra en dirección hacia el Carchi donde se encuentra el complejo de Guanabana Republic.</p>
               </div>
             </div>
             <div data-vtdate="Tercera parada">
@@ -97,9 +95,8 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
                 <img src="../img/pailon-cascada.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Pailón del diablo</h3>
-                <p>Continuamos a Río Verde donde se
-encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del Diablo, con 80 metros de altura y 20 metros de profundidad</p>
+                <h3>Complejo Guanábana Republic </h3>
+                <p>Parada al complejo Guanábana Republic, incluye la entrada a cuatro Piscinas Temáticas.                          <br>Piscinas River Coco<br> Guanábana sunset.<br> Summer.<br>     Playa sol.   </p> 
               </div>
             </div>
             <div data-vtdate="Cuarta parada">
@@ -107,11 +104,11 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/puente.jpg" class="cover-image">
+                <img src="../img/" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Juegos extremos</h3>
-                <p>Realizaremos una parada para la realización de juegos extremos como: Salto de Tarzán,Canopy como puente Tibetano, escalada y el puente de cristal (Opcional no incluye)</p>
+                <h3>Laguna de Yahuarcocha</h3>
+<p> Tendremosla oportunidad de realizar un paseo en Bote por la hermosa laguna de Yahuarcocha </p>   
               </div>
             </div>
             <div data-vtdate="Quinta parada">
@@ -119,11 +116,11 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/columpio.jpg" class="cover-image">
+                <img src="../img/" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Columpio del fin del mundo</h3>
-                <p>El columpio del fin del mundo se encuentra en la Casa del árbol</p>
+                <h3>Cayambe</h3>
+                <p>Tiempo de compras en Cayambe, visita fabrica de bizcochos, degustación de una taza de café y bizcochos de Cayambe </p>
               </div>
             </div>
             <div data-vtdate="Fin del tour">
@@ -131,9 +128,7 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <h3>Retorno a Quito</h3>
-                <p>Visita a un paradero de dulces
-típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
+                <p>Relájate durante un regreso cómodo a Quito</p> 
               </div>
             </div>
         </div>
@@ -158,15 +153,15 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>9 Destinos &nbsp;</p>
+              <p>5 Destinos &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
             </div>
           </div>
-          <div id="alimentacion" class="w3-hide">
+          <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>No Alimentación</p>
+              <p>Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -208,25 +203,10 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
         <li>Transporte de turismo full equipo</li>
         <li>Seguro de viajes</li>
         <li>Guía todo el trayecto</li>
-        <li>Ingreso Pailón del diablo</li>
-        <li>Tarabita en Manto de la Novia</li>
-        <li>Casa del árbol</li>
-        <li>Columpio del fin del mundo</li>
-      </ul>
-    </div>
-    <div class="descripcion w3-row">
-      <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras (deportes extremos)</li>
-        <li>Gastos personales del turista</li>
+        <li>Degustación de Bizcochos</li>
+        <li>Ingreso al complejo Guanábana Republic</li>
+        <li>Paseo en bote en Yaguarcocha</li>
         <li>Desayuno, almuerzo</li>
-      </ul>
-    </div>
-    <div class="descripcion w3-row">
-      <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
@@ -234,29 +214,28 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
       <ul>
         <li>Actividades extras</li>
         <li>Gastos personales del turista</li>
-        <li>Deportes extremos</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
       <ul>
-        <li>Ropa cómoda </li>
-        <li>Gorra</li>
+        <li>Ropa cómoda   </li>
+        <li>Gorra y gorro de lana </li>
         <li>Bloqueador </li>
-        <li>Zapatos de buen labrado</li>
-        <li>Paraguas o poncho de agua</li>
-        <li>Cámara de fotos</li>
+        <li>Cámara de fotos </li>
+        <li>Terno de Baño </li>
+        <li>Toalla</li>
       </ul>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127635.0614274305!2d-78.57798217667258!3d-1.41848049421079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3972a036b79f5%3A0x6edaa151458b5deb!2sBa%C3%B1os%20de%20Agua%20Santa!5e0!3m2!1ses!2sec!4v1694107963630!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.4195824758563!2d-78.31515163118965!3d0.8100436612931988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2bb9d286040847%3A0xf65c8f6e5cbc85e8!2sGuanabana%20Republic!5e0!3m2!1ses!2sec!4v1694215701194!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <?php include "footer.php";?>
   </div>
   <script src="../js/destino.js"></script>
   <script src="../js/translate.js"></script>
-  <script src="../js/vertical-timeline.min.js"></script>
+   <script src="../js/vertical-timeline.min.js"></script>
     <script>
   $('#myTimeline').verticalTimeline({
     startLeft: false,

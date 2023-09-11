@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baños - Tours Ecuador</title>
+  <title>Mindo- Tours Ecuador</title>
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
   <link rel="stylesheet" href="../css/estilo_destinos.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="../css/vertical-timeline.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -28,21 +27,21 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Baños de Agua Santa &nbsp;</h1>
+      <h1 class="titulo">Mindo &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/baños1_1.jpg" class="w3-hover-opacity">
+        <img src="../img/mindoP4.jpg" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_5.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP0.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP1.jpg" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP3.jpg" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -50,7 +49,7 @@
     <div class="contenedor-informacion">
       <div class="table-of-contents-sticky w3-hide-small">
         <div class="table-of-contents">
-          <h3>Tour Baños de Agua Santa</h3>
+          <h3>Tour Mindo</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
@@ -71,9 +70,8 @@
                 <img src="../img/rutaV.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Ruta de los volcanes</h3>
-                <p> Comenzamos con nuestra aventura por
-la "Avenida de los Volcanes" , en su trayecto podremos apreciar Ilinizas, Rumiñahui, y el volcán Cotopaxi</p>
+                <h3>La Reserva de Colibrí</h3>
+                <p> Durante nuestro trayecto hacia Mindo, haremos una parada en un jardín oculto que se encuentra en medio del bosque nublado. Aquí, tendrás la oportunidad de deleitarte con la observación de aves y disfrutar de la naturaleza. La entrada tiene un costo de $5.00 y no está incluida en el tour.</p>
               </div>
             </div>
             <div data-vtdate="Segunda parada">
@@ -84,9 +82,8 @@ la "Avenida de los Volcanes" , en su trayecto podremos apreciar Ilinizas, Rumiñ
                 <img src="../img/rutaC.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Ruta de las cascadas</h3>
-                <p>Continuamos con la ruta de las cascadas,
-realizaremos varias paradas para explorar la zona, observaremos la Cascada del Agoyán, y haremos una parada en Manto de la Novia dónde tendremos la oportunidad de cruzar en una tarabita considerada una de las más grandes del Ecuador. (Opcional no incluye)  </p>
+                <h3>El Santuario de las Mariposas</h3>
+                <p>Visitarás el Santuario de las Mariposas en Mindo, donde tendrás la oportunidad de conocer y fotografiar las diversas especies de mariposas que habitan en esta rica región de Ecuador. La entrada al santuario tiene un valor de $8.00 y no está incluida en el paquete.</p>
               </div>
             </div>
             <div data-vtdate="Tercera parada">
@@ -97,9 +94,8 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
                 <img src="../img/pailon-cascada.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Pailón del diablo</h3>
-                <p>Continuamos a Río Verde donde se
-encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del Diablo, con 80 metros de altura y 20 metros de profundidad</p>
+                <h3>Cascada Mindo-Nambillo</h3>
+                <p>Comienza tu experiencia con una asombrosa panorámica del bosque nublado desde la tarabita. Luego, tras este breve paseo, emprenderemos una caminata por un sendero que nos llevará hasta la cascada. Disfruta de este recorrido rodeado por un frondoso bosque. La entrada a esta actividad está incluida y tiene un costo de $5.00.</p>
               </div>
             </div>
             <div data-vtdate="Cuarta parada">
@@ -110,8 +106,8 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                 <img src="../img/puente.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Juegos extremos</h3>
-                <p>Realizaremos una parada para la realización de juegos extremos como: Salto de Tarzán,Canopy como puente Tibetano, escalada y el puente de cristal (Opcional no incluye)</p>
+                <h3>Empresa local de chocolate Mindo</h3>
+                <p>Explora una fábrica de chocolate ecuatoriano de origen local, donde tendrás la oportunidad de adentrarte en el mundo del cacao, conocer su relevancia, su proceso de producción y saborear una amplia gama de chocolates de alta calidad. Disfruta de la amalgama de sabores y amplía tu conocimiento sobre los distintos porcentajes de cacao a través de una degustación breve, que está incluida en la experiencia.</p>
               </div>
             </div>
             <div data-vtdate="Quinta parada">
@@ -122,8 +118,8 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                 <img src="../img/columpio.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Columpio del fin del mundo</h3>
-                <p>El columpio del fin del mundo se encuentra en la Casa del árbol</p>
+                <h3>Almuerzo</h3>
+                <p>En medio de este programa, tendrás la oportunidad de saborear un almuerzo autóctono en la zona. Te sugerimos probar la trucha frita, que es el plato característico de la región. (El almuerzo no está incluido en el costo del tour).</p>
               </div>
             </div>
             <div data-vtdate="Fin del tour">
@@ -132,8 +128,7 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
               </div>
               <div class="content-column">
                 <h3>Retorno a Quito</h3>
-                <p>Visita a un paradero de dulces
-típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
+                <p> Relájate durante un regreso cómodo a Quito, y ten en cuenta que el servicio de desembarque en tu hotel está incluido.</p>
               </div>
             </div>
         </div>
@@ -158,15 +153,15 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>9 Destinos &nbsp;</p>
+              <p>4 Destinos &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
             </div>
           </div>
-          <div id="alimentacion" class="w3-hide">
+          <div id="alimentacion" >
             <div class="contenido-reserva-p">
-              <p>No Alimentación</p>
+              <p>Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -208,33 +203,15 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
         <li>Transporte de turismo full equipo</li>
         <li>Seguro de viajes</li>
         <li>Guía todo el trayecto</li>
-        <li>Ingreso Pailón del diablo</li>
-        <li>Tarabita en Manto de la Novia</li>
-        <li>Casa del árbol</li>
-        <li>Columpio del fin del mundo</li>
+        <li>Ingreso al Santuario de Cascadas</li>
+        <li>Degustación de chocolate y visita a las plantaciones de cacao</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
       <ul>
-        <li>Actividades extras (deportes extremos)</li>
+        <li><span>Actividades extras:</span><br><span>Ingreso a la reserva de colibríes ($5 dólares)</span><br><span>Ingreso al Mariposario ($8 dólares)</span></li>
         <li>Gastos personales del turista</li>
-        <li>Desayuno, almuerzo</li>
-      </ul>
-    </div>
-    <div class="descripcion w3-row">
-      <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-      </ul>
-    </div>
-    <div class="descripcion w3-row">
-      <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-        <li>Deportes extremos</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
@@ -243,20 +220,20 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
         <li>Ropa cómoda </li>
         <li>Gorra</li>
         <li>Bloqueador </li>
-        <li>Zapatos de buen labrado</li>
-        <li>Paraguas o poncho de agua</li>
-        <li>Cámara de fotos</li>
+        <li>Cambio de ropa </li>
+        <li>Cámara de fotos </li>
+        <li>Cambio de zapatos</li>
       </ul>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127635.0614274305!2d-78.57798217667258!3d-1.41848049421079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3972a036b79f5%3A0x6edaa151458b5deb!2sBa%C3%B1os%20de%20Agua%20Santa!5e0!3m2!1ses!2sec!4v1694107963630!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.26751747546!2d-78.78549777079117!3d-0.048695541364892035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d57c4699565207%3A0x7341c14f9b735b21!2sMindo!5e0!3m2!1ses!2sec!4v1694209487496!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <?php include "footer.php";?>
   </div>
   <script src="../js/destino.js"></script>
   <script src="../js/translate.js"></script>
-  <script src="../js/vertical-timeline.min.js"></script>
+    <script src="../js/vertical-timeline.min.js"></script>
     <script>
   $('#myTimeline').verticalTimeline({
     startLeft: false,
