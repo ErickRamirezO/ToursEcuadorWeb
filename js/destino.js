@@ -67,5 +67,19 @@ document.addEventListener("DOMContentLoaded", function() {
 		easing: "easeOutExpo",
 		delay: anime.stagger(150),
 	});
-  
+  // Manejar el evento clic en los enlaces de la tabla de contenidos
+    $(".table-of-contents ul li a").on("click", function (e) {
+        e.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+        var target = $(this).attr("href"); 
+        var offset = $(target).offset().top; 
+
+        // Animacion suave
+        $("html, body").animate(
+            {
+                scrollTop: offset,
+            },
+            700
+        );
+    });
 });
