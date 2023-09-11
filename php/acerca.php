@@ -79,7 +79,7 @@ Se consolidará como una de las mejores agencias de viajes del Ecuador brindando
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="w3-panel w3-margin w3-card-4 w3-light-grey">
+                        <div class="w3-panel w3-padding w3-margin w3-card-4 w3-light-grey">
                             <p class="w3-large w3-serif">
                                 <i class="fa fa-quote-right w3-xxlarge w3-text-gray"></i><br>
                                 <p>Ire Ale Mui</p>
@@ -93,7 +93,7 @@ Se consolidará como una de las mejores agencias de viajes del Ecuador brindando
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="w3-panel w3-margin w3-card-4 w3-light-grey">
+                        <div class="w3-panel w3-padding w3-margin w3-card-4 w3-light-grey">
                             <p class="w3-large w3-serif">
                                 <i class="fa fa-quote-right w3-xxlarge w3-text-gray"></i><br>
                                 <p>Kleber Mosquera</p>
@@ -107,7 +107,7 @@ Se consolidará como una de las mejores agencias de viajes del Ecuador brindando
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="w3-panel w3-margin w3-card-4 w3-light-grey">
+                        <div class="w3-panel w3-padding w3-margin w3-card-4 w3-light-grey">
                             <p class="w3-large w3-serif">
                                 <i class="fa fa-quote-right w3-xxlarge w3-text-gray"></i><br>
                                 <p>Pauline Schorter</p>
@@ -121,7 +121,7 @@ Se consolidará como una de las mejores agencias de viajes del Ecuador brindando
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="w3-panel w3-margin w3-card-4 w3-light-grey">
+                        <div class="w3-panel w3-padding w3-margin w3-card-4 w3-light-grey">
                             <p class="w3-large w3-serif">
                                 <i class="fa fa-quote-right w3-xxlarge w3-text-gray"></i><br>
                                 <p>Jean-Baptiste Blaise</p>
@@ -136,7 +136,7 @@ Se consolidará como una de las mejores agencias de viajes del Ecuador brindando
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="w3-panel w3-margin w3-card-4 w3-light-grey">
+                        <div class="w3-panel w3-padding w3-margin w3-card-4 w3-light-grey">
                             <p class="w3-large w3-serif">
                                 <i class="fa fa-quote-right w3-xxlarge w3-text-gray"></i><br>
                                 <p>Mathieu Mokrzycki</p>

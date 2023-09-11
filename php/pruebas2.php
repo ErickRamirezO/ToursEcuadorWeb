@@ -8,7 +8,6 @@
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
   <link rel="stylesheet" href="../css/estilo_destinos.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -19,96 +18,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
     integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <style>
-    .timeline ul {
-  background: #1B9AAA;
-  padding: 50px 0;
-}
-.timeline ul li {
-  list-style-type: none;
-  position: relative;
-  width: 6px;
-  margin: 0 auto;
-  padding-top: 50px;
-  background: #fff;
-}
-.timeline ul li::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: inherit;
-}
-.timeline ul li div {
-  position: relative;
-  bottom: 0;
-  width: 400px;
-  padding: 15px;
-  background: #F45B69;
-}
-.timeline ul li div::before {
-  content: '';
-  position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-.timeline ul li:nth-child(odd) div { left: 45px; }
-.timeline ul li:nth-child(odd) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
-}
-.timeline ul li:nth-child(even) div { left: -439px; }
-.timeline ul li:nth-child(even) div::before {
-  right: -15px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
-}
-time {
-  display: block;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-    .timeline ul li::after { transition: background .5s ease-in-out; }
-.timeline ul li.in-view::after { background: #F45B69; }
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-.timeline ul li:nth-child(odd) div { transform: translate3d(200px, 0, 0); }
-.timeline ul li:nth-child(even) div { transform: translate3d(-200px, 0, 0); }
-.timeline ul li.in-view div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
-}@media screen and (max-width: 900px) {
-.timeline ul li div { width: 250px; }
-.timeline ul li:nth-child(even) div { left: -289px; /*250+45-6*/
-}
-}
-@media screen and (max-width: 600px) {
-.timeline ul li { margin-left: 20px; }
-.timeline ul li div { width: calc(100vw - 91px); }
-.timeline ul li:nth-child(even) div { left: 45px; }
-.timeline ul li:nth-child(even) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
-}
-}
-  </style>
+  <link href="../css/vertical-timeline.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="principal">
+    <?php include "sidenav.php";?>
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
@@ -146,63 +61,98 @@ time {
           </ul>
         </div>
       </div>
-      <section class="timeline linea-tiempo">
-        <ul>
-          <li>
+      <section class="linea-tiempo">
+        <div id="myTimeline">
             <div>
-              <time>2016</time>
-              Event Here
+                <div data-vticon="true">
+                    <i class="fas fa-moon"></i>
+                </div>
+              <div class="image-column">
+                <img src="../img/baños1_1.jpg" alt="Imagen" class="cover-image">
+              </div>
+              <div class="content-column">
+                My Content 2
+              </div>
             </div>
-          </li>
-          <li>
             <div>
-              <time>2015</time>
-              Event Here
+                My Content 2
             </div>
-          </li>
-          <li>
             <div>
-              <time>2014</time>
-              Event Here
+                My Content 3
             </div>
-          </li>
-          <li>
+        </div>
+        <h3 class="w3-center">Día 2</h3>
+        <div id="myTimeline2" class="timeline-red">
+            <div data-vtdate="February 2016">
+                My Content 2
+              My Content 2
+            </div>
             <div>
-              <time>2014</time>
-              Event Here
+                My Content 3
+              My Content 2
+              My Content 2
+              My Content 2
+              My Content 2
+              My Content 2
             </div>
-          </li>
-          <li>
+          <div>
+                My Content 3
+            My Content 2
+            My Content 2My Content 2
+            </div>
+          <div>
+                My Content 3
+            </div>
+          <div>
+                My Content 3
+            </div>
+          <div>
+                My Content 3
+            </div>
+          <div>
+                My Content 3
+            </div>
+          <div>
+                My Content 3
+            </div>
+          
+        </div>
+        <h3 class="w3-center">Día 3</h3>
+        <div id="myTimeline3" class="timeline-green">
+            <div data-vtdate="February 2016">
+                My Content 2
+              My Content 2
+            </div>
             <div>
-              <time>2014</time>
-              Event Here
+                My Content 3
+              My Content 2
+              My Content 2
+              My Content 2
+              My Content 2
+              My Content 2
             </div>
-          </li>
-          <li>
-            <div>
-              <time>2014</time>
-              Event Here
+          <div>
+                My Content 3
+            My Content 2
+            My Content 2My Content 2
             </div>
-          </li>
-          <li>
-            <div>
-              <time>2014</time>
-              Event Here
+          <div>
+                My Content 3
             </div>
-          </li>
-          <li>
-            <div>
-              <time>2014</time>
-              Event Here
+          <div>
+                My Content 3
             </div>
-          </li>
-          <li>
-            <div>
-              <time>2014</time>
-              Event Here
+          <div>
+                My Content 3
             </div>
-          </li>
-        </ul>
+          <div>
+                My Content 3
+            </div>
+          <div>
+                My Content 3
+            </div>
+          
+        </div>
       </section>
       <div class="reservas w3-hide-small">
         <div class="reservas-primero">
@@ -271,39 +221,16 @@ time {
     <?php include "footer.php";?>
   </div>
   <script src="../js/destino.js"></script>
-  <script src="../js/timeline.js"></script>
   <script src="../js/translate.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    'use strict';
-    
-    // define variables
-    var items = $(".timeline li");
-
-    // check if an element is in viewport
-    function isElementInViewport(el) {
-      var rect = el[0].getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= ($(window).height() || document.documentElement.clientHeight) &&
-        rect.right <= ($(window).width() || document.documentElement.clientWidth)
-      );
-    }
-
-    function callbackFunc() {
-      items.each(function() {
-        if (isElementInViewport($(this))) {
-          $(this).addClass("in-view");
-        }
-      });
-    }
-
-    // listen for events
-    $(window).on("load resize scroll", callbackFunc);
-  });
-</script>
+  <script src="../js/vertical-timeline.min.js"></script>
+  <script>
+  $('#myTimeline, #myTimeline2, #myTimeline3').verticalTimeline({
+    startLeft: false,
+    alternate: true,
+    animate: "slide",
+    arrows: true
+});</script>
 
 </body>
 

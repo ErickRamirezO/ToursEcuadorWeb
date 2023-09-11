@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tours Ecuador</title>
+  <title>Destinos - Tours Ecuador</title>
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
   <link rel="stylesheet" href="../css/estilo_tours.css" type="text/css">
@@ -27,6 +27,7 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
 
 <body>
   <div class="principal">
+    <?php include "sidenav.php";?>
     <?php include "navbar.php";?>
     <div class="portada-tours">
       <div class="portada-tours-primero">
@@ -36,9 +37,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
     <div class="informacion-tours primero">
       <div>
         <div class="informacion-pri">
-          <a href="pruebas.html"><img src="../img/baños.jpg"></a>
+          <a href="baños.php"><img src="../img/baños.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Baños</a><br>
+            <p> <a href="baños.php">Baños</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad">
                 <button class="disponibilidad">Disponible</button>
@@ -51,9 +52,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-seg">
-          <a href="pruebas.html"><img src="../img/misahualli.jpg"></a>
+          <a href="misahualli.php"><img src="../img/misahualli.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="Amazonia">Misahualli Amazonia</a><br>
+            <p> <a href="misahualli.php" class="Amazonia">Misahualli Amazonia</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -66,9 +67,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-ter">
-          <a href="pruebas.html"><img src="../img/cotundo.jpg"></a>
+          <a href="cotundo.php"><img src="../img/cotundo.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Cañón de Cotundo</a><br>
+            <p> <a href="cotundo.php">Cañón de Cotundo</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -81,9 +82,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-cuar">
-          <a href="pruebas.html"><img src="../img/papallacta.jpg"></a>
+          <a href="papallacta.php"><img src="../img/papallacta.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Termas Papallacta</a><br>
+            <p> <a href="papallacta.php">Termas Papallacta</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -98,9 +99,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
       </div>
       <div>
         <div class="informacion-pri">
-          <a href="pruebas.html"><img src="../img/Indichuris.jpg"></a>
+          <a href="indichuris-selva.php"><img src="../img/Indichuris.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="selva">Indichuris Selva </a><br>
+            <p> <a href="indichuris-selva.php" class="selva">Indichuris Selva </a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -113,9 +114,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-seg">
-          <a href="pruebas.html"><img src="../img/Mindo.jpg"></a>
+          <a href="mindo.php"><img src="../img/Mindo.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Mindo</a><br>
+            <p> <a href="mindo.php">Mindo</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -128,9 +129,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-ter">
-          <a href="pruebas.html"><img src="../img/mitadM.jpg"></a>
+          <a href="mitad-mundo.php"><img src="../img/mitadM.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="mitad">Mitad del mundo</a><br>
+            <p> <a href="mitad-mundo.php" class="mitad">Mitad del mundo</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -143,9 +144,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-cuar">
-          <a href="pruebas.html"><img src="../img/lagunaQ.jpg"></a>
+          <a href="quilotoa.php"><img src="../img/lagunaQ.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="laguna">Laguna del Quilotoa</a><br>
+            <p> <a href="quilotoa.php" class="laguna">Laguna del Quilotoa</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -163,14 +164,14 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
     <div class="informacion-tours segundo">
       <div>
         <div class="informacion-pri">
-          <a href="pruebas.html"><img src="../img/cotopaxi.jpg"></a>
+          <a href="cotopaxi.php"><img src="../img/cotopaxiP.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="cotopaxi">Volcán Cotopaxi</a><br>
+            <p> <a href="cotopaxi.php" class="cotopaxi">Volcán Cotopaxi</a><br>
             <div class="tours_populares_info_dis_y_pais">
-              <div class="tours_populares_dispinibilidad ">
+              <div class="tours_populares_dispinibilidad ocultar ">
                 <button class="disponibilidad">Disponible</button>
               </div>
-              <div class="no-disponible tours_populares_dispinibilidad ocultar">
+              <div class="no-disponible tours_populares_dispinibilidad">
                 <button>No Disponible</button>
               </div>
             </div>
@@ -178,9 +179,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-seg">
-          <a href="pruebas.html"><img src="../img/chimborazo.jpg"></a>
+          <a href="chimborazo.php"><img src="../img/chimborazo.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html" class="chimborazo">Volcán Chimborazo</a><br>
+            <p> <a href="chimborazo.php" class="chimborazo">Volcán Chimborazo</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                  <button class="disponibilidad">Disponible</button>
@@ -255,9 +256,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-ter">
-         <a href="pruebas.html"><img src="../img/OTAVALO1.jpg"></a>
+         <a href="otavalo.php"><img src="../img/OTAVALO1.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Otavalo</a><br>
+            <p> <a href="otavalo.php">Otavalo</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad">
                 <button class="disponibilidad">Disponible</button>
@@ -309,9 +310,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           
           
         </div>
-        <div class="informacion-seg"><a href="pruebas.html"><img src="../img/republic.jpg"></a>
+        <div class="informacion-seg"><a href="guanabana.php"><img src="../img/republic.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Guanabana Republic</a><br>
+            <p> <a href="guanabana.php">Guanabana Republic</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -322,9 +323,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
             </div>
             </p>
           </div></div>
-        <div class="informacion-ter"><a href="pruebas.html"><img src="../img/SachaÑampi.jpg"></a>
+        <div class="informacion-ter"><a href="yasuni.php"><img src="../img/SachaÑampi.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">SachaÑampi</a><br>
+            <p> <a href="yasuni.php">Yasuní</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="dispinibilidad">Disponible</button>
@@ -335,9 +336,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
             </div>
             </p>
           </div></div>
-        <div class="informacion-cuar"><a href="pruebas.html"><img src="../img/Piranhaecolodge .jpg"></a>
+        <div class="informacion-cuar"><a href="cuyabeno.php"><img src="../img/Piranhaecolodge .jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Piranha ecolodge </a><br>
+            <p> <a href="cuyabeno.php">Cuyabeno</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>

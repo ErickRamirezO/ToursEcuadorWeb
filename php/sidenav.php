@@ -9,6 +9,7 @@
   </div>
   <a href="acerca.php"><p>Acerca de nosotros</p></a>
   <a href="contacto.php"><p>Contacto</p></a>
+  <hr>
 </div>
 
 <script src="../js/sidenav.js"></script>
