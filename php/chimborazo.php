@@ -27,7 +27,7 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Volcán Chimborazo &nbsp;</h1>
+      <h1 class="titulo Chimborazo_v">Volcán Chimborazo &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
@@ -52,8 +52,8 @@
           <h3>Tour Chimborazo</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,14 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-bread"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/machachi.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Chimborazo_p1">
                 <h3>Parada en Machachi</h3>
                 <p>Comenzamos con nuestra aventura al Chimborazo con un rico desayuno en Machachi.</p>
               </div>
@@ -81,7 +81,7 @@
               <div class="image-column">
                 <img src="../img/rutaV.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Chimborazo_p1">
                 <h3>Ruta de los volcanes</h3>
                 <p>Recorremos la “Avenida de los Volcanes”, en su trayecto podemos observar los volcanes los Ilinizas, Pasochoa y Cotopaxi. </p>
               </div>
@@ -91,9 +91,9 @@
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/Reserva_Chimborazo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Chimborazo_p3">
                 <h3>Reserva del Chimborazo</h3>
                 <p>Ingreso a la Reserva de Producción Faunística Chimborazo. </p> 
               </div>
@@ -103,9 +103,9 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/Ascenso-chimborazo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column  Chimborazo_p4">
                 <h3>Ascenso al volcan chimborazo </h3>
                 <p>Siguiente parada primer refugio de los hermanos Carriel (4800 msnm) <br> Segunda parada al refugio Whymper (5000 msnm) <br> Procederemos a realizar el descenso y nos dirigiremos al respectivo Almuerzo </p>  
               </div>
@@ -115,19 +115,19 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/Laguan_de_Yambo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Chimborazo_p5">
                 <h3>Laguna de Yambo</h3>
                 <p>Es llamada “Laguna Encantada” quizás por sus leyendas; tiene vertientes subterráneas en la parte central de donde nacen sus aguas; se puede observar que la laguna ha crecido en forma espectacular por los nuevos regadíos que se ha implementado en las zonas aledañas  </p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <p>Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido. Fin del recorrido.</p>
+                <p class="Chimborazo_p6">Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido. Fin del recorrido.</p>
               </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -144,7 +144,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -152,7 +152,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>4 Destinos &nbsp;</p>
+              <p>4 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -160,7 +160,7 @@
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -171,7 +171,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -184,7 +184,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -198,34 +198,18 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Desayuno, almuerzo</li>
-        <li>Ingreso a la reserva de Chimborazo</li>
-        <li>Centro de Interpretación</li>
-        <li>Primer y segundo refugio</li>
-        <li>Laguna de Yambo</li>
-      </ul>
+      <p class="incluye_Chimborazo"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="no_incluye_Chimborazo"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda y abrigada  </li>
-        <li>Gorra y gorro de lana </li>
-        <li>Bloqueador </li>
-        <li>Zapatillas de buen labrado</li>
-        <li>Cámara de fotos </li>
-        <li>Guantes</li>
-      </ul>
+      <p class="indicaciones_Chimborazo"></p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

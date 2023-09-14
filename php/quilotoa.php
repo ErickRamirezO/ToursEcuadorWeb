@@ -40,7 +40,7 @@
           <div class="portada-primera1"><img src="../img/quilotoap02.jpg" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/quilotoap03.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap030.jpg" class="w3-hover-opacity"></div>
           <div class="portada-primera1"><img src="../img/quilotoap04.jpg" class="w3-hover-opacity"></div>
         </div>
       </div>
@@ -52,8 +52,8 @@
           <h3>Tour Quilotoa</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,15 +62,15 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
                 <img src="../img/rutaV.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Ruta de los volcanes</h3>
+              <div class="content-column quilotoa_p1">
+                <h4>Ruta de los volcanes</h4>
                 <p> Nuestra aventura comienza por la "Avenida de los Volcanes", en su trayecto podremos apreciar los Ilinizas, el Rumiñahui, Cotopaxi.</p>
               </div>
             </div>
@@ -79,9 +79,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/canonToachi.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column quilotoa_p2">
                 <h3>Cañón del Toachi</h3>
                 <p>Avistamiento al majestuoso Cañón del Toachi.</p>
               </div>
@@ -91,9 +91,9 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/lagunaQuilotoa.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column quilotoa_p3">
                 <h3>Laguna del Quilotoa</h3>
                 <p>Siguiente parada, Laguna del Quilotoa, en el cual se podrá observar el majestuoso volcán con su laguna de agua color turquesa. Pasaremos a degustar de un delicioso desayuno con una gran vista hacia la laguna.</p>
               </div>
@@ -103,9 +103,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/caminatalagunaQuilotoa.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column quilotoa_p4">
                 <h3>Caminata a la Laguna del Quilotoa</h3>
                 <p>Procederemos al descenso por senderos con paisajes mágicos. En la laguna realizaremos un deporte acuático Kayak, paseo en bote por la laguna.</p>
               </div>
@@ -115,9 +115,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/museoQuilotoa.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column quilotoa_p5">
                 <h3>Museo del Quilotoa</h3>
                 <p>Recorrido por el museo del Quilotoa y la galería de artesanías.</p>
               </div>
@@ -126,11 +126,9 @@
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+          
               <div class="content-column">
-                <h3>Visita viviendas tradicionales</h3>
+                <p class="quilotoa_p6">Visita viviendas tradicionales</p>
               </div>
             </div>
             <div data-vtdate="Séptima parada">
@@ -138,18 +136,18 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/quilotoaArte.jpg" class="cover-image">
               </div>
               <div class="content-column">
-                <h3>Tiempo de compras</h3>
+                <p class="quilotoa_p7" >Tiempo de compras</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <h3>Retorno a Quito</h3>
+                <p class="quilotoa_p8" >Retorno a Quito</p>
               </div>
             </div>
         </div>
@@ -158,7 +156,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -166,7 +164,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -174,7 +172,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>6 Destinos &nbsp;</p>
+              <p>6 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -182,7 +180,7 @@
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -193,7 +191,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -206,7 +204,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -220,30 +218,18 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Ingreso a laguna de Quilotoa, cañon del río Toachi</li>
-      </ul>
+      <p class="incluye_quilotoa"></p>
+     
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras (kayak)</li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="no_incluye_quilotoa"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda y abrigada </li>
-        <li>Gorra y gorro de lana </li>
-        <li>Bloqueador </li>
-        <li>Zapatillas de buen labrado  </li>
-        <li>Guantes</li>
-        <li>Cámara de fotos</li>
-      </ul>
+      <p class="indicaciones_quilotoa"></p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

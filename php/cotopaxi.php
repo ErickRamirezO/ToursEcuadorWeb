@@ -27,7 +27,7 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Volcán Cotopaxi &nbsp;</h1>
+      <h1 class="titulo volcan">Volcán Cotopaxi &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
@@ -52,8 +52,8 @@
           <h3>Tour Cotopaxi</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,14 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/machachi.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column cotopaxi_p1">
                 <h3>Parada en Machachi</h3>
                 <p>Pausa para adquirir un aperitivo, hacer uso de las instalaciones sanitarias y acceder a cajeros automáticos si es necesario.</p>
               </div>
@@ -81,7 +81,7 @@
               <div class="image-column">
                 <img src="../img/parqueN.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column cotopaxi_p2">
                 <h3>Parque Nacional Cotopaxi</h3>
                 <p>En el límite de la provincia de Pichincha se halla el Parque Nacional Cotopaxi, una reserva ecológica que fusiona la belleza del páramo andino, la tierra de origen volcánico y las lagunas generadas por los picos nevados. </p>
               </div>
@@ -93,7 +93,7 @@
               <div class="image-column">
                 <img src="../img/lagunadeL.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column cotopaxi_p3">
                 <h3>Laguna de Limpiopungo </h3>
                 <p>Participa en un recorrido a pie dirigido a lo largo de la orilla de una laguna de origen glaciar. Durante este paseo, tendrás la oportunidad de avistar diversas especies de aves y plantas autóctonas que habitan en las inmediaciones de la laguna.</p> 
               </div>
@@ -105,7 +105,7 @@
               <div class="image-column">
                 <img src="../img/centroI.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column cotopaxi_p4">
                 <h3>Centro de Interpretaciones Mariscal Sucre</h3>
                 <p>Todo el contenido informativo acerca del Parque Nacional Cotopaxi se encuentra accesible en el Centro de Interpretación, ampliamente reconocido como el Museo del Parque. Este espacio cuenta con áreas de exhibición, una tienda de souvenirs y un café. </p>   
               </div>
@@ -117,7 +117,7 @@
               <div class="image-column">
                 <img src="../img/refugioJR.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column cotopaxi_p5">
                 <h3>Refugio Jose Rivas</h3>
                 <p>Procederemos al ascenso del
 Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el nivel del mar, en el cual tendrás una espectacular vista del nevado y sus alrededores. </p>
@@ -127,20 +127,18 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
-              <div class="content-column">
+            
+              <div class="content-column cotopaxi_p6">
                 <h3>Almuerzo</h3>
                 <p>Haremos una parada para degustar los platos característicos de la región, donde te sugerimos probar el caldo de gallina, el locro y el borrego asado. Además, hay alternativas vegetarianas disponibles. (El almuerzo no está incluido).</p> 
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <p>Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>     
+                <p class="cotopaxi_p7">Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>     
               </div>
             </div>
         </div>
@@ -149,7 +147,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -157,7 +155,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -165,7 +163,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>6 Destinos &nbsp;</p>
+              <p>6 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -173,7 +171,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -184,7 +182,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -197,7 +195,7 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -211,34 +209,18 @@ Refugio José Rivas del volcán Cotopaxi, ubicado a 4897 m s. n. m. sobre el niv
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Ingreso Parque Nacional Cotopaxi</li>
-        <li>Centro de Interpreatación</li>
-        <li>Laguna de Limpiopungo</li>
-        <li>Primer Refugio</li>
-      </ul>
+      <p class="incluye_cotopaxi"></p>
+     
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-        <li>Desayuno y almuerzo</li>
-      </ul>
+      <p class="no_incluye_cotopaxi"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda y abrigada  </li>
-        <li>Gorra y gorro de lana </li>
-        <li>Bloqueador </li>
-        <li>Zapatillas de buen labrado  </li>
-        <li>Cámara de fotos </li>
-        <li>Guantes</li>
-      </ul>
+      <p class="indicaciones_cotopaxi"></p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

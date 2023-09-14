@@ -27,7 +27,7 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Indichuris Selva  &nbsp;</h1>
+      <h1 class="titulo Indichuris_titulo">Indichuris Selva  &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
@@ -52,8 +52,8 @@
           <h3>Tour Indichuris Selva</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,14 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
                 <img src="../img/rutaV.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Indichuris_p1">
                 <h3>Ruta de los volcanes</h3>
                 <p>Comenzamos nuestra aventura por la ruta de los volcanes, en su trayecto podremos apreciar los Ilinizas, Rumiñahui, Cotopaxi.</p>
               </div>
@@ -79,9 +79,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/rioVerde.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Indichuris_p2">
                 <h3>Río Verde</h3>
                 <p>Llegada a Baños de Agua Santa donde pasaremos por la ruta de las cascadas hasta Río Verde y degustaremos de un delicioso desayuno.</p>
 
@@ -92,9 +92,9 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/miradorMera.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Indichuris_p3">
                 <h3>Mirador de Mera</h3>
                 <p>Visita al mirador de Mera, el sitio es ideal para los amantes del paisajismo, la fotografía y la adrenalina (nido de Mera, columpio, globo, hamacas).</p>
               </div>
@@ -104,9 +104,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/indichurisM.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Indichuris_p4">
                 <h3>Indichuris</h3>
                 <p>Mirador Amazónico Indichuris, donde encontraremos hamacas, columpio, Máscara de Ayahuasca, túneles y laberintos de murciélagos. Caminata por Indichuris donde usted podrá observar una buena variedad de plantas e insectos propios del lugar, así como variedad de mariposas multicolores.</p>
               </div>
@@ -115,20 +115,21 @@
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
-              <div class="content-column">
+             
+              <div class="content-column Indichuris_p5">
                 <h3>Comunidad Quichua</h3>
                 <p>Visita a una comunidad Quichua: donde podremos probar la Guayusa, ser partícipes de un baile parte de la comunidad, puedes usar la cerbatana herramienta amazónica para cazar, fotos con los animales del lugar y centro de artesanías.</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
+              <div class="image-column">
+                <img src="../img/dulces.jpg" class="cover-image">
+              </div>
               <div class="content-column">
-                <p>Visita a un paradero de dulces en Baños de Agua Santa en el Retorno a Quito.</p>
+                <p class="Indichuris_p6">Visita a un paradero de dulces en Baños de Agua Santa en el Retorno a Quito.</p>
               </div>
             </div>
         </div>
@@ -137,7 +138,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -145,7 +146,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -153,7 +154,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>5 Destinos &nbsp;</p>
+              <p>5 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -161,7 +162,7 @@
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -172,7 +173,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -185,7 +186,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -197,35 +198,19 @@
         </div>
       </div>
     </div>
-    <div class="descripcion w3-row">
+    <div class="descripcion w3-row ">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Desayuno, almuerzo</li>
-        <li>Nido de Mera</li>
-        <li>Ingreso a la comunidad, mirador de Indichuris</li>
-      </ul>
+      <p class="Incluye_Indichuris"></p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="No_Incluye_Indichuris"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda </li>
-        <li>Gorra</li>
-        <li>Bloqueador </li>
-        <li>Zapatillas de buen labrado  </li>
-        <li>Cámara de fotos </li>
-        <li>Repelente de mosquitos</li>
-        <li>Poncho de agua</li>
-      </ul>
+      <p class="Indicaciones_Indichuris"> </p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

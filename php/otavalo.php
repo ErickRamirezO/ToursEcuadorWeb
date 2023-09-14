@@ -52,8 +52,8 @@
           <h3>Tour Otavalo</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,15 +62,15 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
                 <img src="../img/cayambe.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Cayambe</h3>
+              <div class="content-column otavalo_p1">
+                <h4>Cayambe</h4>
                 <p> Iremos a conocer a una de las familias que produce los renombrados bizcochos de Cayambe y también tendremos la oportunidad de probar diversos productos locales.</p>
               </div>
             </div>
@@ -81,8 +81,8 @@
               <div class="image-column">
                 <img src="../img/Lago San Pablo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Mirador del Lago San Pablo</h3>
+              <div class="content-column otavalo_p2">
+                <h4>Mirador del Lago San Pablo</h4>
                 <p>Ofrecemos la posibilidad de disfrutar de una vista panorámica ideal para capturar imágenes de una de las lagunas más grandes de la provincia de Imbabura. Además, si los viajeros lo desean, tendrán la opción de adquirir los célebres bizcochos y el queso de hoja que se venden en este lugar.</p>
               </div>
             </div>
@@ -93,8 +93,8 @@
               <div class="image-column">
                 <img src="../img/mercadoO.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Mercado de Otavalo</h3>
+              <div class="content-column otavalo_p3">
+                <h4>Mercado de Otavalo</h4>
                 <p>Tendrán un período de tiempo libre para explorar el mercado indígena más extenso de América Latina y disfrutar de un almuerzo.</p>
               </div>
             </div>
@@ -105,17 +105,17 @@
               <div class="image-column">
                 <img src="../img/Cascada de Peguche_2.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Cascada de Peguche</h3>
+              <div class="content-column otavalo_p4">
+                <h4>Cascada de Peguche</h4>
                 <p>Un sitio sagrado donde los Otavaleños llevan a cabo rituales ancestrales y se sumergen en baños purificadores.</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <p>Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>
+                <p class="otavalo_p5">Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>
               </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -132,7 +132,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -140,7 +140,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>4 Destinos &nbsp;</p>
+              <p>4 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -148,7 +148,7 @@
           </div>
           <div id="alimentacion" class="w3-hide">
             <div class="contenido-reserva-p">
-              <p>No Alimentación</p>
+              <p class="noAlimentacion">No Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -159,7 +159,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -172,7 +172,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -186,7 +186,7 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
+      <ul class="incluyeOtavalo">
         <li>Transporte de turismo full equipo</li>
         <li>Seguro de viajes</li>
         <li>Guía todo el trayecto</li>
@@ -197,18 +197,18 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
+      <ul class="noIncluyeOtavalo">
         <li>Actividades extras</li>
         <li>Gastos personales del turista</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
+      <ul class="indicacionesOtavalo">
         <li>Ropa cómoda y abrigada  </li>
         <li>Gorra</li>
-        <li>Bloqueador </li>
-        <li>Zapatillas de buen labrado  </li>
+        <li>Bloqueador solar</li>
+        <li>Zapatillas de buen labrado </li>
         <li>Cámara de fotos</li>
       </ul>
     </div>

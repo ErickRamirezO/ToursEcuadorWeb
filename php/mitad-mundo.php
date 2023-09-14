@@ -52,8 +52,8 @@
           <h3>Tour Mitad del Mundo</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -66,11 +66,9 @@
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+              
               <div class="content-column">
-                <p> Punto de abordo: Naciones Unidas y Shyris a las 14:30 pm los Sábados y Domingos.</p>
+                <p class="mitad_mundo_p1"> Punto de abordo: Naciones Unidas y Shyris a las 14:30 pm los Sábados y Domingos.</p>
               </div>
             </div>
             <div data-vtdate="Primera parada">
@@ -78,9 +76,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/Complejomundo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column mitad_mundo_p2 ">
                 <h3>Complejo turístico Mitad del Mundo</h3>
                 <p>Explora el Museo Ecuatorial, una imponente estructura de 30 metros de altura erigida en conmemoración de la misión geodésica. Además, participa en una visita guiada que incluye la exploración de viviendas ancestrales, la Plaza del Cacao y la oportunidad de explorar tiendas que ofrecen artesanías locales.</p>
               </div>
@@ -90,19 +88,19 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/linea.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column mitad_mundo_p3">
                 <h3>Experiencias sobre la línea Equinoccial</h3>
                 <p>Exploración en el interior del complejo, donde se pueden presenciar demostraciones educativas de los fenómenos que ocurren en la zona ecuatorial.</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <p>Relájate durante un regreso cómodo a Quito</p>
+                <p class="mitad_mundo_p4">Relájate durante un regreso cómodo a Quito</p>
               </div>
             </div>
         </div>
@@ -111,7 +109,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -119,7 +117,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -127,7 +125,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>2 Destinos &nbsp;</p>
+              <p>2 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -135,7 +133,7 @@
           </div>
           <div id="alimentacion" class="w3-hide">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -146,7 +144,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -159,7 +157,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -173,27 +171,16 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Guía todo el trayecto</li>
-        <li>Ingreso a ciudad Mitad del Mundo</li>
-      </ul>
+      
+      <p class="mitad_mundo_incluye"></p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="mitad_mundo_No_incluye"></p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda </li>
-        <li>Gorra  </li>
-        <li>Bloqueador </li>
-        <li>Cámara de fotos  </li>
-      </ul>
+      <p class="mitad_mundo_indicaciones"></p>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

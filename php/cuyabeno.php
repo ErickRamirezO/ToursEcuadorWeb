@@ -52,8 +52,8 @@
           <h3>Tour Cuyabeno</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -63,12 +63,12 @@
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <h4 class="w3-center">Día 1</h4>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/arribo-cuyabeno.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Entrada a la reserva Cuyabeno</h3>
@@ -79,9 +79,7 @@
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+              
               <div class="content-column">
                 <h3>Almuerzo y tiempo para relajarse</h3>
                 <p>Por la tarde explorará el río y las lagunas en busca de más fauna, nadará y disfrutará del atardecer.</p>
@@ -92,24 +90,23 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/expedicion-canoa.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Expedición</h3>
-                <p>Por la noche hará una expedición en
-canoa en busca de caimanes y después la cena. Para todos nuestros huéspedes interesados en conocer más sobre la selva amazónica, todas las noches el guía naturalista dará diferentes charlas como la “Cultura y comunidades, flora,
+                <p>Por la noche hará una expedición en canoa en busca de caimanes y después la cena. Para todos nuestros huéspedes interesados en conocer más sobre la selva amazónica, todas las noches el guía naturalista dará diferentes charlas como la “Cultura y comunidades, flora,
 fauna y conservación ”.</p>
               </div>
             </div>
         </div>
         <h4 class="w3-center">Día 2</h4>
         <div id="myTimeline2" class="timeline-red">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/CUYABENO-caminata.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Caminata</h3>
@@ -122,9 +119,7 @@ quien le explicará sobre plantas medicinales, ranas, insectos, aves, etc.</p>
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+            
               <div class="content-column">
                 <h3>Almuerzo en el campamento y tiempo
 para relajarse.</h3>
@@ -135,9 +130,7 @@ para relajarse.</h3>
               <div data-vticon="true">
                     <i class="fas fa-water"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+              
               <div class="content-column">
                 <p>Retorno al albergue se prepara para la
 caminata nocturna y después la cena. Esta noche tendrás la oportunidad de conocer y degustar las diferentes bebidas
@@ -147,12 +140,12 @@ tradicionales de la Amazonía</p>
         </div>
         <h4 class="w3-center">Día 3</h4>
         <div id="myTimeline3">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/riachuelos- bosque-inundado.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Canoa a Remo</h3>
@@ -165,7 +158,7 @@ prepara para una mañana emocionante, explorará en total tranquilidad y silenci
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/chocolate-cuyabeno.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Almuerzo en el campamento y tiempo para
@@ -176,12 +169,12 @@ relajarse.</h3>
         </div>
         <h4 class="w3-center">Día 4</h4>
         <div id="myTimeline4" class="timeline-red">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/kwichas-oriente.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Visita a comunidad</h3>
@@ -194,7 +187,7 @@ la comunidad, allí una mujer indígena nos guiará por la comunidad, donde apre
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/limpia-cuyabeno.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <p>Por la tarde el chamán de la comunidad nos
@@ -205,12 +198,12 @@ al campamento, cenamos y nos relajamos.</p>
         </div>
         <h4 class="w3-center">Día 5</h4>
         <div id="myTimeline5">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/cuybeno-amanecer.jpg" class="cover-image">
               </div>
               <div class="content-column">
                 <h3>Cuyabeno – Quito</h3>
@@ -233,7 +226,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>5 Días&nbsp;</p>
+              <p>5 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -241,7 +234,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>4 Noches &nbsp;</p>
+              <p>4 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -249,7 +242,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>5 Destinos &nbsp;</p>
+              <p>5 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -257,7 +250,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -268,7 +261,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -281,7 +274,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>

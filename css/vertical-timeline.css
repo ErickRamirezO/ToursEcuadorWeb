@@ -127,7 +127,10 @@
     left: -16px!important;
   }
   .vtimeline-date {
-    padding:20px 0px 0px 20px;
+    padding: 20px 20px 0px 20px;
+  }
+  .content-column {
+    padding: 0px 20px 20px 20px;
   }
 }
 
@@ -156,6 +159,7 @@
     top: 0;
     left: 0;
     right: auto;
+    padding:20px;
     background: #eee; }
   .vtimeline-right .vtimeline-date {
     right: auto; }
@@ -166,7 +170,7 @@
             transform: translateX(100%); } }
 
 .image-column {
-  flex: 0 0 200px; 
+  flex: 0 0 150px; 
   text-align: center;
   position: relative;
   overflow: hidden;

@@ -52,8 +52,8 @@
           <h3>Tour Guanabana Republic</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,14 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/cayambe.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Guanabana_p1">
                 <h3>Cayambe</h3>
                 <p>Parada en Cayambe para degustar un
 delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe. </p>
@@ -80,9 +80,9 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaC.jpg" class="cover-image">
+                <img src="../img/miraLago.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Guanabana_p2">
                 <h3>Mirador de Mira Lago</h3>
                 <p>Visita al Mirador de Mira Lago con grandiosas vistas hacia el Lago San Pablo y al Taita Imbabura, además cuenta con artesanías de la historia de la provincia. En el transcurso del viaje observaremos hermosos paisajes como lagunas, flora y fauna del entorno. Tomamos rumbo por la ciudad de Otavalo, Atuntaqui e Ibarra en dirección hacia el Carchi donde se encuentra el complejo de Guanabana Republic.</p>
               </div>
@@ -92,9 +92,9 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/pailon-cascada.jpg" class="cover-image">
+                <img src="../img/complejo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Guanabana_p3">
                 <h3>Complejo Guanábana Republic </h3>
                 <p>Parada al complejo Guanábana Republic, incluye la entrada a cuatro Piscinas Temáticas.                          <br>Piscinas River Coco<br> Guanábana sunset.<br> Summer.<br>     Playa sol.   </p> 
               </div>
@@ -104,9 +104,9 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/yahuarcocha.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Guanabana_p4">
                 <h3>Laguna de Yahuarcocha</h3>
 <p> Tendremosla oportunidad de realizar un paseo en Bote por la hermosa laguna de Yahuarcocha </p>   
               </div>
@@ -116,19 +116,19 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/cayambeBiscochos.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column Guanabana_p5">
                 <h3>Cayambe</h3>
                 <p>Tiempo de compras en Cayambe, visita fabrica de bizcochos, degustación de una taza de café y bizcochos de Cayambe </p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
-              <div class="content-column">
-                <p>Relájate durante un regreso cómodo a Quito</p> 
+              <div class="content-column ">
+                <p Guanabana_p6>Relájate durante un regreso cómodo a Quito</p> 
               </div>
             </div>
         </div>
@@ -137,7 +137,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -145,7 +145,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -153,7 +153,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>5 Destinos &nbsp;</p>
+              <p>5 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -161,7 +161,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -172,7 +172,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -185,7 +185,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -199,33 +199,16 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Degustación de Bizcochos</li>
-        <li>Ingreso al complejo Guanábana Republic</li>
-        <li>Paseo en bote en Yaguarcocha</li>
-        <li>Desayuno, almuerzo</li>
-      </ul>
+      <p class="Guanabana_incluye"></p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="Guanabana_No_incluye"> </p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda   </li>
-        <li>Gorra y gorro de lana </li>
-        <li>Bloqueador </li>
-        <li>Cámara de fotos </li>
-        <li>Terno de Baño </li>
-        <li>Toalla</li>
-      </ul>
+     <p class="Indicaciones_Guanabana"> </p>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

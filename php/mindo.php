@@ -51,9 +51,9 @@
         <div class="table-of-contents">
           <h3>Tour Mindo</h3>
           <ul>
-            <li><a href="#itinerario">Itinerario</a></li>
+           <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,14 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/reservaColibri.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column mindo_p1">
                 <h3>La Reserva de Colibrí</h3>
                 <p> Durante nuestro trayecto hacia Mindo, haremos una parada en un jardín oculto que se encuentra en medio del bosque nublado. Aquí, tendrás la oportunidad de deleitarte con la observación de aves y disfrutar de la naturaleza. La entrada tiene un costo de $5.00 y no está incluida en el tour.</p>
               </div>
@@ -79,9 +79,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaC.jpg" class="cover-image">
+                <img src="../img/mariposas.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column mindo_p2">
                 <h3>El Santuario de las Mariposas</h3>
                 <p>Visitarás el Santuario de las Mariposas en Mindo, donde tendrás la oportunidad de conocer y fotografiar las diversas especies de mariposas que habitan en esta rica región de Ecuador. La entrada al santuario tiene un valor de $8.00 y no está incluida en el paquete.</p>
               </div>
@@ -91,10 +91,10 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/pailon-cascada.jpg" class="cover-image">
+                <img src="../img/CascadaNambillo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Cascada Mindo-Nambillo</h3>
+              <div class="content-column mindo_p3">
+                <h3>Cascada Mindo Nambillo</h3>
                 <p>Comienza tu experiencia con una asombrosa panorámica del bosque nublado desde la tarabita. Luego, tras este breve paseo, emprenderemos una caminata por un sendero que nos llevará hasta la cascada. Disfruta de este recorrido rodeado por un frondoso bosque. La entrada a esta actividad está incluida y tiene un costo de $5.00.</p>
               </div>
             </div>
@@ -103,9 +103,9 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/puente.jpg" class="cover-image">
+                <img src="../img/chocolate-Mindo.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column mindo_p4">
                 <h3>Empresa local de chocolate Mindo</h3>
                 <p>Explora una fábrica de chocolate ecuatoriano de origen local, donde tendrás la oportunidad de adentrarte en el mundo del cacao, conocer su relevancia, su proceso de producción y saborear una amplia gama de chocolates de alta calidad. Disfruta de la amalgama de sabores y amplía tu conocimiento sobre los distintos porcentajes de cacao a través de una degustación breve, que está incluida en la experiencia.</p>
               </div>
@@ -114,19 +114,17 @@
               <div data-vticon="true">
                     <i class="fas fa-camera"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/columpio.jpg" class="cover-image">
-              </div>
-              <div class="content-column">
+              
+              <div class="content-column mindo_p5">
                 <h3>Almuerzo</h3>
                 <p>En medio de este programa, tendrás la oportunidad de saborear un almuerzo autóctono en la zona. Te sugerimos probar la trucha frita, que es el plato característico de la región. (El almuerzo no está incluido en el costo del tour).</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
-              <div class="content-column">
+              <div class="content-column mindo_p6">
                 <h3>Retorno a Quito</h3>
                 <p> Relájate durante un regreso cómodo a Quito, y ten en cuenta que el servicio de desembarque en tu hotel está incluido.</p>
               </div>
@@ -137,7 +135,7 @@
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -145,7 +143,7 @@
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -153,7 +151,7 @@
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>4 Destinos &nbsp;</p>
+              <p>4 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -161,7 +159,7 @@
           </div>
           <div id="alimentacion" >
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -172,7 +170,7 @@
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -185,7 +183,7 @@
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -199,31 +197,16 @@
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Ingreso al Santuario de Cascadas</li>
-        <li>Degustación de chocolate y visita a las plantaciones de cacao</li>
-      </ul>
+      <p class="mindo_incluye"> </p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li><span>Actividades extras:</span><br><span>Ingreso a la reserva de colibríes ($5 dólares)</span><br><span>Ingreso al Mariposario ($8 dólares)</span></li>
-        <li>Gastos personales del turista</li>
-      </ul>
+      <p class="mindo_no_incluye"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda </li>
-        <li>Gorra</li>
-        <li>Bloqueador </li>
-        <li>Cambio de ropa </li>
-        <li>Cámara de fotos </li>
-        <li>Cambio de zapatos</li>
-      </ul>
+      <p class="mindo_indicaciones"> </p>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

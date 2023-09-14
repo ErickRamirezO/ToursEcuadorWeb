@@ -52,22 +52,22 @@
           <h3>Tour Yasuní</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
         </div>
       </div>
       <section class="linea-tiempo">
-        <h2 id="itinerario">Itinerario</h2>
+        <h2 id="itinerario" class="w3-center">Itinerario</h2>
         <h3 class="w3-center">Día 1</h3>
         <div id="myTimeline">
             <div data-vtdate="Inicio">
                 <div data-vticon="true">
                     <i class="fas fa-bread-slice"></i>
                 </div>
-              <div class="content-column">
+              <div class="content-column d1_yasuni_desayuno">
                 Desayuno / americano
               </div>
             </div>
@@ -75,31 +75,40 @@
               <div data-vticon="true">
                     <i class="fas fa-moon"></i>
                 </div>
-              <div class="content-column">
-                Zarpe de Coca a Sacha Ñampi a través del rio Napo
+              <div class="image-column">
+                <img src="../img/Zarpe-rio-Napo.jpg" class="cover-image">
               </div>
-            </div>
-            <div>
-              <div data-vticon="true">
-                    <i class="fas fa-drumstick-bite"></i>
-                </div>
-              <div class="content-column">
-                Almuerzo
+              <div class="content-column d1_yasuni_p1">
+                Zarpe de Coca a Sacha Ñampi a través del rio Napo
               </div>
             </div>
             <div data-vtdate="Segunda parada">
               <div data-vticon="true">
                     <i class="fas fa-moon"></i>
                 </div>
-              <div class="content-column">
-                Zarpe de Coca a Sacha Ñampi a través del rio Napo
+              <div class="image-column">
+                <img src="../img/arribo-yasuni.jpg" class="cover-image">
+              </div>
+              <div class="content-column d1_yasuni_p2">
+                Arribo a Sacha Ñampi
+              </div>
+            </div>
+            <div>
+              <div data-vticon="true">
+                    <i class="fas fa-drumstick-bite"></i>
+                </div>
+              <div class="content-column almuerzo">
+                Almuerzo
               </div>
             </div>
             <div data-vtdate="Tercera parada">
               <div data-vticon="true">
                     <i class="fas fa-moon"></i>
                 </div>
-              <div class="content-column">
+              <div class="image-column">
+                <img src="../img/cedron.jpg" class="cover-image">
+              </div>
+              <div class="content-column d1_yasuni_p3">
                 Se realizará senderismo por alrededor de 2h30, se podrá observar gran cantidad de plantas medicinales y el 
 árbol más grande del Yasuni.
               </div>
@@ -108,7 +117,7 @@
               <div data-vticon="true">
                     <i class="fas fa-drumstick-bite"></i>
                 </div>
-              <div class="content-column">
+              <div class="content-column cena">
                 Cena
               </div>
             </div>
@@ -116,7 +125,10 @@
               <div data-vticon="true">
                 <i class="fas fa-moon"></i>
               </div>
-              <div class="content-column">
+              <div class="image-column">
+                <img src="../img/danza.jpg" class="cover-image">
+              </div>
+              <div class="content-column d1_yasuni_p4">
                 Danza de la cultura Kichwa
               </div>
             </div>
@@ -124,7 +136,7 @@
               <div data-vticon="true">
                 <i class="fa-solid fa-bed"></i>
               </div>
-              <div class="content-column">
+              <div class="content-column descanso">
                 Descanso
               </div>
             </div>
@@ -135,7 +147,7 @@
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column desayuno">
               Desayuno
             </div>
           </div>
@@ -143,7 +155,10 @@
             <div data-vticon="true">
               <i class="fas fa-hiking"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/rio-Tambocha-Yasuni.jpg" class="cover-image">
+              </div>
+            <div class="content-column d2_yasuni_p1">
               Se realizará senderismo por alrededor de 3h30, hasta llegar al rio Tambocha Yasuní.<br>
 Full caminata, navegación a canoa remo por zonas inundables
 Observación de monos, aves y saladero de guanganas. 
@@ -153,7 +168,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-drumstick-bite"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d2_yasuni_entre_p1_p2">
               Almuerzo en el rio Jatuncocha
             </div>
           </div>
@@ -161,7 +176,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-water"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/yasuni-rio.jpg" class="cover-image">
+              </div>
+            <div class="content-column d2_yasuni_p2">
               Navegación en canoa a motor pequeños, lugar donde se observará aves, nutrias, hasta llegar al rio Yasuní.
             </div>
           </div>
@@ -169,7 +187,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d2_yasuni_p3">
               Registro en el control del MEA.
             </div>
           </div>
@@ -177,7 +195,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/delfin-yasuni.jpg" class="cover-image">
+              </div>
+            <div class="content-column d2_yasuni_p4">
               Salida a la bocana del rio Yasuní, para observar a los delfines.
             </div>
           </div>
@@ -185,7 +206,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Arribo-ecolodge.jpg" class="cover-image">
+              </div>
+            <div class="content-column d2_yasuni_p5">
               Arribo al ecolodge
             </div>
           </div>
@@ -193,7 +217,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-drumstick-bite"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column cena">
               Cena
             </div>
           </div>
@@ -201,7 +225,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-bed"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column descanso">
               Descanso
             </div>
           </div>
@@ -212,7 +236,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column desayuno">
               Desayuno
             </div>
           </div>
@@ -220,7 +244,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-water"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/rio-Aguarico.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p1">
               Traslado al rio Aguarico
             </div>
           </div>
@@ -228,7 +255,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Avistamiento-delfines.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p2">
               Avistamiento de delfines
             </div>
           </div>
@@ -236,7 +266,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Visita-Cultura-Secoya.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p3">
               Visita Cultura Secoya, lugar donde el turista tendrá una bienvenida con una danza tradicional, su forma de convivencia y degustará de su alimentación típica.
             </div>
           </div>
@@ -244,7 +277,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d3_yasuni_p4">
               Retorno al ecolodge
             </div>
           </div>
@@ -252,7 +285,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d3_yasuni_entre_p4_p5">
               Almuerzo en el ecolodge
             </div>
           </div>
@@ -260,7 +293,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Cosecha-cacao.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p5">
               Cosecha de cacao
             </div>
           </div>
@@ -268,7 +304,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Elaboracion-chocolate.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p6">
               Elaboración de la pasta de chocolate al carbón
             </div>
           </div>
@@ -276,15 +315,18 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column cena">
               Cena
             </div>
           </div>
-          <div data-vtdate="Septima parada">
+          <div data-vtdate="Séptima parada">
             <div data-vticon="true">
               <i class="fa-solid fa-frog"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Observacion-insectos.jpg" class="cover-image">
+              </div>
+            <div class="content-column d3_yasuni_p7">
               Observación nocturna de insectos, ranas
             </div>
           </div>
@@ -292,7 +334,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-bed"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column descanso">
               Descanso
             </div>
           </div>
@@ -303,7 +345,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column desayuno">
               Desayuno
             </div>
           </div>
@@ -311,7 +353,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-dove"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/avesYasuni.jpg" class="cover-image">
+              </div>
+            <div class="content-column d4_yasuni_p1">
               Visita Rio Tamcocha, observación de aves
             </div>
           </div>
@@ -319,7 +364,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-hiking"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Sendero_yasuni.jpg" class="cover-image">
+              </div>
+            <div class="content-column d4_yasuni_p2">
               Se realizará senderismo por alrededor de 1h30 desde el rio Tambococha hasta salir al rio Yasuní, MEA.
             </div>
           </div>
@@ -327,8 +375,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/laguna-Tambococha.jpg" class="cover-image">
+              </div>
+            <div class="content-column d4_yasuni_p3">
               Visita laguna Tambococha
             </div>
           </div>
@@ -336,7 +386,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-drumstick-bite"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d4_yasuni_entre_p3_p4">
               Almuerzo en la Laguna
             </div>
           </div>
@@ -344,8 +394,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-fish-fins"></i>
             </div>
-            
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/pesca-de-piranas.jpg" class="cover-image">
+              </div>
+            <div class="content-column d4_yasuni_p4">
               Pesca recreativa
             </div>
           </div>
@@ -353,32 +405,16 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
-              Retorno al ecologe
-            </div>
-          </div>
-          <div data-vtdate="Sexta parada">
-            <div data-vticon="true">
-              <i class="fas fa-camera"></i>
-            </div>
-            <div class="content-column">
-              Arribo al ecolodge
-            </div>
-          </div>
-          <div>
-            <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
-            </div>
-            <div class="content-column">
-              Cena
+            <div class="content-column d4_yasuni_p5">
+              Retorno y arribo al ecologe
             </div>
           </div>
           <div>
             <div data-vticon="true">
               <i class="fa-solid fa-bed"></i>
             </div>
-            <div class="content-column">
-              Descanso
+            <div class="content-column cena_y_descanso">
+              Cena y Descanso
             </div>
           </div>
         </div>
@@ -388,7 +424,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column desayuno">
               Desayuno
             </div>
           </div>
@@ -396,7 +432,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Pichincha-lomaa.jpg" class="cover-image">
+              </div>
+            <div class="content-column d5_yasuni_p1">
               Ingreso a Pichincha loma alta, visita de saladeros de animales, full flora y fauna.
             </div>
           </div>
@@ -404,7 +443,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column almuerzo">
               Almuerzo
             </div>
           </div>
@@ -412,7 +451,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Laguna-Quistococha.jpg" class="cover-image">
+              </div>
+            <div class="content-column d5_yasuni_p2">
               Visita laguna Quistococha, pesca de pirañas
             </div>
           </div>
@@ -420,7 +462,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-campground"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Camping.jpg" class="cover-image">
+              </div>
+            <div class="content-columnd5_yasuni_p3">
               Camping en carpas en la selva, laguna o guardianía del MAE.
             </div>
           </div>
@@ -428,7 +473,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column cena">
               Cena
             </div>
           </div>
@@ -436,7 +481,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-camera"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/caimanes.jpg" class="cover-image">
+              </div>
+            <div class="content-column d5_yasuni_p4">
               Avistamiento nocturno de caimán 
             </div>
           </div>
@@ -444,7 +492,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-bed"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column descanso">
               Descanso
             </div>
           </div>
@@ -455,7 +503,10 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-dove"></i>
             </div>
-            <div class="content-column">
+            <div class="image-column">
+                <img src="../img/Navegacion-aves.jpg" class="cover-image">
+              </div>
+            <div class="content-column d6_yasuni_inicio">
               Navegación por la laguna para observar aves
             </div>
           </div>
@@ -463,7 +514,7 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fas fa-bread-slice"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column desayuno">
               Desayuno
             </div>
           </div>
@@ -471,39 +522,26 @@ Observación de monos, aves y saladero de guanganas.
             <div data-vticon="true">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-            <div class="content-column">
-              Traslado a ecolodge
+            <div class="content-column d6_yasuni_p1">
+              Traslado y Arribo a ecolodge. Disfrutaremos de un Almuerzo
             </div>
           </div>
           <div data-vtdate="Segunda parada">
             <div data-vticon="true">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-            <div class="content-column">
-              Arribo al ecolodge
-            </div>
-          </div>
-          <div>
-            <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
-            </div>
-            <div class="content-column">
-              Almuerzo
-            </div>
-          </div>
-          <div data-vtdate="Tercera parada">
-            <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="content-column">
-              Retorno a El Coca
+            <div class="image-column">
+                <img src="../img/EL-COCA.jpg" class="cover-image">
+              </div>
+            <div class="content-column d6_yasuni_p2">
+               Retorno a El Coca
             </div>
           </div>
           <div data-vtdate="Fin del Tour">
             <div data-vticon="true">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-            <div class="content-column">
+            <div class="content-column d6_yasuni_fin">
               Arribo a El Coca, fin de tour.
             </div>
           </div>
@@ -514,7 +552,7 @@ Observación de monos, aves y saladero de guanganas.
         <div class="reservas-primero reservas">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>6 Días&nbsp;</p>
+              <p>6 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -522,7 +560,7 @@ Observación de monos, aves y saladero de guanganas.
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>5 Noches &nbsp;</p>
+              <p>5 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -530,7 +568,7 @@ Observación de monos, aves y saladero de guanganas.
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>5 Destinos &nbsp;</p>
+              <p>5 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -538,7 +576,7 @@ Observación de monos, aves y saladero de guanganas.
           </div>
           <div id="alimentacion">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -549,7 +587,7 @@ Observación de monos, aves y saladero de guanganas.
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -562,7 +600,7 @@ Observación de monos, aves y saladero de guanganas.
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -577,35 +615,34 @@ Observación de monos, aves y saladero de guanganas.
     <br>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Asistencia personalizada en El Coca.</li>
-        <li>Hotel en El Coca un día antes del ingreso a Yasuní.</li>
-        <li>Transporte fluvial 4 horas directo.</li>
-        <li>Alojamiento en cabañas privadas.</li>
-        <li>Alimentación completa durante el tour.</li>
-        <li>Entrada a senderos y actividades culturales.</li>
-        <li>Botas de caucho y ponchos de agua.</li>
+      <ul class="incluyeYasuni">
+        <li>Asistencia personalizada en El Coca</li>
+        <li>Hotel en El Coca un día antes del ingreso a Yasuní</li>
+        <li>Transporte fluvial 4 horas directo</li>
+        <li>Alojamiento en cabañas privadas</li>
+        <li>Alimentación completa durante el tour</li>
+        <li>Entrada a senderos y actividades culturales</li>
+        <li>Botas de caucho y ponchos de agua</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Transporte terrestre o aéreo hasta la ciudad de Coca y 
-regreso a origen.</li>
-        <li>Propinas, comidas y bebidas extras.</li>
-        <li>Transporte fluvial a Perú “población de Pantoja".</li>
-        <li>Actividades no especificadas en el programa.</li>
-        <li>Pago de medicamentos o consumos extras.</li>
+      <ul class="noIncluyeYasuni">
+        <li>Transporte terrestre o aéreo hasta la ciudad de Coca y regreso a origen</li>
+        <li>Propinas, comidas y bebidas extras</li>
+        <li>Transporte fluvial a Perú \"población de Pantoja\"</li>
+        <li>Actividades no especificadas en el programa</li>
+        <li>Pago de medicamentos o consumos extras</li>
       </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda   </li>
-        <li>Gorra </li>
-        <li>Bloqueador </li>
-        <li>Cambio de zapatillas   </li>
-        <li>Cámara de fotos </li>
+      <ul class="indicacionesYasuni">
+        <li>Ropa cómoda</li>
+        <li>Gorra</li>
+        <li>Bloqueador solar</li>
+        <li>Cambio de zapatillas</li>
+        <li>Cámara de fotos</li>
         <li>Repelente de mosquitos</li>
         <li>Botas de caucho (en caso de tener)</li>
       </ul>

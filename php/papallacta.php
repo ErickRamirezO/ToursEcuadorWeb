@@ -52,8 +52,8 @@
           <h3>Tour Papallacta</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
+            <li><a href="#incluye">Incluye</a></li>
             <li><a href="#noIncluye">No incluye</a></li>
-            <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#indicaciones">Indicaciones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -62,16 +62,14 @@
       <section class="linea-tiempo">
         <h3 id="itinerario" class="w3-center">Itinerario</h3>
         <div id="myTimeline">
-            <div data-vtdate="Primera Parada">
+            <div data-vtdate="Primera parada">
                 <div data-vticon="true">
                     <i class="fas fa-volcano"></i>
                 </div>
-              <div class="image-column">
-                <img src="../img/" class="cover-image">
-              </div>
+              
               <div class="content-column">
-                <h3>Mirador de la Laguna de Papallacta</h3>
-                <p> En el siglo XVIII, la erupción del volcán Antisana tuvo como consecuencia la formación de una laguna debido a un flujo de lava que llenó lo que antes era el glaciar del río Papallacta y desvió el curso del río Tambo. Esta serie de eventos naturales dio origen a una laguna cuyas aguas se caracterizan por su tono oscuro. En la actualidad, estas aguas son utilizadas para abastecer de agua potable a las comunidades del norte de Quito.</p>
+               
+                <p class="papallacta_p1">Iniciamos nuestro recorrido con un rico desayuno</p>
               </div>
             </div>
             <div data-vtdate="Segunda parada">
@@ -79,12 +77,11 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/TermasPapallacta.jpg" class="cover-image">
               </div>
-              <div class="content-column">
-                <h3>Ruta de las cascadas</h3>
-                <p>Continuamos con la ruta de las cascadas,
-realizaremos varias paradas para explorar la zona, observaremos la Cascada del Agoyán, y haremos una parada en Manto de la Novia dónde tendremos la oportunidad de cruzar en una tarabita considerada una de las más grandes del Ecuador. (Opcional no incluye)  </p>
+              <div class="content-column papallacta_p2">
+                <h3>Termas de Papallacta</h3>
+                <p>Entrada al balneario de las termas de Papallacta, Spa & Resort ubicado en el páramo andino, en un entorno natural único  </p>
               </div>
             </div>
             <div data-vtdate="Tercera parada">
@@ -92,19 +89,57 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/" class="cover-image">
+                <img src="../img/PiscinasPapallacta.jpg" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column papallacta_p3">
                 <h3>Piscinas del balneario en Termas de Papallacta</h3>
-                <p>Este es el lugar perfecto para experimentar al máximo los beneficios de las aguas termales. Explora las diversas piscinas del balneario y sumérgete en aguas con distintas temperaturas, donde recibirás masajes de chorros de agua únicos en cada una de ellas.</p>
+                <p>Tiempo para disfrutar el complejo turístico que Cuenta con 10 piscinas termales de diferentes temperaturas y tamaños.</p>
               </div>
             </div>
-            <div data-vtdate="Fin del tour">
+        <div data-vtdate="Cuarta parada">
+              <div data-vticon="true">
+                    <i class="fas fa-camera"></i>
+                </div>
+              <div class="image-column">
+                <img src="../img/MiPapallacta.jpg" class="cover-image">
+              </div>
+              <div class="content-column papallacta_p4">
+                <h3>Mirador de la laguna de Papallacta</h3>
+                <p>Visita al mirador de la laguna de Papallacta, donde el agua
+proviene principalmente de los deshielos de los nevados  Cayambe, Sarahurco y de muchos manantiales de los páramos circundantes. </p>
+              </div>
+            </div>
+          <div data-vtdate="Quinta parada">
+              <div data-vticon="true">
+                    <i class="fas fa-water"></i>
+                </div>
+              <div class="image-column">
+                <img src="../img/Bosque-polilepis.jpg" class="cover-image">
+              </div>
+              <div class="content-column papallacta_p5">
+                <h3>Bosque del polilepis</h3>
+                <p>Para continuar visitaremos el Bosque del polilepis y el centro de interpretaciones en donde encontraremos información sobre el área protegida y sus alrededores.</p>
+              </div>
+            </div>
+          <div data-vtdate="Sexta parada">
+              <div data-vticon="true">
+                    <i class="fas fa-camera"></i>
+                </div>
+              <div class="image-column">
+                <img src="../img/pescaDeportiva.jpg" class="cover-image">
+              </div>
+              <div class="content-column papallacta_p6"">
+                <h3>Pesca</h3>
+                <p>Pesca deportiva de Tixshas gigantes (opcional) </p>
+              </div>
+            </div>
+        
+            <div data-vtdate="Fin del Tour">
               <div data-vticon="true">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="content-column">
-                <p>Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>
+                <p class="papallacta_p7">Disfrute de un regreso cómodo a Quito, con el servicio de desembarque en su hotel incluido.</p>
               </div>
             </div>
         </div>
@@ -113,7 +148,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
         <div class="reservas-primero">
           <div id="dias">
             <div class="contenido-reserva-p">
-              <p>1 Días&nbsp;</p>
+              <p>1 <span class="dias">Días</span>&nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-calendar-day"></i>
@@ -121,7 +156,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
           </div>
           <div id="noches">
             <div class="contenido-reserva-p">
-              <p>0 Noches &nbsp;</p>
+              <p>0 <span class="noches">Noches</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-moon"></i>
@@ -129,7 +164,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
           </div>
           <div id="destino">
             <div class="contenido-reserva-p">
-              <p>6 Destinos &nbsp;</p>
+              <p>6 <span class="destinos">Destinos</span> &nbsp;</p>
             </div>
             <div class="icono-reserva">
               <i class="fa-solid fa-bus"></i>
@@ -137,7 +172,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
           </div>
           <div id="alimentacion" class="w3-hide">
             <div class="contenido-reserva-p">
-              <p>Alimentación</p>
+              <p class="alimentacion">Alimentación</p>
             </div>
             <div class="icono-reserva">
               <i class="fas fa-apple-alt"></i>
@@ -148,7 +183,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
             <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Reservar &nbsp;</p>
+                <p class="reservar">Reservar</p>
               </div>
               <div class="icono-reserva">
                <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -161,7 +196,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
              <a class="reserva-primero" href="https://api.whatsapp.com/send?phone=593984769613" target="new"> 
             <div class="reserva-primero">
               <div class="contenido-reserva-p">
-                <p>Cotizar tour privado &nbsp;</p>
+                <p class="cotizar-tour">Cotizar tour privado</p>
               </div>
               <div class="icono-reserva">
                 <i class="fa-brands fa-whatsapp fa-lg"></i>
@@ -175,31 +210,18 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo full equipo</li>
-        <li>Seguro de viajes</li>
-        <li>Guía todo el trayecto</li>
-        <li>Ingreso a termas resort Papallacta</li>
-      </ul>
+      <p class="incluye_papallacta"></p>
+     
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras</li>
-        <li>Gastos personales del turista</li>
-        <li>Deportes extremos</li>
-      </ul>
+      <p class="no_incluye_papallacta"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda </li>
-        <li>Gorra  </li>
-        <li>Bloqueador </li>
-        <li>Terno de Baño  </li>
-        <li>Cámara de fotos  </li>
-        <li>Toalla</li>
-      </ul>
+      <p class="indicaciones_papallacta"></p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
