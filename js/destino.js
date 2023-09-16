@@ -1,28 +1,33 @@
 document.addEventListener("DOMContentLoaded", function() {
 	var textWrapper = document.querySelector('.titulo');
-	textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
-	anime({
-		targets: '.imagen_a',
-		opacity: [0.5, 1],
-		translateX: [250, -250],
-		easing: "easeOutExpo",
-		duration: 2700,
-		complete: function() {
-			anime({
-				targets: '.imagen_a',
-				rotateY: '180deg',
-				easing: "easeOutExpo",
-				duration: 1000
-			});
-		}
-	});
+  textWrapper.textContent = textWrapper.textContent.trim();
+	textWrapper.innerHTML = textWrapper.textContent.replace(/[a-zA-Z0-9ñÑí]/g, "<span class='letter'>$&</span>");
+
+  var tamañoPantalla = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  var pixelesMoviles = 768;
+  if (tamañoPantalla > pixelesMoviles) {
+  	anime({
+    targets: '.imagen_a',
+    opacity: [0, 1],
+    translateX: [850, -1050],
+    easing: "easeOutExpo",
+    duration: 7700,
+    complete: function() {
+      anime({
+        targets: '.imagen_a',
+        opacity: [1, 0]
+      });
+      }
+    });
+  }
 	anime({
 		targets: '.letter',
 		opacity: [0, 1],
 		easing: "easeOutExpo",
-		duration: 600,
+		duration: 1500,
 		offset: '-=775',
-		delay: (el, i) => 34 * (i + 1)
+		delay: (el, i) => 150 * (i + 1)
 	});
 
 	//Imagenes

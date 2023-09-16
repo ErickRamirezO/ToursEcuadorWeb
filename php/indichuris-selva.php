@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/IndichurisP3.jpg" class="w3-hover-opacity">
+        <img src="../img/IndichurisP3.jpg" class="w3-hover-opacity" alt="Indichuris mirador columpio">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/IndichurisP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/IndichurisP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/IndichurisP0.jpg" class="w3-hover-opacity" alt="Indichuris mirador nido"></div>
+          <div class="portada-primera1"><img src="../img/IndichurisP1.jpg" class="w3-hover-opacity" alt="Indichuris mirador"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/IndichurisP2.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/IndichurisP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/IndichurisP2.jpg" class="w3-hover-opacity" alt="Indichuris mirador"></div>
+          <div class="portada-primera1"><img src="../img/IndichurisP4.jpg" class="w3-hover-opacity" alt="Indichuris comunidad"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/rutaV.jpg" class="cover-image" alt="ruta de los volcanes">
               </div>
               <div class="content-column Indichuris_p1">
                 <h3>Ruta de los volcanes</h3>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rioVerde.jpg" class="cover-image">
+                <img src="../img/rioVerde.jpg" class="cover-image" alt="Rio verde">
               </div>
               <div class="content-column Indichuris_p2">
                 <h3>Río Verde</h3>
@@ -92,7 +92,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/miradorMera.jpg" class="cover-image">
+                <img src="../img/miradorMera.jpg" class="cover-image" alt="Mirador Mera">
               </div>
               <div class="content-column Indichuris_p3">
                 <h3>Mirador de Mera</h3>
@@ -104,7 +104,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/indichurisM.jpg" class="cover-image">
+                <img src="../img/indichurisM.jpg" class="cover-image" alt="Indichuris">
               </div>
               <div class="content-column Indichuris_p4">
                 <h3>Indichuris</h3>
@@ -126,7 +126,7 @@
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="image-column">
-                <img src="../img/dulces.jpg" class="cover-image">
+                <img src="../img/dulces.jpg" class="cover-image" alt="Parada de dulces en baños ">
               </div>
               <div class="content-column">
                 <p class="Indichuris_p6">Visita a un paradero de dulces en Baños de Agua Santa en el Retorno a Quito.</p>

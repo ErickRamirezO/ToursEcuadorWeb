@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/papallactaP4.jpg" class="w3-hover-opacity">
+        <img src="../img/papallactaP4.jpg" alt="La Laguna de Papallacta" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/papallactaP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/papallactaP0.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/papallactaP1.jpg" alt="Termas De Papallacta" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/papallactaP0.jpg" alt="Nieve en Papallacta" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/papallactaP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/papallactaP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/papallactaP3.jpg" alt="Termas en Papallacta" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/papallactaP2.jpg" alt="Las Termas en Papallacta" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/TermasPapallacta.jpg" class="cover-image">
+                <img src="../img/TermasPapallacta.jpg" alt="Termas en Papallacta" class="cover-image">
               </div>
               <div class="content-column papallacta_p2">
                 <h3>Termas de Papallacta</h3>
@@ -89,7 +89,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/PiscinasPapallacta.jpg" class="cover-image">
+                <img src="../img/PiscinasPapallacta.jpg" alt="Balneario en Termas de Papallacta" class="cover-image">
               </div>
               <div class="content-column papallacta_p3">
                 <h3>Piscinas del balneario en Termas de Papallacta</h3>
@@ -101,7 +101,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/MiPapallacta.jpg" class="cover-image">
+                <img src="../img/MiPapallacta.jpg" alt="Mirador en la laguna de Papallacta " class="cover-image">
               </div>
               <div class="content-column papallacta_p4">
                 <h3>Mirador de la laguna de Papallacta</h3>
@@ -114,7 +114,7 @@ proviene principalmente de los deshielos de los nevados  Cayambe, Sarahurco y de
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Bosque-polilepis.jpg" class="cover-image">
+                <img src="../img/Bosque-polilepis.jpg" alt ="Bosque del polilepis en Papallacta" class="cover-image">
               </div>
               <div class="content-column papallacta_p5">
                 <h3>Bosque del polilepis</h3>
@@ -126,7 +126,7 @@ proviene principalmente de los deshielos de los nevados  Cayambe, Sarahurco y de
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/pescaDeportiva.jpg" class="cover-image">
+                <img src="../img/pescaDeportiva.jpg" alt="Pesca deportia en Papallacta" class="cover-image">
               </div>
               <div class="content-column papallacta_p6"">
                 <h3>Pesca</h3>

@@ -26,22 +26,22 @@
     <?php include "sidenav.php";?>
     <?php include "navbar.php";?>
     <div class="titulo_destino">
-      <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
+      <img src="../img/avion.png" class="imagen_a"  style="transform: scaleX(-1);">
       <h1 class="titulo">Cuyabeno  &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/cuyabenoP0.jpg" class="w3-hover-opacity">
+        <img src="../img/cuyabenoP0.jpg" alt="Estadia en Cuyabeno" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cuyabenoP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cuyabenoP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuyabenoP1.jpg" alt="Estadia en Cuyabeno" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuyabenoP2.jpg" alt="Amanecer en el Cuyabeno" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cuyabenoP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cuyabenoP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuyabenoP3.jpg" alt="Turismo en Cuyabeno" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuyabenoP4.jpg" alt="Río del Cuyabeno" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -68,9 +68,9 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/arribo-cuyabeno.jpg" class="cover-image">
+                <img src="../img/arribo-cuyabeno.jpg" alt="Entrada a la reserva Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d1_cuyabeno_p1">
                 <h3>Entrada a la reserva Cuyabeno</h3>
                 <p>La aventura comienza a las 11:00 AM en la entrada a la reserva Cuyabeno, con un viaje en canoa río abajo hasta nuestro lodge (3 horas explorando el río en busca de monos, aves, etc).</p>
               </div>
@@ -80,7 +80,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               
-              <div class="content-column">
+              <div class="content-column d1_cuyabeno_p2">
                 <h3>Almuerzo y tiempo para relajarse</h3>
                 <p>Por la tarde explorará el río y las lagunas en busca de más fauna, nadará y disfrutará del atardecer.</p>
               </div>
@@ -90,9 +90,9 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/expedicion-canoa.jpg" class="cover-image">
+                <img src="../img/expedicion-canoa.jpg" alt="Expedición en canoa en el Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d1_cuyabeno_p3">
                 <h3>Expedición</h3>
                 <p>Por la noche hará una expedición en canoa en busca de caimanes y después la cena. Para todos nuestros huéspedes interesados en conocer más sobre la selva amazónica, todas las noches el guía naturalista dará diferentes charlas como la “Cultura y comunidades, flora,
 fauna y conservación ”.</p>
@@ -106,9 +106,9 @@ fauna y conservación ”.</p>
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/CUYABENO-caminata.jpg" class="cover-image">
+                <img src="../img/CUYABENO-caminata.jpg" alt="Caminata por los bosques de Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d2_cuyabeno_p1">
                 <h3>Caminata</h3>
                 <p>Por la mañana después del
 desayuno se realizará una caminata de aproximadamente 4 horas en el bosque primario acompañado del guía naturalista
@@ -120,9 +120,8 @@ quien le explicará sobre plantas medicinales, ranas, insectos, aves, etc.</p>
                     <i class="fas fa-camera"></i>
                 </div>
             
-              <div class="content-column">
-                <h3>Almuerzo en el campamento y tiempo
-para relajarse.</h3>
+              <div class="content-column d2_cuyabeno_p2">
+                <h3>Almuerzo en el campamento y tiempo para relajarse.</h3>
                 <p>Luego de 2 horas de descanso explorará los riachuelos en una canoa de remo tradicional para disfrutar de la singularidad de la naturaleza. Disfrutará de la puesta de sol en el río y, si las condiciones lo permiten, podrá ver delfines rosados.</p>
               </div>
             </div>
@@ -132,7 +131,7 @@ para relajarse.</h3>
                 </div>
               
               <div class="content-column">
-                <p>Retorno al albergue se prepara para la
+                <p class="d2_cuyabeno_p3">Retorno al albergue se prepara para la
 caminata nocturna y después la cena. Esta noche tendrás la oportunidad de conocer y degustar las diferentes bebidas
 tradicionales de la Amazonía</p>
               </div>
@@ -145,9 +144,9 @@ tradicionales de la Amazonía</p>
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/riachuelos- bosque-inundado.jpg" class="cover-image">
+                <img src="../img/riachuelos- bosque-inundado.jpg" alt="Bosque inundado en el Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d3_cuyabeno_p1">
                 <h3>Canoa a Remo</h3>
                 <p>Después del desayuno, se
 prepara para una mañana emocionante, explorará en total tranquilidad y silencio los riachuelos y el bosque inundado con su hábitat único en una canoa de remo tradicional. En esta actividad, al ir muy despacio y en silencio, tiene más oportunidad de observar más especies de monos, aves, perezosos, delfines y más.</p>
@@ -158,9 +157,9 @@ prepara para una mañana emocionante, explorará en total tranquilidad y silenci
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/chocolate-cuyabeno.jpg" class="cover-image">
+                <img src="../img/chocolate-cuyabeno.jpg" alt="Chocolate en el Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d3_cuyabeno_p2">
                 <h3>Almuerzo en el campamento y tiempo para
 relajarse.</h3>
                 <p>Después de 2 horas de descanso preparará y degustará café y chocolate de forma tradicional. Por la noche después de la cena puede unirte a nuestras charlas o si le gusta la aventura hemos preparado para ti un lugar en medio del bosque donde puedes pasar unas horas o toda la noche disfrutando de los increíbles sonidos de la selva.</p>
@@ -174,9 +173,9 @@ relajarse.</h3>
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/kwichas-oriente.jpg" class="cover-image">
+                <img src="../img/kwichas-oriente.jpg" alt="Comunidades del Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d4_cuyabeno_p1">
                 <h3>Visita a comunidad</h3>
                 <p>Luego de un delicioso desayuno visitaremos
 la comunidad, allí una mujer indígena nos guiará por la comunidad, donde aprenderemos sobre su cultura, vestimenta, idioma pero sobre todo sobre su gastronomía ya que con ella prepararemos nuestro almuerzo.</p>
@@ -187,10 +186,10 @@ la comunidad, allí una mujer indígena nos guiará por la comunidad, donde apre
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/limpia-cuyabeno.jpg" class="cover-image">
+                <img src="../img/limpia-cuyabeno.jpg" alt="Chamán en el Cuyabeno" class="cover-image">
               </div>
               <div class="content-column">
-                <p>Por la tarde el chamán de la comunidad nos
+                <p class="d4_cuyabeno_p2">Por la tarde el chamán de la comunidad nos
 enseñará sobre plantas medicinales y rituales del Amazonas. Luego de este emocionante día regresamos
 al campamento, cenamos y nos relajamos.</p>
               </div>
@@ -203,9 +202,9 @@ al campamento, cenamos y nos relajamos.</p>
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cuybeno-amanecer.jpg" class="cover-image">
+                <img src="../img/cuybeno-amanecer.jpg" alt="Amanecer en el Cuyabeno" class="cover-image">
               </div>
-              <div class="content-column">
+              <div class="content-column d5_cuyabeno_p1">
                 <h3>Cuyabeno – Quito</h3>
                 <p>Temprano en la mañana
 explorará el río en busca de aves y disfrutará del amanecer. Luego de esta actividad regresará al campamento, desayunará y tendrá tiempo para organizar su equipaje. Luego tomará la canoa de regreso y explorará
@@ -217,7 +216,7 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="content-column">
-                <p>Disfrute de un regreso cómodo a Quito.</p>
+                <p class="d5_cuyabeno_p2">Disfrute de un regreso cómodo a Quito.</p>
               </div>
             </div>
         </div>
@@ -288,37 +287,18 @@ el río Cuyabeno durante 2 horas en busca de más fauna hasta la entrada de la r
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <ul>
-        <li>Transporte de turismo: Quito-Cuyabeno Cuyabeno-Quito</li>
-        <li>Seguro de viajes</li>
-        <li>Guía Naturalista</li>
-        <li>Ingreso a la Reserva de Cuyabeno</li>
-        <li>Desayuno, almuerzo y cena</li>
-        <li>Alojamiento</li>
-        <li>Ponchos, botas de agua</li>
-        <li>Actividades dentro de la reserva</li>
-        <li>Canoa</li>
-      </ul>
+      <p class="incluye_cuyabeno"></p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <ul>
-        <li>Actividades extras pago a la comunidad ($5 dólares)</li>
-        <li>Gastos personales del turista</li>
-        <li>Desayuno del primer día</li>
-      </ul>
+      <p class="no_incluye_cuyabeno">  </p>
+      
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <ul>
-        <li>Ropa cómoda   </li>
-        <li>Gorra </li>
-        <li>Bloqueador </li>
-        <li>Cambio de zapatillas   </li>
-        <li>Cámara de fotos </li>
-        <li>Repelente de mosquitos</li>
-        <li>Botas de caucho (en caso de tener)</li>
-      </ul>
+      <p class="indicaciones_cuyabeno"></p>
+      
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>

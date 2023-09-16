@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/guanabanaP0.jpg" class="w3-hover-opacity">
+        <img src="../img/guanabanaP0.jpg" class="w3-hover-opacity" alt="Complejo Guanábana Republic">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/guanabanaP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/guanabanaP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP3.jpg" class="w3-hover-opacity" alt="Balneario guanabana republic"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP2.jpg" class="w3-hover-opacity" alt="Complejo Guanábana Republic Ibarra"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/guanabanaP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/guanabanaP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP1.jpg" class="w3-hover-opacity" alt="Balneario guanabana republic"></div>
+          <div class="portada-primera1"><img src="../img/guanabanaP4.jpg" class="w3-hover-opacity" alt="Complejo Guanábana Republic Ibarra"></div>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
     <div class="contenedor-informacion">
       <div class="table-of-contents-sticky w3-hide-small">
         <div class="table-of-contents">
-          <h3>Tour Guanabana Republic</h3>
+          <h3>Tour Guanábana Republic</h3>
           <ul>
             <li><a href="#itinerario">Itinerario</a></li>
             <li><a href="#incluye">Incluye</a></li>
@@ -69,7 +69,7 @@
               <div class="image-column">
                 <img src="../img/cayambe.jpg" class="cover-image">
               </div>
-              <div class="content-column Guanabana_p1">
+              <div class="content-column Guanabana_p1" alt="El volcán de cayambe">
                 <h3>Cayambe</h3>
                 <p>Parada en Cayambe para degustar un
 delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe. </p>
@@ -80,7 +80,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/miraLago.jpg" class="cover-image">
+                <img src="../img/miraLago.jpg" class="cover-image" alt="Mirador de Mira Lago">
               </div>
               <div class="content-column Guanabana_p2">
                 <h3>Mirador de Mira Lago</h3>
@@ -92,7 +92,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/complejo.jpg" class="cover-image">
+                <img src="../img/complejo.jpg" class="cover-image" alt="Complejo Guanábana Republic">
               </div>
               <div class="content-column Guanabana_p3">
                 <h3>Complejo Guanábana Republic </h3>
@@ -104,7 +104,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/yahuarcocha.jpg" class="cover-image">
+                <img src="../img/yahuarcocha.jpg" class="cover-image" alt="Laguna de Yahuarcocha">
               </div>
               <div class="content-column Guanabana_p4">
                 <h3>Laguna de Yahuarcocha</h3>
@@ -116,7 +116,7 @@ delicioso desayuno con las delicias del lugar, los famosos bizcochos de Cayambe.
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cayambeBiscochos.jpg" class="cover-image">
+                <img src="../img/cayambeBiscochos.jpg" class="cover-image" alt="Tradicionales bizcochos de Cayambe">
               </div>
               <div class="content-column Guanabana_p5">
                 <h3>Cayambe</h3>

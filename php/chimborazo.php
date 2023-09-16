@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/chimborazoP4.jpg" class="w3-hover-opacity">
+        <img src="../img/chimborazoP4.jpg" alt="Volcán Chimborazo" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/chimborazoP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/chimborazoP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/chimborazoP0.jpg" alt="Turismo en el volcán Chimborazo" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/chimborazoP1.jpg" alt="Caminata en el volcán Chimborazo" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/chimborazoP2.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/chimborazoP3.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/chimborazoP2.jpg" alt="Reserva del Chimborazo" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/chimborazoP3.jpg" alt="Volcan Chimborazo" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-bread"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/machachi.jpg" class="cover-image">
+                <img src="../img/machachi.jpg" alt="Machachi" class="cover-image">
               </div>
               <div class="content-column Chimborazo_p1">
                 <h3>Parada en Machachi</h3>
@@ -79,7 +79,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/rutaV.jpg" alt="Ruta de los Volcanes" class="cover-image">
               </div>
               <div class="content-column Chimborazo_p1">
                 <h3>Ruta de los volcanes</h3>
@@ -91,7 +91,7 @@
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Reserva_Chimborazo.jpg" class="cover-image">
+                <img src="../img/Reserva_Chimborazo.jpg" alt="Reserva del Chimborazo" class="cover-image">
               </div>
               <div class="content-column Chimborazo_p3">
                 <h3>Reserva del Chimborazo</h3>
@@ -103,7 +103,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Ascenso-chimborazo.jpg" class="cover-image">
+                <img src="../img/Ascenso-chimborazo.jpg" alt="Ascenso al volcan chimborazo" class="cover-image">
               </div>
               <div class="content-column  Chimborazo_p4">
                 <h3>Ascenso al volcan chimborazo </h3>
@@ -115,7 +115,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Laguan_de_Yambo.jpg" class="cover-image">
+                <img src="../img/Laguan_de_Yambo.jpg" alt="Laguna de Yambo en el Chimborazo" class="cover-image">
               </div>
               <div class="content-column Chimborazo_p5">
                 <h3>Laguna de Yambo</h3>

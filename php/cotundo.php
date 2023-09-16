@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/cotundoP0.jpg" class="w3-hover-opacity">
+        <img src="../img/cotundoP0.jpg" class="w3-hover-opacity" alt="El Cañon de Cotundo">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cotundoP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotundoP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotundoP1.jpg" alt="Cotundo caminata turística" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotundoP2.jpg" alt="Cañon de Cotundo" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cotundoP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotundoP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotundoP3.jpg" alt="Cañon de Cotundo" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotundoP4.jpg" alt="Cañon de Cotundo un lugar turístico" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/papallactalaguna.jpg" class="cover-image">
+                <img src="../img/papallactalaguna.jpg" alt="Laguna de Papallacta" class="cover-image">
               </div>
               <div class="content-column cotundo_p1">
                 <h3>Laguna de Papallacta</h3>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/canon.jpg" class="cover-image">
+                <img src="../img/canon.jpg" alt="Gran Cañon de Ñachiyacu" class="cover-image">
               </div>
               <div class="content-column cotundo_p2">
                 <h3>Gran Cañon de Ñachiyacu</h3>
@@ -91,7 +91,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/canonC.jpg" class="cover-image">
+                <img src="../img/canonC.jpg" alt="El Cañon de Cotundo" class="cover-image">
               </div>
               <div class="content-column cotundo_p3">
                 <h3>Cañon de Cotundo</h3>
@@ -113,7 +113,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/zooC.JPG" class="cover-image">
+                <img src="../img/zooC.JPG" alt="El Zoologico del Arca" class="cover-image">
               </div>
               <div class="content-column cotundo_p5">
                 <h3>Zoologico del Arca</h3>

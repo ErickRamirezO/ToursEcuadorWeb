@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/baños1_1.jpg" class="w3-hover-opacity">
+        <img src="../img/baños1_1.jpg" class="w3-hover-opacity" alt="Baños teleférico">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_5.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_5.jpg" alt="Baños Mirador el camino a la luna" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_2.jpg" alt="Baños caminatada turística" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_3.jpg" alt="Baños Animal Park" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_4.jpg" alt="Mirador Las Manos de Dios en Baños" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/rutaV.jpg" class="cover-image" alt="Ruta de los volcanes Ecuador">
               </div>
               <div class="content-column baños_p1">
                 <h3>Ruta de los volcanes</h3>
@@ -80,7 +80,7 @@ la "Avenida de los Volcanes" , en su trayecto podremos apreciar Ilinizas, Rumiñ
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaC.jpg" class="cover-image">
+                <img src="../img/rutaC.jpg" class="cover-image" alt="Ruta de las cascadas Baños">
               </div>
               <div class="content-column baños_p2">
                 <h3>Ruta de las cascadas</h3>
@@ -93,7 +93,7 @@ realizaremos varias paradas para explorar la zona, observaremos la Cascada del A
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/pailon-cascada.jpg" class="cover-image">
+                <img src="../img/pailon-cascada.jpg" class="cover-image" alt="Baños El Pailón del Diablo">
               </div>
               <div class="content-column baños_p3">
                 <h3>Pailón del diablo</h3>
@@ -106,7 +106,7 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/puente.jpg" class="cover-image">
+                <img src="../img/puente.jpg" class="cover-image" alt="Juegos extremos en Baños">
               </div>
               <div class="content-column baños_p4">
                 <h3>Juegos extremos</h3>
@@ -118,7 +118,7 @@ encuentra la Cascada Pailón del Diablo. Caminata hasta la Cascada Pailón del D
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/columpio.jpg" class="cover-image">
+                <img src="../img/columpio.jpg" class="cover-image" alt="Columpio del fin del mundo junto a la casa del arbol en Baños">
               </div>
               <div class="content-column baños_p5">
                 <h3>Columpio del fin del mundo</h3>
@@ -203,15 +203,33 @@ típicos donde se degustara de jugo de caña, si desean pueden comprar</p>
     </div>
     <div class="descripcion w3-row">
       <h2 id="incluye">Incluye</h2>
-      <p class="baños_incluye"></p>
+      <ul class="baños_incluye"> 
+        <li>Transporte de turismo full equipo</li>
+        <li>Seguro de viajes</li> 
+        <li>Guía todo el trayecto</li> 
+        <li>Ingreso Pailón del diablo</li> 
+        <li>Tarabita en Manto de la Novia</li> 
+        <li>Casa del árbol</li>  
+        <li>Columpio del fin del mundo</li>  
+      </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="noIncluye">No incluye</h2>
-      <p class="baños_no_incluye"></p>
+      <ul class="baños_no_incluye"> 
+        <li>Actividades extras (deportes extremos)</li> 
+        <li>Gastos personales del turista</li> 
+        <li>Desayuno, almuerzo</li>  </ul>
     </div>
     <div class="descripcion w3-row">
       <h2 id="indicaciones">Indicaciones</h2>
-      <p class="baños_indicaciones"></p>
+      <ul class="baños_indicaciones">
+        <li>Ropa cómoda </li> 
+        <li>Gorra</li> 
+        <li>Bloqueador solar</li> 
+        <li>Zapatos de buen labrado</li> 
+        <li>Paraguas o poncho de agua</li>
+        <li>Cámara de fotos</li>  
+      </ul>
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
