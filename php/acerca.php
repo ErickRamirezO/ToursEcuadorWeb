@@ -53,28 +53,28 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/j
     <br><br>
 
     <div class="w3-center w3-row">
-      <h3>¿Quienes somos?</h3>
-      <p>Somos</p>
+      <h3 class="quienesSomos">¿Quienes somos?</h3>
+      <p class="quienesSomosTexto">Somos</p>
     </div>
     <div class="w3-row">
 
   
       <div class="w3-half mision_vision">
-        <h3 class="w3-center">Misión</h3>
-        <p class="w3-justify">Tour Ecuador S.A.S, es una compañía de Agencia de Viajes, dedicada principalmente a vender servicios de viajes organizados de transporte y de alojamiento al por mayor y menor al público en general y a clientes comerciales. 
+        <h3 class="w3-center mision">Misión</h3>
+        <p class="w3-justify misionTexto">Tour Ecuador S.A.S, es una compañía de Agencia de Viajes, dedicada principalmente a vender servicios de viajes organizados de transporte y de alojamiento al por mayor y menor al público en general y a clientes comerciales. 
 Su misión es brindar el mejor servicio con el fin de lograr la plena satisfacción del cliente con nuestros paquetes turísticos a precios accesibles para que las familias disfruten de conocer las maravillas más importantes de cada ciudad del Ecuador. 
 El propósito es ser líderes en el servicio de agencia de viajes y posicionarnos a nivel nacional brindando calidad, eficiencia y responsabilidad en todos los paquetes contratados por nuestros clientes. Dando la creación de nuevas fuentes de trabajo en el sector turístico y de esta manera concretar alianzas y consolidar  nuevos productos dentro de la rama.
 </p>
       </div>
       <div class="w3-half mision_vision">
-        <h3 class="w3-center">Visión</h3>
-        <p class="w3-justify">TOUR ECUADOR S.A.S.,  en los próximos 5 años mediante la prestación de un servicio de agencia de viajes se apoyará en tecnología adecuada, un capital humano comprometido y con vocación de servicio, lo cual nos ayudara a posicionarnos como una de las empresas más competitiva en paquetes turísticos, reconocida por trabajar bajo principios de responsabilidad social. 
+        <h3 class="w3-center vision">Visión</h3>
+        <p class="w3-justify visionTexto">Tour Ecuador S.A.S.,  en los próximos 5 años mediante la prestación de un servicio de agencia de viajes se apoyará en tecnología adecuada, un capital humano comprometido y con vocación de servicio, lo cual nos ayudara a posicionarnos como una de las empresas más competitiva en paquetes turísticos, reconocida por trabajar bajo principios de responsabilidad social. 
 Se consolidará como una de las mejores agencias de viajes del Ecuador brindando un servicio de calidad, contando con un equipo de trabajo que se concentrara en la creación, promoción y capacitación, dando como resultado paquetes turísticos que no se han ofrecidos por ninguna otra agencia a nivel nacional. 
 </p>
       </div>
     </div>
     <div class="w3-center testimonios_contenedor">
-      <h2>Testimonios</h2>
+      <h2 class="testimonios">Testimonios</h2>
         <div id="testimonios-slider" class="splide">
             <div class="splide__track">
                 <ul class="splide__list">

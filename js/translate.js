@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
   const languageSwitch = $('#language-switch');
 
   // Al cargar la página, intenta restaurar el estado del switch desde sessionStorage
@@ -24,6 +25,8 @@ $(document).ready(function() {
         //Traduciendo la barra de navegación
         $('#inicio p').text(data['inicio']);
         $('#acerca p, .acerca').text(data['acerca']);
+        $('.todosLosTours').text(data["todosLosTours"]);
+        $('.guianzaToursPrivados').text(data["guianzaToursPrivados"]);
         $('#contacto p').text(data['contacto']);
 
         //Slogan
@@ -48,9 +51,31 @@ $(document).ready(function() {
         $('.laguna').text(data['laguna']);
          $('.cotopaxi').text(data['cotopaxi']);
          $('.chimborazo').text(data['chimborazo']);
+        $(".verTodosLosTours").text(data["verTodosLosTours"]);
         //Titulo pagina contactanos
         $('.contactanos').text(data['contactanos']);
+        $(".direccion").html(data["direccion"]);
+        $(".direccionTexto").text(data["direccionTexto"]);
+        $(".telefonos").html(data["telefonos"]);
+        $(".chatear").text(data["chatear"]);
+        $(".correoElectronico").html(data["correoElectronico"]);
+        $(".formularioDeContacto").html(data["formularioDeContacto"]);
+        $("label[for='nombre']").text(data["nombreApellido"]);
+        $("label[for='codigoPais']").text(data["codigoPais"]);
+        $("label[for='telefono']").text(data["telefono"]);
+        $("label[for='asunto']").text(data["asunto"]);
+        $("#asunto").attr("placeholder", data["asuntoPlaceholder"]);
+        $("label[for='mensaje']").text(data["mensaje"]);
+        $("#mensaje").attr("placeholder", data["mensajePlaceholder"]);
+        $("#enviar_btn").text(data["enviar"]);
         //Traducción de los testimonios
+        $(".quienesSomos").text(data["quienesSomos"]);
+        $(".quienesSomosTexto").text(data["quienesSomosTexto"]);
+        $(".mision").text(data["mision"]);
+        $(".misionTexto").text(data["misionTexto"]);
+        $(".vision").text(data["vision"]);
+        $(".visionTexto").text(data["visionTexto"]);
+        $(".testimonios").text(data["testimonios"]);
         $('.t_Ire_Ale_Mui').text(data['Ire_Ale_Mui']);
         $('.t_Kleber_Mosquera').text(data['Kleber_Mosquera']);
         $('.t_Pauline_Schorter').text(data['Pauline_Schorter']);
@@ -74,6 +99,12 @@ $(document).ready(function() {
         $('span.vtimeline-date:contains("Octava parada"), span.vtimeline-date:contains("Eighth stop")').text(data["octavaParada"]);
         $('span.vtimeline-date:contains("Novena parada"), span.vtimeline-date:contains("Ninth stop")').text(data["novenaParada"]);
         $('span.vtimeline-date:contains("Fin del Tour"), span.vtimeline-date:contains("End of Tour")').text(data["finDelTour"]);
+        //Traducción sección tours privados y guianzas
+        $(".guianzas").text(data["guianzas"]);
+        $(".guianzasTitulo").text(data["guianzasTitulo"]);
+        $(".guianzasTexto").text(data["guianzasTexto"]);
+        $(".toursTitulo").text(data["toursTitulo"]);
+        $(".toursTexto").text(data["toursTexto"]);
         //Traducción sección reservas
         $(".dias").text(data['dias']);
         $(".dia1").text(data['dia1']);
@@ -366,7 +397,7 @@ $(document).ready(function() {
         //Traducir Cotopaxi
         $(".volcan").text(data["volcan"]);
         $(".cotopaxi_p1").html(data["cotopaxi_p1"]);
-        $(".cotopaxi_p2").text(data["cotopaxi_p2"]);
+        $(".cotopaxi_p2").html(data["cotopaxi_p2"]);
         $(".cotopaxi_p3").html(data["cotopaxi_p3"]);
         $(".cotopaxi_p4").html(data["cotopaxi_p4"]);
         $(".cotopaxi_p5").html(data["cotopaxi_p5"]);
@@ -389,7 +420,34 @@ $(document).ready(function() {
         $(".no_incluye_Chimborazo").html(data["no_incluye_Chimborazo"]);
         $(".indicaciones_Chimborazo").html(data["indicaciones_Chimborazo"]);
 
-
+        //Traducir Cuyabeno
+        $(".d1_cuyabeno_p1").html(data["d1_cuyabeno_p1"]);
+        $(".d1_cuyabeno_p2").html(data["d1_cuyabeno_p2"]);
+        $(".d1_cuyabeno_p3").html(data["d1_cuyabeno_p3"]);
+        $(".d2_cuyabeno_p1").html(data["d2_cuyabeno_p1"]);
+        $(".d2_cuyabeno_p2").html(data["d2_cuyabeno_p2"]);
+        $(".d2_cuyabeno_p3").text(data["d2_cuyabeno_p3"]);
+        $(".d3_cuyabeno_p1").html(data["d3_cuyabeno_p1"]);
+        $(".d3_cuyabeno_p2").html(data["d3_cuyabeno_p2"]);
+        $(".d4_cuyabeno_p1").html(data["d4_cuyabeno_p1"]);
+        $(".d4_cuyabeno_p2").text(data["d4_cuyabeno_p2"]);
+        $(".d5_cuyabeno_p1").html(data["d5_cuyabeno_p1"]);
+        $(".d5_cuyabeno_p2").text(data["d5_cuyabeno_p2"]);
+        $(".incluye_cuyabeno").html(data["incluye_cuyabeno"]);
+        $(".no_incluye_cuyabeno").html(data["no_incluye_cuyabeno"]);
+        $(".indicaciones_cuyabeno").html(data["indicaciones_cuyabeno"]);
+         //Traducir Quito Tours
+       
+        $(".quito_bus_p1").html(data["quito_bus_p1"]);
+        $(".quito_bus_p2").html(data["quito_bus_p2"]);
+        $(".quito_bus_p3").html(data["quito_bus_p3"]);
+        $(".quito_bus_p4").html(data["quito_bus_p4"]);
+        $(".quito_bus_p5").html(data["quito_bus_p5"]);
+        $(".quito_bus_p6").html(data["quito_bus_p6"]);
+        $(".quito_bus_p7").html(data["quito_bus_p7"]);
+        $(".titulo_quito_bus").html(data["titulo_quito_bus"]);
+        $(".quito-bus-des").text(data["quito-bus-des"]);
+        $(".incluye-quito-tour").html(data["incluye-quito-tour"]);
       },
       error: function() {
         console.error('Error al cargar las traducciones de los elementos');

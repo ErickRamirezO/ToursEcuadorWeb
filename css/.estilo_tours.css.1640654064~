@@ -71,6 +71,9 @@
   top: 73%;
   left: 5%;
   right:5%;
+
+  
+  
 }
 .informacion-tours-seccion div
 {
@@ -181,13 +184,8 @@
     text-shadow: 2px -2px 4px rgba(1, 1, 1, 1);
   
 }
-.paginacion-M{
-  display:none;
-}
 @media only screen and (max-width: 767px){
-  .paginacion-M{
-  display:block;
-}
+  
   .portada-tours{
     height:200px;
     
@@ -212,11 +210,11 @@
   .informacion-tours .informacion-seg,
   .informacion-tours .informacion-ter,
   .informacion-tours .informacion-cuar {
-   flex-basis: calc(48% - 10px);
+   flex-basis: calc(40% - 10px);
     height: 48%;
    }
-   .movil-1, .movil-2, .movil-3, .movil-4, .movil-5, .movil-6{
-    display:none ;
+  .movil-2, .movil-3, .movil-4, .movil-5, .movil-6{
+    display:none !important;
    
   }
   .paginacion-noM{
@@ -225,7 +223,7 @@
   
   
   .paginacion{
-    width:70%;
+    width:80%;
     margin:auto;
   }
   .paginacion>div{
@@ -235,20 +233,11 @@
   .paginacion-principal div {
     
 
-    width:13%;
+    width:15%;
     border-radius:10px;
     left:2% !important;
     margin:auto !important;
  
 }
-  .informacion-tours-seccion p{
-    font-size:15px;
-  }
-  .tours_populares_dispinibilidad {
-  font-size:13px; 
-  }
-  .informacion-tours div .informacion-tours-seccion {
-   
-    right:10% !important;
-}
+  
 }

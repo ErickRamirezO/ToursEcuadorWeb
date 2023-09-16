@@ -9,8 +9,12 @@
        <div id="inicio">
          <a href="../index.php"> <p> Inicio</p></a>
         </div>
-        <div id="tours">
-          <p>Tours <i class="fa-solid fa-chevron-up"></i></p>
+        <div class="tours-m" id="tours">
+          <p >Tours <i class="fa-solid fa-chevron-up"></i></p>
+          <div class="tours-destinos-nav">
+            <a href="tours.php"><p class="todo-tours todosLosTours">Todos los tours</p></a>
+            <a href="php/tours-privados.php"><p class="privado-tours guianzaToursPrivados">Tours privados y Guianzas</p></a>
+          </div>
         </div>
         <div id="acerca">
           <a href="acerca.php"><p>Acerca de nosotros</p></a>

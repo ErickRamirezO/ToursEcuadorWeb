@@ -27,21 +27,21 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">La Laguna de Quilotoa &nbsp;&nbsp;</h1>
+      <h1 class="titulo laguna">La Laguna de Quilotoa &nbsp;&nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/quilotoap0.jpg" class="w3-hover-opacity">
+        <img src="../img/quilotoap0.jpg" alt="La Laguna de Quilotoa" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/quilotoap01.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap01.jpg" alt="Laguna de Quilotoa" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" alt="Laguna de Quilotoa" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/quilotoap030.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/quilotoap04.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap030.jpg" alt="Comunidades en Quilotoa" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap04.jpg" alt="Quilotoa Mirador" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/rutaV.jpg" class="cover-image">
+                <img src="../img/rutaV.jpg" alt="Ruta de los Volcanes" class="cover-image">
               </div>
               <div class="content-column quilotoa_p1">
                 <h4>Ruta de los volcanes</h4>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/canonToachi.jpg" class="cover-image">
+                <img src="../img/canonToachi.jpg" alt="Cañón del Toachi" class="cover-image">
               </div>
               <div class="content-column quilotoa_p2">
                 <h3>Cañón del Toachi</h3>
@@ -91,7 +91,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/lagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/lagunaQuilotoa.jpg" alt="Laguna del Quilotoa" class="cover-image">
               </div>
               <div class="content-column quilotoa_p3">
                 <h3>Laguna del Quilotoa</h3>
@@ -103,7 +103,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/caminatalagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/caminatalagunaQuilotoa.jpg" alt="Caminata en Laguna del Quilotoa" class="cover-image">
               </div>
               <div class="content-column quilotoa_p4">
                 <h3>Caminata a la Laguna del Quilotoa</h3>
@@ -115,7 +115,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/museoQuilotoa.jpg" class="cover-image">
+                <img src="../img/museoQuilotoa.jpg" alt="Museo del Quilotoa" class="cover-image">
               </div>
               <div class="content-column quilotoa_p5">
                 <h3>Museo del Quilotoa</h3>
@@ -136,7 +136,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/quilotoaArte.jpg" class="cover-image">
+                <img src="../img/quilotoaArte.jpg" alt="Tradiciones en el Quilotoa" class="cover-image">
               </div>
               <div class="content-column">
                 <p class="quilotoa_p7" >Tiempo de compras</p>

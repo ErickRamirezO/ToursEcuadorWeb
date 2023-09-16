@@ -31,16 +31,16 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/cotundoP0.jpg" class="w3-hover-opacity">
+        <img src="../img/cotundoP0.jpg" alt="El gran Cañon de ÑachiYaku" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/misahualliP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotundoP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP3.jpg"  alt="Puerto de Misahuallí" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotundoP1.jpg" alt="" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/misahualliP0.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP0.jpg" alt="Cavernas de Jumandy" class="w3-hover-opacity"></div>
           <div class="portada-primera1"><img src="../img/cotundoP2.jpg" class="w3-hover-opacity"></div>
         </div>
       </div>
@@ -65,10 +65,10 @@
         <div id="myTimeline">
             <div data-vtdate="Inicio">
                 <div data-vticon="true">
-                    <i class="fas fa-bread-slice"></i>
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/papallactalaguna.jpg" class="cover-image">
+                <img src="../img/papallactalaguna.jpg" alt="Laguna de Papallacta" class="cover-image">
               </div>
               <div class="content-column d1_Misahualli_Cotundo_inicio">
                Misahualli ubicado en el cantón Tena de la provincia de Napo, considerado como otra maravilla turística de la región amazónica del Ecuador. Comenzamos con nuestra aventura con una parada en la laguna de Papallacta para admirar los paisajes que ofrece está espectacular laguna.
@@ -77,7 +77,7 @@
             </div>
             <div data-vtdate="Primera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fa-solid fa-mug-saucer"></i>
                 </div>
               
               <div class="content-column d1_Misahualli_Cotundo_p1">
@@ -86,10 +86,10 @@
             </div>
             <div data-vtdate="Segunda parada">
               <div data-vticon="true">
-                    <i class="fas fa-drumstick-bite"></i>
+                   <i class="fa-solid fa-location-dot"></i>
                 </div>
              <div class="image-column">
-                <img src="../img/JUMANDY.jpg" class="cover-image">
+                <img src="../img/JUMANDY.jpg" alt="Cavernas de Jumandy" class="cover-image">
               </div>
               <div class="content-column d1_Misahualli_Cotundo_p2">
                 Continuamos con la visita a las Cavernas de Jumandy uno de los atractivos más sobresalientes de Napo, donde apreciaremos vertientes de agua, espectaculares formaciones de estalactitas y estalagmitas, disfrutaremos de estas cuevas con una linterna en la cabeza y un guía nativo que nos dará el recorrido, dejando una experiencia inolvidable.
@@ -97,10 +97,10 @@
             </div>
             <div data-vtdate="Tercera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Mono.jpg" class="cover-image">
+                <img src="../img/Mono.jpg" alt="Monos de la especie Micos" class="cover-image">
               </div>
               <div class="content-column d1_Misahualli_Cotundo_p3">
                 Pasaremos a apreciar a los monos, una gran especie de los Micos en el cual podrás disfrutar de sus
@@ -110,10 +110,10 @@ acrobacias.
 
           <div data-vtdate="Cuarta parada">
               <div data-vticon="true">
-                    <i class="fas fa-drumstick-bite"></i>
+                   <i class="fa-solid fa-umbrella-beach"></i>
                 </div>
              <div class="image-column">
-                <img src="../img/playa.jpg" class="cover-image">
+                <img src="../img/playa.jpg" alt="Playa de Misahualli" class="cover-image">
               </div>
               <div class="content-column d1_Misahualli_Cotundo_p4">
                 Siguiente parada, Playa de Misahualli del río Napo reconocido por la presencia de sus Arenas blancas y paisajísticas, considerada otra maravilla del Ecuador.
@@ -121,7 +121,7 @@ acrobacias.
             </div>
           <div data-vtdate="Quinta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fa-solid fa-sailboat"></i>
                 </div>
               
               <div class="content-column d1_Misahualli_Cotundo_p5">
@@ -134,7 +134,7 @@ acrobacias.
         <div id="myTimeline2" class="timeline-red">
           <div data-vtdate="Inicio">
             <div data-vticon="true">
-              <i class="fas fa-bread-slice"></i>
+              <i class="fa-solid fa-mug-saucer"></i>
             </div>
             
             <div class="content-column desayuno">
@@ -143,21 +143,21 @@ acrobacias.
           </div>
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-hiking"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/canon.jpg" class="cover-image">
+                <img src="../img/canon.jpg" alt="Gran Cañon de Ñachiyaku" class="cover-image">
               </div>
             <div class="content-column d2_Misahualli_Cotundo_p1">
-              Entro turístico el Gran Cañon de Ñachiyacu: Se realiza turismo ecológico sostenible-cultural, donde podrás disfrutar de actividades eco turísticas como senderismos, limpiezas ancestrales, cascada recreación entre otras actividades en estado puro. 
+              Centro turístico el Gran Cañon de Ñachiyaku: Se realiza turismo ecológico sostenible-cultural, donde podrás disfrutar de actividades eco turísticas como senderismos, limpiezas ancestrales, cascada recreación entre otras actividades en estado puro. 
             </div>
           </div>
           <div data-vtdate="Segunda parada">
             <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
+              <i class="fas fa-camera"></i>
             </div>
             <div class="image-column">
-                <img src="../img/canonC.jpg" class="cover-image">
+                <img src="../img/canonC.jpg" alt="Cañon de Cotundo" class="cover-image">
               </div>
             <div class="content-column d2_Misahualli_Cotundo_p2">
              Cañon de Cotundo: El Cañón presenta un diámetro de 20 metros aproximadamente, en la base forma una laguna, la misma que posee una profundidad de 4 a 5 metros esta se alimenta de una pequeña cascada que sale de una cueva, que tiene 10 metros de profundidad, formada por la erosión del agua, en el interior de la cueva se ha adecuado una escalera la cual conduce hacia la parte alta justo encima de la laguna, de donde la gente practica saltos.
@@ -165,7 +165,7 @@ acrobacias.
           </div>
           <div>
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fas fa-drumstick-bite"></i>
             </div>
             
             <div class="content-column almuerzo">
@@ -174,10 +174,10 @@ acrobacias.
           </div>
           <div data-vtdate="Tercera parada">
             <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
+              <i class="fa-solid fa-dove"></i>
             </div>
             <div class="image-column">
-                <img src="../img/zooC.JPG" class="cover-image">
+                <img src="../img/zooC.JPG" alt="Zoológico del Arca" class="cover-image">
               </div>
             <div class="content-column d2_Misahualli_Cotundo_p3">
             Visita al zoologico del Arca: en este se puede apreciar la mega biodiversidad de especies tales como: aves, reptiles, mamiferos, peces, anfibios, e insectos que interactuan con la rica flora existente en los ecosistemas que posee el canton.
@@ -186,7 +186,7 @@ acrobacias.
 
           <div data-vtdate="Fin del Tour">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-bus"></i>
             </div>
             <div class="content-column d2_Misahualli_Cotundo_fin">
               Retorno a Quito, fin de tour.

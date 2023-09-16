@@ -1,5 +1,43 @@
 /*Fuente INTER*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/*Menu del tours*/
+.tours-destinos-nav{
+  margin-top:-2% !important;
+  width:200%;
+  z-index:20;
+  display: none;
+  position: absolute; 
+  background:transparent;
+  position: absolute;
+  padding-top:3% !important;
+}
+.tours-destinos-nav p{
+  display:flex;
+  height:35px;
+  width:110%;
+  background-color: #00B4E3; 
+  color:#fff; 
+  opacity:0;
+  margin-bottom:2px;
+  border-radius:15px; 
+  align-items:center;
+  justify-content:center;
+  transition:  background-color, opacity 0.5s ease  !important;
+}
+#tours:hover .tours-destinos-nav  {
+  display: block;
+  background:transparent;
+}
+.tours-destinos-nav:hover  .todo-tours{
+  background-color: #00B4E3; 
+  opacity:1;
+  transition:  background-color,opacity 0.7s ease !important;
+}
+.tours-destinos-nav:hover  .privado-tours{
+  background-color: #00B4E3; 
+  opacity:1;
+  transition:  background-color,opacity 1.5s ease !important;
+}
 
 /*Formatear estilos*/
 
@@ -82,9 +120,9 @@ body,h1, h2, h3, h4, h5, h6, p {
   transition: 0.7s;
 }
 
-.menu a{
-  text-decoration:none;
-  color:black;
+.menu a {
+  text-decoration: none;
+  color: black;
 }
 
 .menu p {
@@ -92,12 +130,21 @@ body,h1, h2, h3, h4, h5, h6, p {
   font-weight: bold;
 }
 
-.menu div:nth-child(-n+4):hover, .menu div a:hover {
+.menu div:nth-child(-n+4),
+.menu a {
+  border-radius: 12px;
+  background-color: transparent;
+  color: black;
+  transition: background-color 0.7s,color 0.7s,border-radius 0.7s;
+}
+
+.menu div:nth-child(-n+4):hover,
+.menu div:nth-child(-n+4):hover a {
   border-radius: 15px;
   background-color: rgba(1, 162, 204, 0.18);
   cursor: pointer;
   color: #0087a8;
-  transition: background-color, color 0.7s ease;
+  transition: background-color 0.7s,color 0.7s,border-radius 0.7s;
 }
 
 .hamburguer-icon{
@@ -436,33 +483,26 @@ input:checked + .slider:before {
 .tours_populares_button {
   padding: 20px;
   margin: auto;
-  background-color: white;
+  background-color: #00bfff;
   border-radius: 18px;
-  border: 4px solid #00BD35;
+  border:none;
+  color:white;
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0);
   font-weight: bold;
-  transition: box-shadow 0.5s;
+  transition: box-shadow,background-color 0.5s;
 }
 
 .tours_populares_button:hover {
   cursor: pointer;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  transition: box-shadow 0.5s;
+  transition: box-shadow, background-color 0.5s;
+  background-color: #009dd1;
 }
 
 /*Footer*/
 footer {
   position: static;
-  display: flex;
-  border-top: 1px solid black;
-  flex-direction: column;
-}
-
-.footer_arriba {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  border-top: 2px solid #b3b3b3;
 }
 
 .redes_sociales_footer {
@@ -477,8 +517,8 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   color: black;
   text-decoration:none;
   background-color: #cdcbcb;
@@ -495,12 +535,20 @@ footer {
 .ubicacion_footer {
   display: flex;
   flex-direction: row;
+  justify-content:center;
   gap: 10px;
 }
 
-.footer_arriba img.logo {
+.logo-footer img{
   width: 20%;
+}
 
+.logo-footer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center!important;
+  align-items:center;
+  margin:auto;
 }
 
 footer .copyright {
@@ -508,4 +556,40 @@ footer .copyright {
   flex-direction: row;
   justify-content: center;
   padding: 10px 0px;
+  background-color: #cccccc;
+}
+
+footer .footer_enlaces{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  align-items:center;
+}
+
+footer .footer_enlaces a{
+  border-radius:15px;
+  text-decoration:none;
+  padding:5px;
+}
+
+footer .footer_enlaces a:hover{
+  color:#00B4E3;
+} 
+
+@media screen and (max-width: 767px) {
+  .logo-footer img{
+    width: 40%;
+  }
+  .footer_enlaces{
+     flex-direction:row!important;
+    justify-content:center!important;
+    align-items:center!important;
+  }
+  .guianza-contenedor div img{
+    width:80%!important;
+  }
+}
+
+.guianza-contenedor{
+  margin:36px;
 }

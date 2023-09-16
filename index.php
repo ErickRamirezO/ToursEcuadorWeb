@@ -32,9 +32,8 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
       <a href="index.php"><p>Inicio</p></a>
       <a onclick="toggleTours()"><p>Tours &nbsp;<i class="fa fa-caret-down" style="display: none;"></i><i class="fa fa-caret-up"></i></p></a>
       <div id="toursDropdown">
-        <a href="php/tours.php"><p>Destinos</p></a>
-        <a href=""><p>Tours privados</p></a>
-        <a href=""><p>Guianzas</p></a>
+        <a href="php/tours.php"><p class="todo-tours todosLosTours">Todos los tours</p></a>
+        <a href="php/tours-privados.php"><p class="privado-tours guianzaToursPrivados">Tours privados y Guianzas</p></a>
       </div>
       <a href="php/acerca.php"><p>Acerca de nosotros</p></a>
       <a href="php/contacto.php"><p>Contacto</p></a>
@@ -48,8 +47,12 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
         <div id="inicio">
           <a href="index.php"> <p> Inicio</p></a>
         </div>
-        <div id="tours">
-          <p>Tours <i class="fa-solid fa-chevron-up"></i></p>
+        <div class="tours-m" id="tours">
+          <p >Tours <i class="fa-solid fa-chevron-up"></i></p>
+          <div class="tours-destinos-nav">
+            <a href="php/tours.php"><p class="todo-tours todosLosTours">Todos los tours</p></a>
+            <a href="php/tours-privados.php"><p class="privado-tours guianzaToursPrivados">Tours privados y Guianzas</p></a>
+          </div>
         </div>
         <div id="acerca">
           <a href="php/acerca.php"><p>Acerca de nosotros</p></a>
@@ -167,7 +170,7 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
                 </div>
                 <div class="tours_populares_info">
                   <div class="tours_populares_info_titulo">
-                    <a href="php/quilotoa.php">  <p>Quilotoa</p></a>
+                    <a href="php/quilotoa.php">  <p class="laguna">Laguna del Quilotoa</p></a>
                   </div>
                   <div class="tours_populares_info_dis_y_pais">
                     <div>
@@ -243,10 +246,46 @@ https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
           </ul>
         </div>
       </section>
-     <a href="php/tours.php" class="tours-b"> <button class="tours_populares_button">Ver todos los tours</button>     </a>
-    </div>
+     <a href="php/tours.php" class="tours-b"> <button class="tours_populares_button verTodosLosTours">Ver todos los tours</button>     </a>
+    </div><br>
 
-    <?php include "php/footer.php";?>
+    <footer>
+  <div class="w3-padding-16 w3-center w3-row">
+    <div class="w3-third w3-center logo-footer">
+      <img src="img/logoToursEcuador.png">
+      <p style="font-weight: bold;" class="frase_tours_ecuador">“Vive y viaja mientras puedas”</p>
+    </div>
+    <div align="center" class="w3-third w3-center w3-padding-16">
+      <p style="font-weight:bold;" class="siguenos">SÍGUENOS</p>
+      <div class="redes_sociales_footer ">
+        <div>
+          <a href="https://instagram.com/tours_ecuador?igshid=MWZjMTM2ODFkZg==" target="new"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+        </div>
+        <div>
+          <a href="https://www.tiktok.com/@tours_ecuador" target="new"> <i class="fa-brands fa-tiktok fa-lg"></i></a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/profile.php?id=100063757313937" target="new"> <i class="fa-brands fa-facebook-f fa-lg"></i></a>
+        </div>
+        <div>
+         <a href="https://api.whatsapp.com/send?phone=593978622270" target="new">  <i class="fa-brands fa-whatsapp fa-lg"></i></a>
+        </div>
+      </div>
+      <div class="ubicacion_footer w3-mobile w3-center">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Calle Venezuela y Espejo</p>
+      </div>
+    </div>
+    <div align="center" class="w3-third footer_enlaces w3-padding-16">
+      <a href="php/tours.php"><b>Todos los tours</b></a>
+      <a href="php/acerca.php"><b>Acerca de nosotros</b></a>
+      <a href="php/contacto.php"><b>Contáctanos</b></a>
+    </div>
+  </div>
+  <div class="copyright w3-center">
+    <p>© Copyright Tours Ecuador ® All rights reserved. Quito, Ecuador.          </p>
+  </div>
+</footer>
   </div>
   <script src="js/translate.js"></script>
   <script src="js/slider.js"></script>

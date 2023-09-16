@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/mindoP4.jpg" class="w3-hover-opacity">
+        <img src="../img/mindoP4.jpg" class="w3-hover-opacity" alt="Letras Mindo">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/mindoP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/mindoP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP0.jpg" class="w3-hover-opacity" alt="Río en Mindo" ></div>
+          <div class="portada-primera1"><img src="../img/mindoP1.jpg" class="w3-hover-opacity" alt="Río en Mindo recorridos turísticos"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/mindoP2.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/mindoP3.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mindoP2.jpg" class="w3-hover-opacity" alt="Mindo turismo"></div>
+          <div class="portada-primera1"><img src="../img/mindoP3.jpg" class="w3-hover-opacity" alt="Mindo turismo"></div>
         </div>
       </div>
 
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/mariposas.jpg" class="cover-image">
+                <img src="../img/mariposas.jpg" class="cover-image" alt="El Santuario de las Mariposas">
               </div>
               <div class="content-column mindo_p2">
                 <h3>El Santuario de las Mariposas</h3>
@@ -91,7 +91,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/CascadaNambillo.jpg" class="cover-image">
+                <img src="../img/CascadaNambillo.jpg" class="cover-image" alt="Cascada Mindo Nambillo">
               </div>
               <div class="content-column mindo_p3">
                 <h3>Cascada Mindo Nambillo</h3>
@@ -103,7 +103,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/chocolate-Mindo.jpg" class="cover-image">
+                <img src="../img/chocolate-Mindo.jpg" class="cover-image" alt="Chocolate de Mindo">
               </div>
               <div class="content-column mindo_p4">
                 <h3>Empresa local de chocolate Mindo</h3>
