@@ -1,0 +1,579 @@
+{
+  "inicio": "Index",
+  "acerca": "About us ",
+  "todosLosTours":"All tours",
+  "guianzaToursPrivados":"Private tours and guides",
+  "contacto": "Contact",
+  "contactanos": "Contact us",
+  
+  "frase": "Live and travel as long as you can",
+  "siguenos": "FOLLOW US",
+  "copyright": "© Copyright Tours Ecuador ® All rights reserved. Quito, Ecuador.",
+  
+  "viaja": "<h4>Travel</h4>",
+  "explora": "<h4>Explore</h4>",
+  "descubre": "<h4>Discover</h4>",
+
+  "fraseTours": "Destinations",
+  "disponible": "Available",
+  "disponibleN": "Not Available",
+
+  "toursPopulares":"Popular tours",
+
+  "amazonia": "Misahualli Amazone",
+  "selva": "Indichuris Jungle",
+  "mitad": "Middle of the World",
+  "laguna": "Lagoon of Quilotoa",
+  "cotopaxi": "Cotopaxi Volcano",
+  "chimborazo": "Chimborazo Volcano",
+
+  "verTodosLosTours":"See all tours",
+
+  "direccion":"<b><i class=\"fa-solid fa-location-dot\"></i>&nbsp; Address</b>",
+  "direccionTexto":"Venezuela and Espejo Street, in front of the Presidential Palace at the Tourist Information Point \"El Quinde\".",
+  "telefonos":"<b><i class=\"fa-solid fa-phone\"></i>&nbsp; Phones</b>",
+  "chatear":"Chat on WhatsApp",
+  "correoElectronico":"<b><i class=\"fa-solid fa-envelope\"></i>&nbsp; Email</b>",
+  "formularioDeContacto":"<b>Contact Form</b>",
+  "nombreApellido":"Name and surname",
+  "codigoPais":"Code of Country",
+  "telefono":"Phone",
+  "asunto":"Subject",
+  "asuntoPlaceholder":"Write the Subject",
+  "mensaje":"Message",
+  "mensajePlaceholder":"Write your message...",
+  "enviar":"Send",
+
+  "quienesSomos":"About us?",
+  "quienesSomosTexto":"",
+  "mision":"Mission",
+  "misionTexto":"Tour Ecuador S.A.S, is a Travel Agency company, mainly dedicated to selling wholesale and retail organized transportation and accommodation travel services to the general public and commercial clients. Its mission is to provide the best service in order to achieve full customer satisfaction with our tourist packages at affordable prices so that families enjoy getting to know the most important wonders of each city in Ecuador. The purpose is to be leaders in the travel agency service and position ourselves nationally, providing quality, efficiency and responsibility in all the packages contracted by our clients. Giving the creation of new sources of work in the tourism sector and in this way establishing alliances and consolidating new products within the branch.",
+  "vision":"Vision",
+  "visionTexto":"Tour Ecuador S.A.S., in the next 5 years by providing a travel agency service, will rely on adequate technology, committed human capital and a vocation for service, which will help us position ourselves as one of the most competitive companies in packages. tourism, recognized for working under principles of social responsibility. It will consolidate itself as one of the best travel agencies in Ecuador, providing quality service, with a work team that focuses on creation, promotion and training, resulting in tourist packages that have not been offered by any other agency. Nacional level. ",
+  "testimonios":"Testimonials",
+  "Ire_Ale_Mui": "I totally recommend this travel agency, from whoever answers the phone, whoever attends you in the agency Miss Cintia gives a very friendly service. The tour guide Miss Camila very concerned and attentive to the group all the time, the driver Mr. Diego also. And the tour experience was better than expected. I will come back soon to take another tour with you, what a great experience! Thank you",
+  "Kleber_Mosquera": "The agency treated me very well, the guides were great, the transportation was impeccable and I highly recommend them.",
+  "Pauline_Schorter": "We did a 3 days tour to Cotopaxi, Quilotoa and Baños. It was a great experience, thanks to Cynthia and Alejandro we were able to see so many things and learn a lot about Ecuador. This agency is great if you want to discover Ecuador and the guides are amazing",
+  "Jean-Baptiste_Blaise": "Great experience of three days thought equator!  Cotopaxi, Quilotoa and Baños Cynthia and Alejandro were very professional and friendly. They are amazing guides, I strongly recommend them!",
+  "Mathieu_Mokrzycki": "Great three-day tour. Incredible companions. Great freedom in activities. Top tip.",
+
+  "guianzas":"Private tours and guides",
+  "guianzasTitulo":"Guides",
+  "guianzasTexto":"At Tours Ecuador, we believe that guiding is an art, an opportunity to transform a simple trip into an enriching experience. Our tour guides are passionate and knowledgeable ambassadors for the destinations we explore. With a passion for history, culture and authenticity, our guides are here to reveal the secrets of each place you visit and take you on a journey beyond the ordinary.",
+  "toursTitulo":"Private tours",
+  "toursTexto":"At Tours Ecuador, we believe that trips are more meaningful when they adapt to your personal preferences. That's why we offer a variety of Private Tours designed exclusively for you and your loved ones. Whether you are looking for a romantic getaway, a family vacation, or a solo adventure, our Private Tours are the perfect answer.",
+
+  "__Tabla_de_contenido__":"__INICIO__",
+  "itinerario":"Itinerary",
+  "incluye":"Includes",
+  "no_incluye":"Not included",
+  "indicaciones":"Indications",
+  "ubicacion":"Location",
+  "__Tabla_de_contenido__":"__FIN__",
+
+  "__Generales_tours":"__INICIO__",
+  "desayuno":"Breakfast",
+  "almuerzo":"Lunch",
+  "cena":"Dinner",
+  "descanso":"Rest",
+  "cena_y_descanso":"Dinner and Rest",
+  "dias":"Days",
+  "dia1":"Day 1",
+  "dia2":"Day 2",
+  "dia3":"Day 3",
+  "noches":"Nights",
+  "destinos":"Destinations",
+  "alimentacion":"Feeding",
+  "noAlimentacion":"Not Feeding",
+  "reservar":"Reserve",
+  "cotizar-tour":"Quote private tour",
+  "inicioTour":"Start",
+  "primeraParada":"First stop",
+  "segundaParada":"Second stop",
+  "terceraParada":"Third stop",
+  "cuartaParada":"Fourth stop",
+  "quintaParada":"Fifth stop",
+  "sextaParada":"Sixth stop",
+  "séptimaParada":"Seventh stop",
+  "octavaParada":"Eighth stop",
+  "novenaParada":"Ninth stop",
+  "finDelTour":"End of Tour",
+  "__Generales_tours":"__FIN__",
+  
+  "__Tour_Yasuni__":"__INICIO__",
+  "d1_yasuni_desayuno":"Breakfast / American",
+  "d1_yasuni_p1":"Sailing from Coca to Sacha Ñampi through the Napo River.",
+  "d1_yasuni_p2":"Arrival at Sacha Ñampi",
+  "d1_yasuni_p3":"You will hike for about 2h40, you will be able to observe a large number of medicinal plants and the largest tree in Yasuni..",
+  "d1_yasuni_p4":"Dance of the Kichwa culture",
+  "d2_yasuni_p1":"We will hike for about 3h40 until we reach the Tambocha Yasuní River.<br> Full hike, paddle canoe navigation through flooded areas Observation of monkeys, birds and saladero of guanganas. ",
+  "d2_yasuni_entre_p1_p2":"Lunch at the Jatuncocha river",
+  "d2_yasuni_p2":"Navigation in small motorized canoe, where we will observe birds, otters, until we reach the Yasuní River.",
+  "d2_yasuni_p3":"Registration in the MEA control.",
+  "d2_yasuni_p4":"Departure to the mouth of the Yasuní River to observe the dolphins.",
+  "d2_yasuni_p5":"Arrival at the ecolodge",
+  "d3_yasuni_p1":"Transfer to the Aguarico River",
+  "d3_yasuni_p2":"Dolphin watching",
+  "d3_yasuni_p3":"Visit Secoya Culture, a place where tourists will be welcomed with a traditional dance, their way of living together and taste their typical food.",
+  "d3_yasuni_p4":"Return to the ecolodge",
+  "d3_yasuni_entre_p4_p5":"Lunch at the ecolodge",
+  "d3_yasuni_p5":"Cocoa harvest",
+  "d3_yasuni_p6":"Preparation of charcoal chocolate paste",
+  "d3_yasuni_p7":"Nocturnal observation of insects, frogs",
+  "d4_yasuni_p1":"Visit Tamcocha River, bird watching",
+  "d4_yasuni_p2":"We will hike for about 1h40 from the Tambococha River to the Yasuní River, MEA.",
+  "d4_yasuni_p3":"Visit Tambococha Lagoon",
+  "d4_yasuni_entre_p3_p4":"Lunch at the Lagoon",
+  "d4_yasuni_p4":"Recreational fishing",
+  "d4_yasuni_p5":"Return and arrival to ecologe",
+  "d5_yasuni_p1":"Entrance to Pichincha loma alta, visit animal saladeros, full flora and fauna.",
+  "d5_yasuni_p2":"Visit to Quistococha lagoon, piranha fishing",
+  "d5_yasuni_p3":"Camping en carpas en la selva, laguna o guardianía del MAE.",
+  "d5_yasuni_p4":"Nocturnal caiman sighting",
+  "d6_yasuni_inicio":"Navigation through the lagoon to observe birds",
+  "d6_yasuni_p1":"Transfer and arrival to the ecolodge. We will enjoy a lunch",
+  "d6_yasuni_p2":"Return to El Coca",
+  "d6_yasuni_fin":"Arrival to El Coca, end of tour.",
+
+  "incluye_yasuni_1":"Personalized assistance at El Coca",
+  "incluye_yasuni_2":"Hotel in El Coca one day before entering Yasuní",
+  "incluye_yasuni_3":"River transportation 4 hours direct",
+  "incluye_yasuni_4":"Accommodation in private cabins",
+  "incluye_yasuni_5":"Complete food during the tour",
+  "incluye_yasuni_6":"Entrance to trails and cultural activities",
+  "incluye_yasuni_7":"Rubber boots and rain ponchos",
+
+  "no_incluye_yasuni_1":"Land or air transportation to the city of Coca and return to origin",
+  "no_incluye_yasuni_2":"Tips, extra meals and drinks",
+  "no_incluye_yasuni_3":"River transport to Peru 'population of Pantoja'",
+  "no_incluye_yasuni_4":"Activities not specified in the program",
+  "no_incluye_yasuni_5":"Payment for medications or extra consumption",
+
+  "indicaciones_yasuni_1":"Comfortable clothing",
+  "indicaciones_yasuni_2":"Cap",
+  "indicaciones_yasuni_3":"Sunscreen",
+  "indicaciones_yasuni_4":"Change of shoes",
+  "indicaciones_yasuni_5":"Camera",
+  "indicaciones_yasuni_6":"Mosquito repellent",
+  "indicaciones_yasuni_7":"Rubber boots (if you have)",
+  "__Tour_Yasuni__":"__FIN__",
+
+  
+  "__Tour_Indichuris__": "__INICIO__",
+  "Indichuris_titulo":"Indichuris Jungle",
+  "Indichuris_p1": "<h4>Volcano Route</h4> <p>We begin our adventure with the volcano route, along the way, we will be able to appreciate the Ilinizas, Rumiñahui, Cotopaxi.</p>",
+  "Indichuris_p2": "<h4>Green River</h4> <p>Arrival in Baños de Agua Santa, where we will pass through the waterfall route to Green River and enjoy a delicious breakfast.</p>",
+  "Indichuris_p3": "<h4>Mera Viewpoint</h4> <p>Visit the Mera viewpoint, the place is ideal for landscape lovers, photography enthusiasts, and adrenaline junkies (Mera's nest, swing, hot air balloon, hammocks).</p>",
+  "Indichuris_p4": "<h4>Indichuris</h4> <p>Indichuris Amazonian Viewpoint, where we will find hammocks, a swing, Ayahuasca Mask, bat tunnels, and mazes. Walk through Indichuris where you can observe a good variety of plants and insects native to the area, as well as a variety of colorful butterflies.</p>",
+  "Indichuris_p5": "<h4>Quichua Community</h4> <p>Visit a Quichua community: where we can taste Guayusa, take part in a community dance, use the Amazonian blowgun for hunting, take photos with the local animals, and visit a handicraft center.</p>",
+  "Indichuris_p6": "Visit a candy shop in Baños de Agua Santa on the return to Quito.",
+  "Incluye_Indichuris":"<li>Full-equipped tourist transportation</li> <li>Travel insurance</li><li>Guide throughout the journey</li><li>Breakfast, lunch</li><li>Mera's Nest</li><li>Entry to the community, Indichuris viewpoint</li></ul>",
+  "No_Incluye_Indichuris":"<ul><li>Extra activities</li><li>Personal expenses of the tourist</li></ul>",
+   "Indicaciones_Indichuris":"<ul>  <li>Comfortable clothing</li>  <li>Cap</li>  <li>Sunscreen</li>  <li>Sturdy shoes</li> <li>Camera</li>  <li>Mosquito repellent</li> <li>Rain poncho</li> </ul>",
+  "__Tour_Indichuris__": "__FIN__",
+
+
+
+
+  "__Tour_Otavalo__":"__INICIO__",
+  "otavalo_p1":"<h4>Cayambe</h4> <p>We will go to meet one of the families that produces the renowned Cayambe biscuits and we will also have the opportunity to taste various local products.</p>",
+  "otavalo_p2":"<h4>Lake San Pablo Viewpoint</h4> <p>We offer the possibility of enjoying a panoramic view ideal for capturing images of one of the largest lagoons in the province of Imbabura. In addition, if travelers wish, they will have the option to purchase the famous biscuits and leaf cheese that are sold in this place.</p>",
+  "otavalo_p3":"<h4>Otavalo Market</h4><p>You will have a free period of time to explore the largest indigenous market in Latin America and enjoy lunch.</p>",
+  "otavalo_p4":"<h4>Peguche Waterfall</h4><p>A sacred site where the Otavaleños perform ancestral rituals and immerse themselves in purifying baths.</p>",
+  "otavalo_p5":"Enjoy a comfortable return to Quito, with disembarkation service at your hotel included.",
+  
+  "incluyeOtavalo":"<li>Tourist transport full equipment</li>         <li>Travel insurance</li>        <li>Guide all the way</li>        <li>Visit to Miralago</li>        <li>Entrance to Peguche Waterfall</li>        <li>Visit to the indigenous market</li>",
+  "noIncluyeOtavalo":"<li>Extra activities</li>        <li>Tourist's personal expenses</li>",
+
+  "indicacionesOtavalo":"<li>Comfortable clothing </li>        <li>Cap</li>        <li>Sunscreen</li>        <li>Good workmanship slippers </li>        <li>Camera</li>",
+  
+  "__Tour_Otavalo__":"__FIN__",
+
+
+  "__Tour_Guanabana__":"__INICIO__",
+
+  "Guanabana_p1": "<h4>Cayambe</h4> <p>Stop in Cayambe to enjoy a delicious breakfast with local delights, the famous Cayambe biscuits.</p>",
+  "Guanabana_p2": "<h4>Mira Lago Viewpoint</h4> <p>Visit the Mira Lago Viewpoint with magnificent views of Lake San Pablo and Taita Imbabura, it also features crafts depicting the province's history. During the journey, we'll observe beautiful landscapes including lagoons, flora, and fauna of the surroundings. We head towards the cities of Otavalo, Atuntaqui, and Ibarra in the direction of Carchi, where the Guanabana Republic complex is located.</p>",
+  "Guanabana_p3": "<h4>Guanábana Republic Complex</h4><p>Stop at the Guanábana Republic complex, which includes entrance to four thematic pools.<br>Piscinas River Coco<br> Guanábana sunset.<br> Summer.<br>     Playa sol.   </p> ",
+  "Guanabana_p4": " <h4>Yahuarcocha Lake</h4><p>We will have the opportunity to take a boat ride on the beautiful Yahuarcocha Lake.</p>",
+  "Guanabana_p5": " <h4>Cayambe</h4><p>Shopping time in Cayambe, visit a biscuit factory, and taste a cup of coffee along with Cayambe biscuits.</p>",
+  "Guanabana_p6": "Relax during a comfortable return to Quito.",
+ 
+"Guanabana_incluye": "<ul><li>Full-equipped tourist transportation</li><li>Travel insurance</li><li>Guide throughout the journey</li><li>Tasting of Cayambe biscuits</li><li>Entrance to the Guanábana Republic complex</li><li>Boat ride on Yaguarcocha</li><li>Breakfast, lunch</li></ul>",
+  "Guanabana_No_incluye": "<ul><li>Extra activities</li><li>Personal expenses of the tourist</li></ul>",
+  "Indicaciones_Guanabana": "<ul><li>Comfortable clothing</li><li>Cap and woolen hat</li><li>Sunscreen</li><li>Camera</li><li>Swimsuit</li><li>Towel</li></ul>",
+  "__Tour_Guanabana__":"__FIN__",
+
+  "__Tour_Cotopaxi_Quilotoa_Baños__":"__INICIO__",
+  "d1_Cotopaxi_Quilotoa_Baños_p1":"<h4>Machachi Village</h4> <p>Start the day with a delicious breakfast and views of the impressive Cotopaxi Volcano, one of Ecuador's most famous icons.</p>",
+  "d1_Cotopaxi_Quilotoa_Baños_p2":"<h4>Arrival at Cotopaxi National Park</h4><p>Upon arrival at Cotopaxi National Park, our guide will take care of the necessary registration, since we will be entering a natural jewel.<br><b>Explore the Interpretation Center :</b> Immerse yourself in the knowledge of the fauna and flora of the area at the park's Interpretation Center. You can also try coca tea, famous for recharging your energy (tea not included).<br><b>Discover the Cotopaxi National Park:</b> Visit the majestic Limpiopungo lagoon while observing the local fauna and flora, including curiquingues . , bears, white-tailed deer, llamas and birds.</p>",
+  "d1_Cotopaxi_Quilotoa_Baños_p3":"<h4>Walk at 4,864 meters above sea level</h4> <p>Get ready for an exciting walk from the base to the parking lot at 4,500 meters above sea level. Then, begin the walk to the refuge at 4,864 meters above sea level. Don't forget to wear comfortable shoes.</p>",
+  "d1_Cotopaxi_Quilotoa_Baños_p4":"<h4>Lunch</h4> <p>Enjoy lunch at a local establishment (lunch not included). You can bring snacks for the day.</p>",
+  "d1_Cotopaxi_Quilotoa_Baños_p5":"<h4>Free afternoon in Cotopaxi</h4> <p>After lunch, you will have time to explore and enjoy the place.</p>",
+  "d1_Cotopaxi_Quilotoa_Baños_p6":"<h4>Night in Cotopaxi</h4> <p>Relax and enjoy a night in Cotopaxi.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p1":"<h4>Hotel pickup in Cotopaxi</h4><p> Start the day with a pickup service from your hotel.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p2":"<h4>Visit a local family in the moor</h4><p>Get to know daily life and learn about raising guinea pigs in a traditional home of a local family.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p3":"<h4>Explore Tigua</h4> <p>Stop in Tigua to discover local crafts and learn about the native artists who preserve their culture.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p4":"<h4>Arrival at the community of Quilotoa</h4><p>Enjoy an impressive view of the Quilotoa Lagoon, a turquoise lake inside the caldera of an active volcano.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p5":"<h4>Walk to the lagoon</h4> <p>Embark on a hike to enjoy the scenery and then take time for lunch (lunch not included).</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p6":"<h4>Departure from Quilotoa to Baños</h4><p>Enjoy the Andean landscape as we head towards Baños.</p>",
+  "d2_Cotopaxi_Quilotoa_Baños_p7":"We suggest you visit the nearby thermal baths known for their healing properties (entrance not included).",
+  "d2_Cotopaxi_Quilotoa_Baños_p8":"Enjoy free time in Baños before spending the night. Don't forget to book your hotel with us before your trip.",
+  "d3_Cotopaxi_Quilotoa_Baños_p1":"<h4>Hotel pickup in Baños</h4><p>We start early with pickup from your hotel in Baños.</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p2":"<h4>Waterfall Route:</h4> <p>Enjoy an impressive trip along the Waterfall Route, which connects the Ecuadorian mountains with the jungle, and is full of waterfalls and tunnels.</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p3":"<h4>Visit to the Pailón del Diablo Waterfall</h4><p>Take a hike to the waterfall to feel its strength and power.</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p4":"<h4>Tarabita Cable Car</h4> <p>Cross the river on the cable car and enjoy panoramic views of waterfalls, mountains and jungle landscapes in 360 degrees.</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p5":"<h4>Extreme activities</h4> <p>Do extreme activities such as canopy, zipline, extreme bridge and one-stop bridge jumping (activities not included; direct payment at the extreme park).</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p6":"<h4>Swing at the end of the world</h4> <p>If we arrive early in Baños, visit the famous \"Swing at the end of the world\" in The Tree House and admire the wonderful views of the mountainous landscapes. Otherwise, this visit will take place the next day.</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p7":"<h4>Lunch</h4> <p>After the activities, enjoy lunch with typical local dishes (lunch not included).</p>",
+  "d3_Cotopaxi_Quilotoa_Baños_p8":"<h4>Return from Baños to Quito</h4> <p>Finally, we return to Quito, with an estimated arrival time around 8:00 p.m.</p>",
+  "incluye_Cotopaxi_Quilotoa_Baños":"<li>Full Equipment Tourist Transportation </li> <li>Travel Insurance</li> <li>Tourist Guide</li> <li>Transportation to the viewpoint of the impressive Cotopaxi volcano.</li> <li> Transportation to the viewpoint of the impressive turquoise Quilotoa lagoon.</li> <li>Transportation to the town of Baños.</li> <li>Entrance to the Cotopaxi National Park.</li> <li>Entrance to the Quilotoa lagoon.</li> <li>Entrance to Tigua and the community in Quilotoa.</li> <li>Entrance to the famous \"Swing at the end of the world\" in La Casa del Arbol to enjoy views impressive.</li> <li>Entrance to the viewpoint of the majestic Pailón del Diablo waterfall.</li> <li>Entrance to the tarabita over the Pastaza River to obtain incredible panoramic views.</li> <li>all the taxes and entry fees.</li> <li>Transportation back to your hotel or hostel in Quito.</li>",
+  "noIncluye_Cotopaxi_Quilotoa_Baños":"<li>Food.</li> <li>Accommodation in Cotopaxi and Baños.</li> <li>Extreme activities such as extreme swinging, canopy, bungee jumping, etc.</li>",
+  "indicaciones_Cotopaxi_Quilotoa_Baños":"<li>Comfortable and warm clothing</li> <li>Cap and wool cap</li> <li>Sunscreen</li> <li>Photo camera </li> <li>Swim suit</li > <li>Well-made slippers </li> <li>Change of clothes</li> <li>Water poncho</li> <li>Gloves</li>",
+  "dia1_Cotopaxi_Quilotoa_Baños":"Day 1: Discover Cotopaxi",
+  "dia2_Cotopaxi_Quilotoa_Baños":"Day 2: Quilotoa and Baños",
+  "dia3_Cotopaxi_Quilotoa_Baños":"Day 3: Waterfalls Route and Activities in Baños",
+  "__Tour_Cotopaxi_Quilotoa_Baños__":"__FIN__",
+
+    "__Baños_Quilotoa__":"__INICIO__",
+  "d1_Baños_Quilotoa_p1":"<h4>Machachi</h4><p>In the picturesque town of Machachi, you will enjoy a delicious breakfast to start the day with energy.</p>",
+  "d1_Baños_Quilotoa_p2":"<h4>Visit a local family</h4><p>Immerse yourself in rural life and learn about raising guinea pigs in a traditional local home.</p>",
+  "d1_Baños_Quilotoa_p3":"<h4>Stop in Tigua</h4><p>Explore local crafts and meet the talented Tigua artists who are reviving their culture.</p>",
+  "d1_Baños_Quilotoa_p4":"<h4>Arrival in Quilotoa</h4><p>Upon arriving at the community of Quilotoa, you will enjoy a stunning view of the lagoon, a beautiful turquoise lake located in the heart of the caldera of an active volcano.</p>",
+  "d1_Baños_Quilotoa_p5":"<h4>Hike to the lagoon</h4><p>Take a scenic walk to the lagoon to immerse yourself in the natural beauty of Quilotoa.</p>",
+  "d1_Baños_Quilotoa_p6":"<h4>Lunch in Quilotoa</h4><p>After the walk, you will stop for lunch, where we recommend trying a delicious chicken broth or a goat jerky (lunch not included).</p>",
+  "d1_Baños_Quilotoa_p7":"<h4>Transfer to Baños from Quilotoa</h4><p>Enjoy a scenic trip from Quilotoa to Baños, surrounded by impressive paramo landscapes.</p>",
+  "d1_Baños_Quilotoa_p8":"<h4>Free night in Baños</h4><p> Upon arrival in Baños, you will have the night free to explore the city. We suggest taking a walk or enjoying the pools near the center of Baños (activity not included).</p>",
+  "d1_Baños_Quilotoa_p9":"<h4>Night in Baños</h4><p>Relax and enjoy a comfortable night in Baños.</p>",
+  "d2_Baños_Quilotoa_p1":"<h4>Hotel pickup in Baños</h4> <p>Start the day early with pickup from your hotel in Baños.</p>",
+  "d2_Baños_Quilotoa_p2":"<h4>Visit the impressive Pailón del Diablo Waterfall</h4> <p>Take an exciting hike until you reach the waterfall and feel its powerful force.</p>",
+  "d2_Baños_Quilotoa_p3":"<h4>Tarabita on the Pastaza River</h4><p>Cross the river on the tarabita and enjoy 360-degree panoramic views of waterfalls, mountains and jungle landscapes.</p>",
+  "d2_Baños_Quilotoa_p4":"<h4>Optional activities in Baños</h4><p>Stop for extreme activities like canopy, extreme bridge, and bridge jumping along the way. You decide if you want to do these activities and you can pay directly on the spot.</p>",
+  "d2_Baños_Quilotoa_p5":"<h4>Visit the \"Swing at the end of the world\"</h4><p> If we arrive early in Baños, visit the famous \"Swing at the end of the world\" in The Tree House and admire the impressive views of mountainous landscapes. Otherwise, this visit will take place the next day.</p>",
+  "d2_Baños_Quilotoa_p6":"After the activities, enjoy lunch with typical local dishes (lunch not included).",
+  "d2_Baños_Quilotoa_p7":"<h4>Return from Baños to Quito</h4><p>Finally, we return to Quito with an estimated arrival time around 8:00 p.m.</p>",
+  "incluye_Baños_Quilotoa":"<li>Full Equipment Tourist Transportation </li> <li>Travel Insurance</li> <li>Tourist Guide</li> <li>Pick-up directly from your hotel in Quito</li> <li>Transfer to the impressive viewpoint of the Quilotoa lagoon, known for its beautiful turquoise color.</li> <li>Access to the Quilotoa lagoon</li> <li>Transfer to the majestic viewpoint of the Pailon del Diablo waterfall</li > <li>Experience on the tarabita over the Pastaza River to enjoy amazing panoramic views.</li> <li>Access to the famous Swing at the End of the World</li> <li>Tickets to visit the Pailón del Diablo.< /li>",
+  "no_incluye_Baños_Quilotoa":"<li>Extra activities</li> <li>Personal expenses of the tourist.</li> <li>Extreme activities such as extreme swinging, canopy, bungee jumping, etc.</li>",
+  "indicaciones_Baños_Quilotoa":"<li>Comfortable and warm clothing</li> <li>Cap and wool cap</li> <li>Sunscreen</li> <li>Photo camera </li> <li>Swim suit</li > <li>Well-made slippers </li> <li>Change of clothes</li>",
+  "dia1_Baños_Quilotoa":"Day 1: From Quito to Quilotoa and Baños",
+  "dia2_Baños_Quilotoa":"Day 2: From Baños to Quito",
+  "__Baños_Quilotoa__":"__FIN__",
+
+    "__Misahualli_Cotundo__":"__INICIO__",
+  "d1_Misahualli_Cotundo_inicio":"Misahualli, located in the canton of Tena in the province of Napo, is considered another tourist wonder of the Amazon region of Ecuador. We begin our adventure with a stop at the Papallacta lagoon to admire the scenery offered by this spectacular lagoon.",
+  "d1_Misahualli_Cotundo_p1":"Full breakfast in Baeza",
+  "d1_Misahualli_Cotundo_p2":"We continue with the visit to the Jumandy Caves, one of the most outstanding attractions of Napo, where we will appreciate water springs, spectacular formations of stalactites and stalagmites, we will enjoy these caves with a flashlight on the head and a native guide who will give us the tour, leaving an unforgettable experience.",
+  "d1_Misahualli_Cotundo_p3":"We will appreciate the monkeys, a great species of the Micos in which you will be able to enjoy their acrobatics.",
+  "d1_Misahualli_Cotundo_p4":"Next stop, Misahualli Beach on the Napo River, known for the presence of its white sands and landscape, considered another wonder of Ecuador.",
+    "d1_Misahualli_Cotundo_p5":"Boat ride on the Napo River towards the Quechua community Visit to a Quechua community where we can observe their way of life and ancestral traditions of the tribe such as: their dance, preparation of Maito and Ayahuasca chicha, shaman rituals *they also have a mini zoo with some local species* (optional).",
+    "d2_Misahualli_Cotundo_p1":"Tourist center of the Grand Canyon of Ñachiyacu: Sustainable-cultural ecotourism, where you can enjoy eco-tourism activities such as hiking, ancestral cleanings, waterfall recreation and other activities in its purest form.",
+  "d2_Misahualli_Cotundo_p2":"Cotundo Canyon: The Canyon has a diameter of approximately 20 meters, at the base it forms a lagoon, the same that has a depth of 4 to 5 meters this is fed by a small waterfall that comes out of a cave, which is 10 meters deep, formed by water erosion, inside the cave has adequate a staircase which leads to the top just above the lagoon, where people practice jumps.",
+  "d2_Misahualli_Cotundo_p3":"Visit to the Arca Zoo: here you can appreciate the mega biodiversity of species such as birds, reptiles, mammals, fish, amphibians, and insects that interact with the rich flora existing in the ecosystems of the canton.",
+  "d2_Misahualli_Cotundo_fin":"Return to Quito, end of tour.",
+  "incluye_Misahualli_Cotundo":"<li>Full Equipment Tourist Transportation</li> <li>Travel Insurance</li> <li>Quito Tena</li> <li>4 Meals</li> <li>Papallacta Lagoon</li> <li>Observation of the surrounding flora and fauna</li> <li>Entrance to the Jumandy caverns</li> <li>Underground labyrinths</li> <li>Natural waterfall, inside the caverns</li> <li>Natural formations of stalagmites and stalactites</li> <li>Misahualli Park and Malecón</li> <li>Photos of Misahualli letters</li> <li>Monkey Park</li> <li> Boat ride</li> <li>Visit to the Quechua community where you will learn about their customs</li> <li>Sale of Handicrafts</li> <li>Stone of knowledge</li> <li>Lodging</li> <li>Entrance to Ñachi Yacu</li> <li>Entrance to the Grand Canyon of Cotundo</li> <li>Grand Canyon of Cotundo Waterfall</li> <li>Zoológico del Arca</li> <li>Hiking</li> <li>Bird tourism</li> <li>Ancient legends</li> <li>Sighting of boas, alligators, monkeys, turtles, parrots and parrots</li> <li>Time for shopping </li> <li>Approximate time of arrival in Quito from 9:00 p.m. to 10:00 p.m. </li>",
+  "no_incluye_Misahualli_Cotundo":"<li>Extra activities</li> <li>Personal expenses of the tourist</li> <li>Activities within the community</li>",
+  "indicaciones_Misahualli_Cotundo":"<li>Comfortable clothing </li> <li>Cap </li> <li>Sunscreen</li> <li>Camera</li> <li>Mosquito repellent</li> <li>Change Clothing </li> <li>Water poncho </li> <li>Rubber boots (if available) </li>",
+  
+  "__Misahualli_Cotundo__":"__FIN__",
+
+  
+    "__Cuenca_Ingapirca__":"__INICIO__",
+  "d1_Cuenca_Ingapirca_inicio":"Our adventure begins in Cuenca with a delicious:<br> •Breakfast<br>•Check in hotel<br>•A time to rest after the long trip",
+  "d1_Cuenca_Ingapirca_p1":"Visit to chordelec: <br>Known for its crafts, the land of gold and silver, a craft center of great importance at a national and international level",
+  "d1_Cuenca_Ingapirca_p2":"Cuenca city tour by double-decker bus: At night the client will be able to enjoy the nightlife in the city of Cuenca",
+  "d2_Cuenca_Ingapirca_p1":"Visit Cajas National Park: Cajas National Park is known for the trails that cross evergreen cloud forests and its hundreds of lagoons such as Toreadora. It is also home to very diverse fauna such as Andean condors, hummingbirds, coaties, perfect for enjoying nature.",
+  "d2_Cuenca_Ingapirca_p2":"Hot Springs in Piedra de Agua: Piedra de Agua is a modern and complete tourist center where we will find a thermal water pool, Turkish bath, hot thermal bath, rest area, volcanic shower, we will have 2 hours in this spectacular place, perfect to relax. (Spa, mud therapy, not included)",
+  "d3_Cuenca_Ingapirca_inicio":"Breakfast 8:00 to 9:00AM",
+  "d3_Cuenca_Ingapirca_p1":"Visit to Ingapirca: In Quechua it means wall or wall of the Inca, it is an authentically Cañari construction made at the beginning of the 16th century AD, which is presumed to have been an observatory of the Sun and the Moon shortly before the arrival of the Spanish",
+  "d3_Cuenca_Ingapirca_p2":"Palmyra Desert: A small desert but with a unique appeal, as it resembles the great Sahara Desert, fantastic for taking photos",
+  "d3_Cuenca_Ingapirca_fin":"Return to Quito, end of tour.",
+  "incluye_Cuenca_Ingapirca":"<li>Full Equipment Tourist Transportation </li> <li>Travel Insurance</li> <li>Tourist Guide</li> <li>3 Breakfasts</li> <li>3 Lunches</li> <li>Cuenca</li> <li>Visit Churches</li> <li>Hot Springs, Stone Water</li> <li>Turkish Bath</li> <li>Hot Hot Springs</li> <li> Volcanic Shower</li> <li>Cajas National Park</li> <li>Trails</li> <li>Lagoon</li> <li>Elegant Hotel</li> <li>Chordeleg</li> <li>Double-decker bus tour</li> <li>Cuenca historic center</li> <li>Ingapirca</li> <li>Palmira Desert</li> <li>Turi Viewpoint</li>",
+  "no_incluye_Cuenca_Ingapirca":"<li>Extra activities</li> <li>Personal expenses of the tourist.</li>",
+  "indicaciones_Cuenca_Ingapirca":"<li>Comfortable and warm clothing</li> <li>Cap and wool cap</li> <li>Sunscreen</li> <li>Photo camera </li> <li>Swim suit</li> <li>Well-made slippers </li> <li>Change of clothes</li>",
+  "__Cuenca_Ingapirca__":"__FIN__",
+
+
+    "__Baños_Indichuris__":"__INICIO__",
+  "d1_Baños_Indichuris_inicio":"Baños de Agua Santa is considered one of the most touristic and adventure sites in Ecuador. We begin our adventure along the \"Avenue of the Volcanoes\", along the way we will be able to appreciate the Ilinizas, Rumiñahui, and the Cotopaxi volcanoes.",
+  "d1_Baños_Indichuris_p1":"Breakfast in Baños de Agua Santa",
+  "d1_Baños_Indichuris_p2":"We continue with the waterfall route, we will make several stops to explore the area, we will observe the Agoyán Waterfall, and we will make a stop in Manto de la Novia where we will have the opportunity to cross on a tarabita considered one of the largest in Ecuador. (Optional not included)",
+  "d1_Baños_Indichuris_p3":"We will visit the extreme adventure sport Canopy, a fun way to glide through the air simulating a flight, an unforgettable experience, with 100% safe equipment (optional)",
+  "d1_Baños_Indichuris_p4":"We continue to Río Verde where the Pailón del Diablo Waterfall and suspension bridge are located, considered one of the ten largest waterfalls in Ecuador.",
+  "d1_Baños_Indichuris_p5":"Walk to the Pailón del Diablo Waterfall, 80 meters high and 20 meters deep, we will enjoy the balconies where you can admire the waterfall, the suspension bridge and its surroundings.",
+  "d1_Baños_Indichuris_p6":"Visit and entrance to the Mirador de Cristal",
+  "d1_Baños_Indichuris_p7":"To continue our adventure we will go to the Animal Park theme park where we will visit several viewpoints that will offer us a beautiful and magnificent view of nature and surroundings from the heights such as: moon viewpoint, rainbow viewpoint and swing of life, viewpoint Ostrich nest and the extreme hammock. In the same place we can also enjoy other activities where we will walk along ecological trails and we can interact with different animals (ostriches, llamas, etc.), we will enter the wildlife rescue center (white-tailed deer and African lions) and finally we will enjoy a live show with high school horses.",
+  "d1_Baños_Indichuris_p8":"Visit to the Manos de Dios viewpoint at night, Bellavista wings and the giant mushroom",
+  "d2_Baños_Indichuris_p1":"Indichuris (children of the Sun) is located in the East, in the Amazon jungle near Puyo. Where you can see a spectacular viewpoint towards the confluence of the Puyo and Pastaza rivers.",
+  "d2_Baños_Indichuris_p2":"Visit to the Mera viewpoint, the site is ideal for lovers of landscaping, photography and adrenaline (Mera's Nest, balloon swing, hammocks",
+  "d2_Baños_Indichuris_p3":"Indichuris Amazon Viewpoint, where we will find hammocks, swings, Ayahuasca Masks, tunnels and bat labyrinths.",
+  "d2_Baños_Indichuris_p4":"Walk through Indichuris where you can observe a good variety of plants and insects typical of the place, as well as a variety of multicolored butterflies.",
+  "d2_Baños_Indichuris_p5":"Visit to a Quichua community: where we can try the Guayusa, take part in a dance part of the community, you can use the blowpipe, an Amazonian tool for hunting, photos with the local animals and a craft center.",
+  "d2_Baños_Indichuris_fin":"Return to Quito, visit a candy store in Baños de Agua Santa, end of tour.",
+  "incluye_Baños_Indichuris":"<li>Full equipment tourism transportation</li> <li>Travel insurance</li> <li>4 Meals</li> <li>Waterfall route</li> <li>Bridal cloak</li> <li>Chiva Ride</li> <li>Crystal Viewpoint</li> <li>Hands of the Night God</li> <li>Courtesy Canelazo</li> <li>Visit to the games extremes</li> <li>Suspension bridge</li> <li>Animal Park</li> <li>Moon Viewpoint</li> <li>Rainbow Viewpoint of Life</li> <li>Viewpoint Ostrich Nest</li> <li>Outdoor hammock</li> <li>Entry to the animal shelter</li> <li>Live shows (high school horses)</li> <li>Candy factory </li> <li>Cane juice tasting</li> <li>Lodging</li> <li>Indichuris Amazon Viewpoint</li> <li>Ayahuasca Mask</li> <li>Extreme swing</li> <li>Visit to a community</li> <li>Ancestral Dances</li> <li>Chicha tasting</li> <li>Practice with a hunting weapon, blowgun</li> <li> Nido de Mera, includes admission</li> <li>Hot air balloon</li> <li>Swing flight of the Nido</li> <li>Union of the Pastaza and Puyo rivers</li> <li>Hammocks and visit to the devil's mask cave and tunnels</li> <li>Sighting of boas, turtles, monkeys, alligators, parrots</li> <li>Walk through flora and fauna</li> <li>Time for shopping </li> <li>17:00 Return to Quito</li>",
+  "no_incluye_Baños_Indichuris":"<li>Tarabita</li> <li>Extreme games</li> <li>Extra activities</li> <li>Tourist's personal expenses</li> <li>Dinner</li>",
+  "indicaciones_Baños_Indichuris":"<li>Comfortable clothing</li> <li>Cap and wool hat</li> <li>Sunscreen</li> <li>Well-made sneakers</li> <li>Camera</li > <li>Mosquito repellent</li> <li>Water poncho</li>",
+  "__Baños_Indichuris__":"__FIN__",
+
+
+  "__Cotopaxi_Quilotoa__":"__INICIO__",
+  "d1_Cotopaxi_Quilotoa_p1":"<h4>Stop in Machachi</h4><p>This will be our first stop, ideal to buy a snack, use the bathrooms and use ATMs before entering the exciting Cotopaxi National Park.</p>",
+  "d1_Cotopaxi_Quilotoa_p2":"<h4>Entry to the Cotopaxi National Park</h4><p>The adventure begins in the Cotopaxi National Park, a unique ecological reserve that combines the landscape of the Andean paramo, volcanic soils and beautiful lagoons.</p>",
+  "d1_Cotopaxi_Quilotoa_p3":"<h4>Visit to the Limpiopungo Lagoon</h4><p>In this impressive lagoon, you will have the opportunity to observe various species of birds and native plants while enjoying the beauty of the Andean moor.</p>",
+  "d1_Cotopaxi_Quilotoa_p4":"<h4>Mariscal Sucre Interpretation Center</h4><p>Get detailed information about the Cotopaxi National Park at the Interpretation Center, known as the Park Museum. Also, visit the souvenir shop and enjoy a break in the cafeteria.</p>",
+  "d1_Cotopaxi_Quilotoa_p5":"<h4>Hike to the José Rivas refuge (4864 meters)</h4><p>Since the 70s, this refuge has been a welcoming place for professional and amateur mountaineers seeking to explore the majestic Cotopaxi. This hike will take you to the foot of the volcano.</p>",
+  "d1_Cotopaxi_Quilotoa_p6":"<h4>Lunch stop</h4><p>Enjoy typical local food, such as chicken broth, locro, and roast lamb, with vegetarian options available. (Lunch not included)</p>",
+  "d1_Cotopaxi_Quilotoa_p7":"<h4>Night at an inn near the Cotopaxi volcano</h4><p>Check-in at the inn for a night's rest before continuing your exciting trip.</p>",
+  "d2_Cotopaxi_Quilotoa_p1":"<h4>Visit a family in the páramo</h4><p>Immerse yourself in country life and learn about the importance of guinea pig farming for Andean communities while visiting a local family.</p>",
+  "d2_Cotopaxi_Quilotoa_p2":"<h4>Quilotoa tour</h4><p>Explore the spectacular Quilotoa Crater, where a blue-green lagoon awaits discovery due to the accumulation of sulfur.</p>",
+  "d2_Cotopaxi_Quilotoa_p3":"<h4>Hike and visit Quilotoa Lagoon</h4><p>Take a walk around the crater and enjoy panoramic views while visiting the impressive Quilotoa Lagoon.</p>",
+  "d2_Cotopaxi_Quilotoa_p4":"<h4>Lunch</h4><p>Delight yourself with another delicious meal typical of the area on your day of exploration.</p>",
+  "d2_Cotopaxi_Quilotoa_p5":"<h4>Visit a craft workshop in the Tigua Community</h4><p>Explore the vibrant local crafts, with paintings featuring geometric and figurative forms, representing pre-Columbian and colonial eras.</p>",
+  "d2_Cotopaxi_Quilotoa_p6":"<h4>Stop to observe the Toachi Canyon</h4><p>Contemplate the unique landscape of the Toachi River Canyon, formed by eruptions of the Quilotoa volcano.</p>",
+  "d2_Cotopaxi_Quilotoa_p7":"<h4>Viewpoint</h4><p>Enjoy panoramic views at a viewpoint in the region.</p>",
+  "d2_Cotopaxi_Quilotoa_p8":"<h4>Return to Quito</h4>",
+  "incluye_Cotopaxi_Quilotoa":"<li>Full equipment tourism transportation</li> <li>Travel insurance</li> <li>Guide all the way</li> <li>Entrance to Cotopaxi National Park</li> <li>Visit Laguna from Limpiopungo, visit to the Interpretation Center, Walk to the first refuge</li> <li>Quilotoa lagoon entrance</li> <li>Family visit to the moor</li>",
+  "no_incluye_Cotopaxi_Quilotoa":"<li>Extra activities</li> <li>Personal expenses of the tourist</li> <li>Hotel in Cotopaxi</li>",
+  "indicaciones_Cotopaxi_Quilotoa":"<li>Comfortable and warm clothing </li> <li>Wool cap and hat </li> <li>Sunscreen </li> <li>Well-made slippers </li> <li>Gloves</li> <li>Photo camera</li>",
+  "__Cotopaxi_Quilotoa__":"__FIN__",
+  
+  
+  "__Tour_Mindo__":"__INICIO__",
+  "mindo_p1": "<h4>The Hummingbird Reserve</h4> <p>During our journey to Mindo, we will make a stop at a hidden garden in the midst of the cloud forest. Here, you will have the opportunity to delight in bird watching and enjoy nature. The entrance fee is $5.00 and is not included in the tour.</p>",
+"mindo_p2": "<h4>The Butterfly Sanctuary</h4> <p>You will visit the Butterfly Sanctuary in Mindo, where you will have the opportunity to get to know and photograph the various species of butterflies that inhabit this rich region of Ecuador. The entrance fee to the sanctuary is $8.00 and is not included in the package.</p>",
+"mindo_p3": "<h4>Mindo Nambillo Waterfall</h4> <p>Start your experience with an amazing panoramic view of the cloud forest from the cable car. Then, after this short ride, we will take a hike along a trail that will lead us to the waterfall. Enjoy this journey surrounded by lush forest. The entrance to this activity is included and costs $5.00.</p>",
+"mindo_p4": "<h4>Local Mindo Chocolate Company</h4> <p>Explore a locally-owned Ecuadorian chocolate factory, where you will have the opportunity to delve into the world of cocoa, learn about its importance, its production process, and taste a wide range of high-quality chocolates. Enjoy the blend of flavors and expand your knowledge of different cocoa percentages through a brief tasting, which is included in the experience.</p>",
+"mindo_p5": "<h4>Lunch</h4> <p>Amidst this program, you will have the opportunity to savor an indigenous lunch in the area. We suggest trying the fried trout, which is the characteristic dish of the region. (Lunch is not included in the tour cost).</p>",
+"mindo_p6": "<h4>Return to Quito</h4> <p>Relax during a comfortable return to Quito, and please note that the hotel drop-off service is included.</p>",
+"mindo_incluye": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to the Waterfall Sanctuary</li> <li>Chocolate tasting and visit to cocoa plantations</li> </ul>",
+"mindo_no_incluye": "<ul> <li><span>Extra activities:</span><br><span>Entrance to the Hummingbird Reserve ($5 dollars)</span><br><span>Entrance to the Butterfly Sanctuary ($8 dollars)</span></li> <li>Personal expenses of the tourist</li> </ul>",
+"mindo_indicaciones": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Change of clothes</li> <li>Camera</li> <li>Change of shoes</li> </ul>",
+  
+  "__Tour_Mindo__":"__FIN__",
+
+
+  "__Tour_Mitad_Mundo__":"__INICIO__",
+ "mitad_mundo_p1": "Meeting point: Naciones Unidas and Shyris at 2:30 PM on Saturdays and Sundays.",
+
+"mitad_mundo_p2": "<h4>Middle of the World Tourist Complex</h4> <p>Explore the Equatorial Museum, an impressive 30-meter-high structure erected in commemoration of the geodetic mission. Additionally, take part in a guided tour that includes the exploration of ancestral homes, the Cocoa Plaza, and the opportunity to browse shops offering local crafts.</p>",
+
+"mitad_mundo_p3": "<h4>Experiences on the Equator Line</h4> <p>Exploration inside the complex, where you can witness educational demonstrations of the phenomena that occur in the equatorial zone.</p>",
+
+"mitad_mundo_p4": "Relax during a comfortable return to Quito",
+
+"mitad_mundo_incluye": "<ul> <li>Full-equipped tourist transportation</li> <li>Guide throughout the journey</li> <li>Entrance to the Middle of the World City</li> </ul>",
+
+"mitad_mundo_No_incluye": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> </ul>",
+
+"mitad_mundo_indicaciones": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Camera</li> </ul>",
+  "__Tour_Mitad_Mundo__":"__FIN__",
+
+
+  "__Tour_Baños_":"__INICIO__",
+  "baños_p1": "<h4>Volcano Route</h4><p>We begin our adventure on the Avenue of the Volcanoes, during which we'll be able to appreciate the Ilinizas, Rumiñahui, and the Cotopaxi volcano.</p>",
+
+"baños_p2": "<h4>Waterfall Route</h4> <p>We continue with the waterfall route, making several stops to explore the area. We'll observe the Agoyán Waterfall and stop at Manto de la Novia, where we'll have the opportunity to cross on a cable car considered one of the largest in Ecuador. (Optional and not included)</p>",
+
+"baños_p3": "<h4>Devil's Cauldron</h4> <p>We continue to Río Verde, where the Devil's Cauldron Waterfall is located. We'll take a hike to the Devil's Cauldron Waterfall, which is 80 meters high and 20 meters deep.</p>",
+
+"baños_p4": "<h4>Extreme Activities</h4> <p>We'll make a stop for extreme activities such as Tarzan Swing, Canopy like the Tibetan Bridge, rock climbing, and the glass bridge (Optional and not included).</p>",
+
+"baños_p5": "<h4>Swing at the End of the World</h4> <p>The Swing at the End of the World is located in the Tree House.</p>",
+
+"baños_p6": "<h4>Return to Quito</h4> <p>We'll visit a typical sweets shop where you can taste sugar cane juice, and if desired, you can make purchases.</p>",
+
+"baños_incluye": "<li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Devil's Cauldron</li> <li>Cable car at Manto de la Novia</li> <li>Tree House</li> <li>Swing at the End of the World</li>",
+
+"baños_no_incluye": "<li>Extra activities (extreme sports)</li> <li>Personal expenses of the tourist</li> <li>Breakfast, lunch</li>",
+
+"baños_indicaciones": "<li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Sturdy shoes</li> <li>Umbrella or rain poncho</li> <li>Camera</li>",
+  "__Tour_Baños_":"__FIN__",
+
+
+
+
+
+  "__Tour_Misahualli__":"__INICIO__",
+  "misahualli_P1": "<h4>Papallacta Lake</h4> <p>We begin our adventure with a stop at Papallacta Lake to admire the landscapes offered by this spectacular lake. We continue to Baeza, where we will enjoy a delicious breakfast.</p>",
+
+"misahualli_P2": "<h4>Jumandy Caves</h4> <p>We continue with a visit to the Jumandy Caves, one of the outstanding attractions of Napo, where we will appreciate water sources and spectacular stalactite and stalagmite formations. We will explore these caves with a headlamp and a native guide who will provide us with the tour, leaving us with an unforgettable experience. We then proceed to lunch at the Misahualli port and visit the monkeys, a great species of Micos where you can enjoy their acrobatics.</p>",
+
+"misahualli_P3": "<h4>Misahualli Beach</h4> <p>Next stop, Misahualli Beach on the Napo River, known for its white and picturesque sands, considered another marvel of Ecuador.</p>",
+
+"misahualli_P4": "<h4>Quechua Community</h4> <p>Boat ride on the Napo River heading to the Quechua community. Visit a Quechua community where we can observe their way of life and ancestral traditions of the tribe, such as their dance, preparation of Maito, and Ayahuasca chicha, as well as shamanic rituals. They also have a mini zoo with some local species (optional).</p>",
+
+"misahualli_P5": "<h3>Misahualli Letters</h3> <p>Tourists can take photos and conclude the tour.</p>",
+
+"misahualli_P6": "Relax during a comfortable return to Quito.",
+
+"incluye_misahualli": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Breakfast and lunch</li> <li>Entrance to Jumandy Caves</li> <li>Monkey Park and Malecon</li> <li>Boat ride</li> </ul>",
+
+"no_incluye_misahualli": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> <li>Entrance to the community</li> </ul>",
+
+"indicaciones_misahualli": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Camera</li> <li>Change of shoes</li> <li>Mosquito repellent</li> <li>Change of clothes</li> <li>Rain poncho</li> <li>Rubber boots (if available)</li> </ul>",
+  "__Tour_Misahualli__":"__FIN__",
+
+  "__Tour_Cotundo__":"__INICIO__",
+  "cotundo_p1": "<h3>Papallacta Lake</h3> <p>We begin our adventure with a stop at Papallacta Lake to admire the landscapes offered by this spectacular lake. We continue our journey to have breakfast at the Amazonian viewpoint.</p>",
+
+"cotundo_p2": "<h3>Ñachiyacu Grand Canyon</h3> <p>We proceed to Ñachiyacu Grand Canyon, where sustainable cultural eco-tourism is conducted. Here, you can enjoy eco-tourism activities such as hiking, ancestral cleansings, waterfall recreation, and other activities in their purest state.</p>",
+
+"cotundo_p3": "<h3>Cotundo Canyon</h3> <p>The canyon has a diameter of approximately 20 meters, and at the base, it forms a lagoon with a depth of 4 to 5 meters. This lagoon is fed by a small waterfall that emerges from a cave, which is 10 meters deep and formed by water erosion. Inside the cave, a staircase has been adapted, leading to the high point just above the lagoon, where people practice jumping.</p>",
+
+"cotundo_p4": "<h3>Lunch</h3> <p>We will take a break to taste the traditional cuisine of the region.</p>",
+
+"cotundo_p5": "<h3>Arca Zoo</h3> <p>Visit to the Arca Zoo, where you can appreciate the mega biodiversity of species, including birds, reptiles, mammals, fish, amphibians, and insects, all of which interact with the rich flora in the ecosystems of the region.</p>",
+
+"cotundo_p6": "Relax during a comfortable return to Quito.",
+
+"incluye_cotundo": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Breakfast and lunch</li> <li>Entrance to Ñachi Yaku, Cotundo Grand Canyon</li> <li>Arca Zoo</li> </ul>",
+
+"no_incluye_cotundo": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> </ul>",
+
+"indicaciones_cotundo": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Camera</li> <li>Change of shoes</li> <li>Mosquito repellent</li> <li>Change of clothes</li> <li>Rain poncho</li> <li>Rubber boots (if available)</li> </ul>",
+
+  "__Tour_Cotundo__":"__FIN__",
+
+   "__Tour_Papallacta__":"__INICIO__",
+  "papallacta_p1": "We begin our journey with a delicious breakfast.",
+
+"papallacta_p2": "<h3>Papallacta Hot Springs</h3> <p>Entrance to the Papallacta Hot Springs, Spa & Resort located in the Andean paramo, in a unique natural setting.</p>",
+
+"papallacta_p3": "<h3>Pools at the Papallacta Hot Springs</h3> <p>Time to enjoy the tourist complex, which has 10 thermal pools of different temperatures and sizes.</p>",
+
+"papallacta_p4": "<h3>Papallacta Lagoon Viewpoint</h3><p>Visit to the Papallacta Lagoon viewpoint, where the water primarily comes from the melting of the Cayambe, Sarahurco snow-capped mountains, and many springs from the surrounding paramos.</p>",
+
+"papallacta_p5": "<h3>Polylepis Forest</h3> <p>To continue, we will visit the Polylepis Forest and the interpretation center, where we will find information about the protected area and its surroundings.</p>",
+
+"papallacta_p6": "<h3>Fishing</h3> <p>Sport fishing for giant Tixsha fish (optional).</p>",
+
+"papallacta_p7": "Enjoy a comfortable return to Quito, with hotel drop-off service included.",
+
+"incluye_papallacta": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Papallacta Hot Springs Resort</li> </ul>",
+
+"no_incluye_papallacta": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> <li>Extreme sports</li> </ul>",
+
+"indicaciones_papallacta": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Swimsuit</li> <li>Camera</li> <li>Towel</li> </ul>",
+  
+  "__Tour_Papallacta__":"__FIN__",
+
+  "__Tour_Quilotoa__":"__INICIO__",
+  "quilotoa_p1": "<h4>Volcano Route</h4> <p>Our adventure begins along the Avenue of the Volcanoes, where we can appreciate the Ilinizas, Rumiñahui, and Cotopaxi.</p>",
+
+"quilotoa_p2": "<h4>Toachi Canyon</h4> <p>We will have a sighting of the majestic Toachi Canyon.</p>",
+
+"quilotoa_p3": "<h4>Quilotoa Lake</h4> <p>Next stop, Quilotoa Lake, where you can observe the majestic volcano with its turquoise-colored lake. We will then enjoy a delicious breakfast with a great view of the lake.</p>",
+
+"quilotoa_p4": "<h4>Hike to Quilotoa Lake</h4> <p>We will proceed with a descent along magical trails. At the lake, we will engage in a water sport: kayaking and boating on the lake.</p>",
+
+"quilotoa_p5": "<h4>Quilotoa Museum</h4> <p>We will visit the Quilotoa Museum and the craft gallery.</p>",
+
+"quilotoa_p6": "Visit traditional homes.",
+
+"quilotoa_p7": "Shopping time.",
+
+"quilotoa_p8": "Return to Quito.",
+
+"incluye_quilotoa": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Quilotoa Lake, Toachi River Canyon</li> </ul>",
+
+"no_incluye_quilotoa": "<ul> <li>Extra activities (kayaking)</li> <li>Personal expenses of the tourist</li> </ul>",
+
+"indicaciones_quilotoa": "<ul> <li>Comfortable and warm clothing</li> <li>Cap and woolen hat</li> <li>Sunscreen</li> <li>Well-treaded shoes</li> <li>Gloves</li> <li>Camera</li> </ul>",
+  "__Tour_Quilotoa__":"__FIN__",
+  "__Tour_Cotopaxi__":"__INICIO__",
+  "volcan": "Cotopaxi Volcano",
+
+"cotopaxi_p1": "<h4>Stop in Machachi</h4> <p>Pause to acquire a snack, use restroom facilities, and access ATMs if necessary.</p>",
+
+"cotopaxi_p2": "<h4>Cotopaxi National Park</h4> <p>At the border of the province of Pichincha lies Cotopaxi National Park, an ecological reserve that combines the beauty of the Andean paramo, volcanic origin soil, and lakes formed by snow-capped peaks.</p>",
+
+"cotopaxi_p3": "<h4>Limpiopungo Lake </h4> <p>Participate in a guided walk along the shore of a glacial-origin lake. During this walk, you will have the opportunity to spot various species of birds and native plants that inhabit the surroundings of the lake.</p>",
+
+"cotopaxi_p4": "<h4>Mariscal Sucre Interpretation Center</h4> <p>All the informative content about Cotopaxi National Park is accessible at the Interpretation Center, widely recognized as the Park's Museum. This space features exhibition areas, a souvenir shop, and a café.</p>",
+
+"cotopaxi_p5": "<h4>Jose Rivas Refuge</h4><p>We will proceed to ascend to the Jose Rivas Refuge on Cotopaxi Volcano, located at 4897 meters above sea level, where you will have a spectacular view of the snow-capped volcano and its surroundings.</p>",
+
+"cotopaxi_p6": "<h4>Lunch</h4> <p>We will make a stop to taste the characteristic dishes of the region, where we suggest trying chicken soup, locro, and roasted lamb. There are also vegetarian alternatives available. (Lunch is not included).</p>",
+
+"cotopaxi_p7": "Enjoy a comfortable return to Quito, with the hotel drop-off service included.",
+
+"incluye_cotopaxi": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Cotopaxi National Park</li> <li>Interpretation Center</li> <li>Limpiopungo Lake</li> <li>First Refuge</li> </ul>",
+
+"no_incluye_cotopaxi": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> <li>Breakfast and lunch</li> </ul>",
+
+"indicaciones_cotopaxi": "<ul> <li>Comfortable and warm clothing </li> <li>Cap and woolen hat </li> <li>Sunscreen </li> <li>Well-treaded shoes </li> <li>Camera</li> <li>Gloves</li> </ul>",
+  "__Tour_Cotopaxi__":"__FIN__",
+
+
+  "__Tour_Chimborazo__":"__INICIO__",
+  "Chimborazo_v": "Chimborazo Volcano",
+
+"Chimborazo_p1": "<h4>Stop in Machachi</h4> <p>We begin our adventure to Chimborazo with a delicious breakfast in Machachi.</p>",
+
+"Chimborazo_p2": "<h4>Route of the volcanoes</h4> <p>We traverse the 'Avenue of the Volcanoes,' along the way, we can observe the volcanoes Ilinizas, Pasochoa, and Cotopaxi.</p>",
+
+"Chimborazo_p3": "<h4>Chimborazo Wildlife Production Reserve</h4> <p>Entrance to the Chimborazo Wildlife Production Reserve.</p> ",
+
+"Chimborazo_p4": "<h4>Ascent to Chimborazo Volcano</h4> <p>Next stop, the first refuge of the Carriel brothers (4800 meters above sea level) <br> Second stop at the Whymper refuge (5000 meters above sea level) <br> We will proceed to descend and head to lunch.</p>",
+
+"Chimborazo_p5": "<h4>Yambo Lake</h4> <p>It is called the 'Enchanted Lake,' perhaps because of its legends. It has underground springs in the central part from where its waters originate. It can be observed that the lake has grown spectacularly due to the new irrigation in the surrounding areas.</p>",
+
+"Chimborazo_p6": "Enjoy a comfortable return to Quito, with the hotel drop-off service included. End of the tour.",
+
+"incluye_Chimborazo": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Breakfast, lunch</li> <li>Entrance to the Chimborazo reserve</li> <li>Interpretation Center</li> <li>First and second refuge</li> <li>Yambo Lake</li> </ul>",
+
+"no_incluye_Chimborazo": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> </ul>",
+
+"indicaciones_Chimborazo": "<ul> <li>Comfortable and warm clothing </li> <li>Cap and woolen hat </li> <li>Sunscreen </li> <li>Well-treaded shoes</li> <li>Camera</li> <li>Gloves</li> </ul>",
+  "__Tour_Chimborazo__":"__FIN__",
+
+
+  "__Tour_Cuyabeno__":"__INICIO__",
+  "d1_cuyabeno_p1": "<h4>Entrance to Cuyabeno Reserve</h4> <p>The adventure begins at 11:00 AM at the entrance to Cuyabeno Reserve with a canoe trip downstream to our lodge (3 hours exploring the river in search of monkeys, birds, etc).</p>",
+
+"d1_cuyabeno_p2": "<h4>Lunch and Relaxation Time</h4> <p>In the afternoon, you will explore the river and lagoons in search of more wildlife, swim, and enjoy the sunset.</p>",
+
+"d1_cuyabeno_p3": "<h4>Expedition</h4><p>At night, you will go on a canoe expedition in search of caimans, followed by dinner. For all our guests interested in learning more about the Amazon rainforest, our naturalist guide will give different talks every night, covering topics such as 'Culture and Communities,' 'Flora,' 'Fauna,' and 'Conservation'.</p>",
+
+"d2_cuyabeno_p1": "<h4>Hike</h4> <p>In the morning, after breakfast, you will embark on a approximately 4-hour hike in the primary forest accompanied by the naturalist guide who will explain about medicinal plants, frogs, insects, birds, etc.</p>",
+
+"d2_cuyabeno_p2": "<h4>Lunch at the camp and Relaxation Time</h4> <p>After 2 hours of rest, you will explore the streams in a traditional paddle canoe to enjoy the uniqueness of nature. You will enjoy the sunset on the river and, if conditions allow, you may see pink dolphins.</p>",
+
+"d2_cuyabeno_p3": "Return to the lodge to prepare for the night walk and then dinner. Tonight, you will have the opportunity to get to know and taste different traditional Amazonian beverages.",
+
+"d3_cuyabeno_p1": "<h4>Paddle Canoe</h4> <p>After breakfast, get ready for an exciting morning. You will explore the streams and flooded forest in total tranquility and silence using a traditional paddle canoe. In this activity, as you move very slowly and silently, you have a better chance of observing more species of monkeys, birds, sloths, dolphins, and more.</p>",
+
+"d3_cuyabeno_p2": " <h4>Lunch at the camp and Relaxation Time</h4> <p>After 2 hours of rest, you will prepare and enjoy coffee and chocolate in a traditional way. In the evening, after dinner, you can join our talks or, if you like adventure, we have prepared a place for you in the middle of the forest where you can spend a few hours or the entire night enjoying the incredible sounds of the jungle.</p>",
+
+"d4_cuyabeno_p1": "<h4>Visit to Community</h4> <p>After a delicious breakfast, you will visit the community, where an indigenous woman will guide you through the community. There, you will learn about their culture, clothing, language, but above all, their cuisine, as you will prepare your lunch with her.</p>",
+
+"d4_cuyabeno_p2": "In the afternoon, the shaman of the community will teach you about medicinal plants and Amazonian rituals. After this exciting day, we return to the camp, have dinner, and relax.",
+
+"d5_cuyabeno_p1": "<h4>Cuyabeno – Quito</h4> <p>Early in the morning, you will explore the river in search of birds and enjoy the sunrise. After this activity, you will return to the camp, have breakfast, and have time to pack your luggage. Then, you will take the canoe back and explore the Cuyabeno River for 2 hours in search of more wildlife until the reserve's entrance (11 am), where you can take your transport back home.</p>",
+
+"d5_cuyabeno_p2": "Enjoy a comfortable return to Quito.",
+
+"incluye_cuyabeno": "<ul> <li>Tourist transportation: Quito-Cuyabeno Cuyabeno-Quito</li> <li>Travel insurance</li> <li>Naturalist Guide</li> <li>Entrance to Cuyabeno Reserve</li> <li>Breakfast, lunch, and dinner</li> <li>Accommodation</li> <li>Ponchos, rubber boots</li> <li>Activities within the reserve</li> <li>Canoe</li> </ul>",
+
+"no_incluye_cuyabeno": "<ul> <li>Extra activities payment to the community ($5 USD)</li> <li>Personal expenses of the tourist</li> <li>Breakfast on the first day</li> </ul>",
+
+"indicaciones_cuyabeno": "<ul> <li>Comfortable clothing </li> <li>Cap </li> <li>Sunscreen </li> <li>Change of shoes </li> <li>Camera</li> <li>Mosquito repellent</li> <li>Rubber boots (if available)</li> </ul>",
+  "__Tour_Cuyabeno__":"__FIN__",
+
+   "__Tour_Quito_Bus__":"__INICIO__",
+  "quito_bus_p1": "<h4>Naciones Unidas Boulevard</h4> <h5>Naciones Unidas Avenue and Shyris Avenue</h5> <p>This district represents the heart of modern Quito. Here, you can explore the charming La Carolina Park, enjoy a variety of shopping options in shopping centers, and savor the culinary offerings in restaurants and cafes surrounding the area.</p>",
+"quito_bus_p2": "<h4>La Mariscal / Plaza Foch</h4> <h5>Reina Victoria Street, between Calama and Mariscal Foch Streets</h5> <p>La Mariscal is a vibrant district that offers a wide range of gastronomic and cultural experiences. In its cafes, restaurants, museums, and galleries, you can immerse yourself in the rich culture of Ecuador. Surrounded by houses exhibiting various architectural styles, this area stands out for its diversity. At night, La Mariscal is the ideal place for entertainment, as it boasts numerous bars and nightclubs.</p>",
+"quito_bus_p3": "<h4>Artisan Market / El Ejido</h4> <h5>Jorge Washington Street and Reina Victoria Street</h5> <p>The Artisan Market is a place where you will find a dazzling variety of crafts, full of colors and unique designs. In the vicinity of El Ejido Park, next to La Circasiana arch, you can admire the works of numerous local artists, including paintings and sculptures that represent the rich culture of Ecuador.</p>",
+"quito_bus_p4": "<h4>La Basílica Church</h4> <h5>Venezuela Street and Carchi Street</h5> <p>Pay a visit to the largest neo-Gothic church in America and climb the stairs of one of its towers to reach one of the highest viewpoints in the city. From here, you will enjoy breathtaking panoramic views.</p>",
+"quito_bus_p5": "<h4>San Francisco</h4> <h5>Benalcázar Street and Sucre Street</h5> <p>This place is a must-visit for those who want to explore Quito's historic center. Here, you can walk and discover valuable architectural gems, churches, convents, museums, and restaurants just steps away. Exploring these streets is like stepping back in time and immersing yourself in the history of the city.</p>",
+"quito_bus_p6": "<h4>El Panecillo Viewpoint</h4> <h5>Melchor Aymerich Street (next to Pim's)</h5> <p>Visit the world's largest aluminum statue, located on the top of a sacred hill shaped like a bread called El Panecillo. From here, you can enjoy stunning panoramic views that span the north and south of the city.<br>Stop for 15 to 30 minutes, depending on traffic.</p>",
+"quito_bus_p7": "<h4>Return</h4> <h5>Naciones Unidas Boulevard</h5> <p>Finally, we return to the starting point on Naciones Unidas Boulevard, completing our tour of the wonders of Quito. We hope you have enjoyed this unique experience!</p>",
+"indicaciones_Quito_bus": "<ul> <li>Sunscreen</li> <li>Hat</li> <li>Comfortable clothing</li> <li>Camera</li> </ul>",
+  "titulo_quito_bus": "Discover Quito",
+"quito-bus-des": "Explore Quito from the heights with the unique Quito Tour Bus, a double-decker bus. Discover the city safely and enjoyably from 5 meters above ground level. With 7 strategic stops and the Hop On - Hop Off system, you can explore at your own pace for a full day. An exciting way to get to know Quito's most prominent places!",
+  "incluye-quito-tour":"<li>Double-decker bus tour</li>",
+  "__Tour_Quito_Bus__":"__FIN__"
+
+
+
+  
+}
