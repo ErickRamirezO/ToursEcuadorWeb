@@ -31,17 +31,19 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/baños.jpg" class="w3-hover-opacity">
+        <img src="../img/baños.jpg" alt="Pailón del Diablo" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotopaxiP0.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" alt="Laguna de Quilotoa y una llama" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP0.jpg" 
+ alt="Volcán Cotopaxi" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cotopaxiP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/quilotoap0.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP1.jpg" 
+ alt="Grupo subiendo el Volcán Cotopaxi" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap0.jpg" alt="Vista de la Laguna del Quilotoa" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -65,10 +67,10 @@
         <div id="myTimeline">
             <div data-vtdate="Primera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/machachi.jpg" class="cover-image">
+                <img src="../img/machachi.jpg" alt="Centro de Machachi" class="cover-image">
               </div>
               <div class="content-column d1_Cotopaxi_Quilotoa_Baños_p1">
                 <h4>Poblado de Machachi</h4>
@@ -77,10 +79,10 @@
             </div>
             <div data-vtdate="Segunda parada">
               <div data-vticon="true">
-                    <i class="fas fa-drumstick-bite"></i>
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/parqueN.jpg" class="cover-image">
+                <img src="../img/parqueN.jpg" alt="Parque Nacional Cotopaxi y volcán Cotopaxi de fondo" class="cover-image">
               </div>
               <div class="content-column d1_Cotopaxi_Quilotoa_Baños_p2">
                 <h4>Llegada al Parque Nacional Cotopaxi</h4>
@@ -90,10 +92,10 @@
             </div>
             <div data-vtdate="Tercera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                   <i class="fa-solid fa-person-walking"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/refugioJR.jpg" class="cover-image">
+                <img src="../img/refugioJR.jpg" alt="Refugio José Rivas" class="cover-image">
               </div>
               <div class="content-column d1_Cotopaxi_Quilotoa_Baños_p3">
                 <h4>Caminata a 4,864msnm</h4>
@@ -102,9 +104,8 @@
             </div>
             <div data-vtdate="Cuarta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fas fa-drumstick-bite"></i>
                 </div>
-              
               <div class="content-column d1_Cotopaxi_Quilotoa_Baños_p4">
                 <h4>Almuerzo</h4>
                 <p>Disfruta de un almuerzo en un establecimiento local (almuerzo no incluido). Puedes llevar snacks para el día.</p>
@@ -112,10 +113,10 @@
             </div>
             <div data-vtdate="Quinta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-mountain-sun"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/centroI.jpg" class="cover-image">
+                <img src="../img/centroI.jpg" alt="Centro de Cotopaxi" class="cover-image">
               </div>
               <div class="content-column d1_Cotopaxi_Quilotoa_Baños_p5">
                 <h4>Tarde libre en Cotopaxi</h4>
@@ -137,7 +138,7 @@
         <div id="myTimeline2" class="timeline-red" >
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-bread-slice"></i>
+              <i class="fa-solid fa-sun"></i>
             </div>
             
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p1">
@@ -149,7 +150,6 @@
             <div data-vticon="true">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-             
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p2">
              <h4>Visita una familia local en el páramo</h4>
               <p>Conoce la vida cotidiana y aprende sobre la crianza de cuyes en una vivienda tradicional de una familia local.</p>
@@ -160,7 +160,7 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/cultura-renace.jpg" class="cover-image">
+                <img src="../img/cultura-renace.jpg" alt="Artesanías en Tigua" class="cover-image">
               </div>
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p3">
               <h4>Explora Tigua</h4>
@@ -172,7 +172,7 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/lagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/lagunaQuilotoa.jpg" alt="Vista desde el aire a la comunidad de Quilotoa"class="cover-image">
               </div>
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p4">
               <h4>Llegada a la comunidad de Quilotoa</h4>
@@ -181,10 +181,10 @@
           </div>
           <div data-vtdate="Quinta parada">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-person-hiking"></i>
             </div>
             <div class="image-column">
-                <img src="../img/caminatalagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/caminatalagunaQuilotoa.jpg" alt="Sendero hacia a Lagunad de Quilotoa" class="cover-image">
               </div>
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p5">
               <h4>Caminata hacia la laguna</h4>
@@ -193,9 +193,8 @@
           </div>
           <div data-vtdate="Sexta parada">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-bus"></i>
             </div>
-            
             <div class="content-column d2_Cotopaxi_Quilotoa_Baños_p6">
               <h4>Salida desde Quilotoa a Baños</h4>
               <p>Disfruta del paisaje andino mientras nos dirigimos hacia Baños.</p>
@@ -206,7 +205,7 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/termas-baños.jpg" class="cover-image">
+                <img src="../img/termas-baños.jpg" alt="Baños termales en Baños" class="cover-image">
               </div>
             <div class="content-column">
               <p class="d2_Cotopaxi_Quilotoa_Baños_p7">Te sugerimos visitar los baños termales cercanos conocidos por sus propiedades curativas (entrada no incluida)..</p>
@@ -214,7 +213,7 @@
           </div>        
           <div data-vtdate="Octava parada">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-mountain-sun"></i>
             </div>
             <div class="content-column">
               <h4>Tarde libre en Baños</h4>
@@ -226,7 +225,7 @@
         <div id="myTimeline3" >
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-hiking"></i>
+              <i class="fa-solid fa-sun"></i>
             </div>
            
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p1">
@@ -236,10 +235,10 @@
           </div>
           <div data-vtdate="Segunda parada">
             <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
+              <i class="fa-solid fa-water"></i>
             </div>
              <div class="image-column">
-                <img src="../img/rutaC.jpg" class="cover-image">
+                <img src="../img/rutaC.jpg" alt="Cascada Manto de la Novia" class="cover-image">
               </div>
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p2">
               <h4>Ruta de las Cascadas:</h4>
@@ -251,7 +250,7 @@
               <i class="fas fa-water"></i>
             </div>
             <div class="image-column">
-                <img src="../img/pailon-cascada.jpg" class="cover-image">
+                <img src="../img/pailon-cascada.jpg" alt="Cascada Pailón del Diablo" class="cover-image">
               </div>
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p3">
               <h4>Visita a la Cascada Pailón del Diablo</h4>
@@ -263,7 +262,7 @@
               <i class="fas fa-water"></i>
             </div>
             <div class="image-column">
-                <img src="../img/cruce-tarabita.jpg" class="cover-image">
+                <img src="../img/cruce-tarabita.jpg" alt="Teleférico Tarabita cruzando cascadas" class="cover-image">
               </div>
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p4">
               <h4>Teleférico Tarabita</h4>
@@ -272,10 +271,10 @@
           </div>
           <div data-vtdate="Quinta parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/puente.jpg" class="cover-image">
+                <img src="../img/puente.jpg" alt="Canopy en Baños" class="cover-image">
               </div>
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p5">
               <h4>Actividades extremas</h4>
@@ -284,10 +283,10 @@
           </div>
           <div data-vtdate="Sexta parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/columpio.jpg" class="cover-image">
+                <img src="../img/columpio.jpg" alt="Columpio del fin del mundo" class="cover-image">
               </div>
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p6">
               <h4>Columpio del fin del mundo</h4>
@@ -296,7 +295,7 @@
           </div>
           <div data-vtdate="Séptima parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fas fa-drumstick-bite"></i>
             </div>
             
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p7">
@@ -306,7 +305,7 @@
           </div>
           <div data-vtdate="Octava parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-bus"></i>
             </div>
             
             <div class="content-column d3_Cotopaxi_Quilotoa_Baños_p8">
@@ -427,7 +426,9 @@
     </div>
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.881432404471!2d-78.87861722499544!3d-2.5455012474328322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd650c2725db71%3A0x3e6db0f0a5363ac2!2sIngapirca!5e0!3m2!1ses!2sec!4v1694462067226!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510649.95660680736!2d-79.19004361625909!3d-0.7755833635119481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d44e5dbbd52ce7%3A0x61297ba77301c1e8!2sVolc%C3%A1n%20Cotopaxi!5e0!3m2!1ses-419!2sec!4v1694712034368!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15957.477911024886!2d-78.91436585217721!3d-0.8594332861156456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d4ecf2f2a74419%3A0x92c280f1f5d7614c!2sLaguna%20de%20Quilotoa!5e0!3m2!1ses-419!2sec!4v1694712067804!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.54151559473!2d-78.43598850216438!3d-1.3952544774648694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3912260082689%3A0xdb67c8f2fcd8aee9!2sBa%C3%B1os%20de%20Agua%20Santa!5e0!3m2!1ses-419!2sec!4v1694712090128!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <?php include "footer.php";?>
   </div>

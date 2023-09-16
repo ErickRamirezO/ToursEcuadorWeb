@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/misahualliP3.jpg" class="w3-hover-opacity">
+        <img src="../img/misahualliP3.jpg" class="w3-hover-opacity" alt="Playa en Misahualli">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/misahualliP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/misahualliP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP1.jpg" alt="Centro Turístico en Misahuallí" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP2.jpg" alt="Playa del Río Napo" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/misahualliP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/misahualliP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP0.jpg" alt="Cavernas de Jumandy" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/misahualliP4.jpg" alt="Paseo en Bote por el río Napo" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/papallactalaguna.jpg" class="cover-image">
+                <img src="../img/papallactalaguna.jpg" alt="Laguna de Papallacta" class="cover-image">
               </div>
               <div class="content-column misahualli_P1">
                 <h3>Laguna de Papallacta</h3>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/JUMANDY.jpg" class="cover-image">
+                <img src="../img/JUMANDY.jpg" class="cover-image" alt="Cavernas de Jumandy">
               </div>
               <div class="content-column misahualli_P2">
                 <h3>Cavernas de Jumandy</h3>
@@ -91,7 +91,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/playa.jpg" class="cover-image">
+                <img src="../img/playa.jpg" alt="Playa de Misahualli" class="cover-image">
               </div>
               <div class="content-column misahualli_P3">
                 <h3>Playa de Misahualli</h3>
@@ -113,7 +113,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/letrasMisahualli.jpg" class="cover-image">
+                <img src="../img/letrasMisahualli.jpg" alt="Letras en Misahualli" class="cover-image">
               </div>
               <div class="content-column misahualli_P5">
                 <h3>Letras Misahualli</h3>

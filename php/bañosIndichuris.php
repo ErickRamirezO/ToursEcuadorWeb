@@ -402,6 +402,7 @@ multicolores.
     <div class="ubicacion">
       <h2 id="ubicacion">Ubicación</h2>
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.1570484171675!2d-77.92664267304689!3d-1.65347069999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d17d5eaa134d49%3A0x14577c2d39821abd!2sCOMUNIDAD%20INDICHURIS!5e0!3m2!1ses!2sec!4v1694214225042!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127635.05177966652!2d-78.512722737146!3d-1.4186553834416322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3972a036b79f5%3A0x6edaa151458b5deb!2sBa%C3%B1os%20de%20Agua%20Santa!5e0!3m2!1ses!2sec!4v1694712294118!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <?php include "footer.php";?>
   </div>

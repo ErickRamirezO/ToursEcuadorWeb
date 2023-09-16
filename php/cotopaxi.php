@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/cotopaxiP0.jpg" class="w3-hover-opacity">
+        <img src="../img/cotopaxiP0.jpg" alt="Volcán de Cotopaxi" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cotopaxiP1.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotopaxiP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP1.jpg" alt="Caminata en el Volcán Cotopaxi" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP2.jpg" alt="Parque nacional del Cotopaxi" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cotopaxiP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cotopaxiP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP3.jpg" aLt="Laguna en el Cotopaxi" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cotopaxiP4.jpg" alt="Ascenso en el Volcán Cotopaxi" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/machachi.jpg" class="cover-image">
+                <img src="../img/machachi.jpg" alt="Machachi" class="cover-image">
               </div>
               <div class="content-column cotopaxi_p1">
                 <h3>Parada en Machachi</h3>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/parqueN.jpg" class="cover-image">
+                <img src="../img/parqueN.jpg" alt="Parque Nacional Cotopaxi" class="cover-image">
               </div>
               <div class="content-column cotopaxi_p2">
                 <h3>Parque Nacional Cotopaxi</h3>
@@ -91,7 +91,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/lagunadeL.jpg" class="cover-image">
+                <img src="../img/lagunadeL.jpg" alt="Laguna de Limpiopungo en Cotopaxi" class="cover-image">
               </div>
               <div class="content-column cotopaxi_p3">
                 <h3>Laguna de Limpiopungo </h3>
@@ -103,7 +103,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/centroI.jpg" class="cover-image">
+                <img src="../img/centroI.jpg" alt="Centro de Interpretaciones Mariscal Sucre en el Cotopaxi" class="cover-image">
               </div>
               <div class="content-column cotopaxi_p4">
                 <h3>Centro de Interpretaciones Mariscal Sucre</h3>
@@ -115,7 +115,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/refugioJR.jpg" class="cover-image">
+                <img src="../img/refugioJR.jpg" alt="Refugio Jose Rivas en el Cotopaxi" class="cover-image">
               </div>
               <div class="content-column cotopaxi_p5">
                 <h3>Refugio Jose Rivas</h3>

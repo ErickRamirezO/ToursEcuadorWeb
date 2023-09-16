@@ -27,21 +27,21 @@
     <?php include "navbar.php";?>
     <div class="titulo_destino">
       <img src="../img/avion.png" class="imagen_a" style="transform: scaleX(-1);">
-      <h1 class="titulo">Mitad del Mundo &nbsp;</h1>
+      <h1 class="titulo mitad">Mitad del Mundo &nbsp;</h1>
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/mitadP1.jpg" class="w3-hover-opacity">
+        <img src="../img/mitadP1.jpg" class="w3-hover-opacity" alt="Mitad del mundo complejo turístico">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/mitadP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/mitadP2.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mitadP0.jpg" class="w3-hover-opacity" alt="Monumento de la mitad del mundo"></div>
+          <div class="portada-primera1"><img src="../img/mitadP2.jpg" class="w3-hover-opacity" alt="Línea equinoccial de la mitad del mundo"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/mitadP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/mitadP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mitadP3.jpg" alt="Monumento de la mitad del mundo" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/mitadP4.jpg" class="w3-hover-opacity" alt="El huevo sobre el clavo en la mitad del mundo"></div>
         </div>
       </div>
 
@@ -76,7 +76,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Complejomundo.jpg" class="cover-image">
+                <img src="../img/Complejomundo.jpg" class="cover-image" alt="Complejo turístico Mitad del Mundo">
               </div>
               <div class="content-column mitad_mundo_p2 ">
                 <h3>Complejo turístico Mitad del Mundo</h3>
@@ -88,7 +88,7 @@
                     <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/linea.jpg" class="cover-image">
+                <img src="../img/linea.jpg" class="cover-image" alt="Experiencias sobre la línea Equinoccial">
               </div>
               <div class="content-column mitad_mundo_p3">
                 <h3>Experiencias sobre la línea Equinoccial</h3>

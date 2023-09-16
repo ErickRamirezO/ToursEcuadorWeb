@@ -8,6 +8,9 @@
   <link rel="icon" href="../img/iconToursEcuador.png" type="image/png" sizes="32x32"/>
   <link rel="stylesheet" href="../css/estilo_index.css" type="text/css">
   <link rel="stylesheet" href="../css/estilo_tours.css" type="text/css">
+  
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -35,11 +38,11 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
       </div>
     </div>
     <div class="informacion-tours primero">
-      <div>
+      <div class="movil-1">
         <div class="informacion-pri">
-          <a href="baños.php"><img src="../img/baños.jpg"></a>
+          <a href="quito-tour-bus.php"><img src="../img/turismo-panecillo.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="baños.php">Baños</a><br>
+            <p> <a href="quito-tour-bus.php">Quito City Tour</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad">
                 <button class="disponibilidad">Disponible</button>
@@ -67,14 +70,14 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-ter">
-          <a href="cotundo.php"><img src="../img/cotundo.jpg"></a>
+          <a href="baños.php"><img src="../img/baños.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="cotundo.php">Cañón de Cotundo</a><br>
+            <p> <a href="baños.php">Baños</a><br>
             <div class="tours_populares_info_dis_y_pais">
-              <div class="tours_populares_dispinibilidad ">
+              <div class="tours_populares_dispinibilidad">
                 <button class="disponibilidad">Disponible</button>
               </div>
-              <div class="no-disponible tours_populares_dispinibilidad ocultar">
+              <div class="no-disponible tours_populares_dispinibilidad  ocultar ">
                 <button>No Disponible</button>
               </div>
             </div>
@@ -97,7 +100,7 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
       </div>
-      <div>
+      <div class="movil-2">
         <div class="informacion-pri">
           <a href="indichuris-selva.php"><img src="../img/Indichuris.jpg"></a>
           <div class="informacion-tours-seccion">
@@ -162,7 +165,7 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
       </div>
     </div>
     <div class="informacion-tours segundo">
-      <div>
+      <div class="movil-3">
         <div class="informacion-pri">
           <a href="cotopaxi.php"><img src="../img/cotopaxiP.jpg"></a>
           <div class="informacion-tours-seccion">
@@ -194,9 +197,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-ter">
-          <a href="pruebas.html"><img src="../img/cotopaxi_quilotoa.jpg"></a>
+          <a href="cotopaxiQuilotoa.php"><img src="../img/cotopaxi_quilotoa.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Cotopaxi Quilotoa</a><br>
+            <p> <a href="cotopaxiQuilotoa.php">Cotopaxi Quilotoa</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -209,9 +212,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-cuar">
-          <a href="pruebas.html"><img src="../img/Baños_I.jpg"></a>
+          <a href="bañosIndichuris.php"><img src="../img/Baños_I.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Baños Indichuris </a><br>
+            <p> <a href="bañosIndichuris.php">Baños Indichuris </a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -224,11 +227,11 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
       </div>
-      <div>
+      <div class="movil-4">
         <div class="informacion-pri">
-          <a href="pruebas.html"><img src="../img/misahu_co.jpg"></a>
+          <a href="misahualli-cotundo.php"><img src="../img/misahu_co.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Misahualli Cotundo </a><br>
+            <p> <a href="misahualli-cotundo.php">Misahualli Cotundo </a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -241,9 +244,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-seg">
-          <a href="pruebas.html"><img src="../img/BañosQui.jpg"></a>
+          <a href="baños-quilotoa.php"><img src="../img/BañosQui.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Baños Quilotoa </a><br>
+            <p> <a href="baños-quilotoa.php">Baños Quilotoa </a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -271,9 +274,9 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           </div>
         </div>
         <div class="informacion-cuar">
-          <a href="pruebas.html"><img src="../img/Ingapirca2.jpg"></a>
+          <a href="cuenca.php"><img src="../img/Ingapirca2.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Cuenca Ingapirca</a><br>
+            <p> <a href="cuenca.php">Cuenca Ingapirca</a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -289,12 +292,12 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
       </div>
     </div>
     <div class="informacion-tours tercero">
-      <div>
+      <div class="movil-5">
         <div class="informacion-pri">
           
-          <a href="pruebas.html"><img src="../img/BañosQuiCo.jpg"></a>
+          <a href="Cotopaxi-Quilotoa-Baños.php"><img src="../img/BañosQuiCo.jpg"></a>
           <div class="informacion-tours-seccion">
-            <p> <a href="pruebas.html">Cotopaxi Quilotoa Baños  </a><br>
+            <p> <a href="Cotopaxi-Quilotoa-Baños.php">Cotopaxi Quilotoa Baños  </a><br>
             <div class="tours_populares_info_dis_y_pais">
               <div class="tours_populares_dispinibilidad ">
                 <button class="disponibilidad">Disponible</button>
@@ -350,16 +353,31 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
             </p>
           </div></div>
       </div>
-      <!--  A qui pueden insertar mas diviciones hijos
-      <div >
-        <div class="informacion-pri ">Se ponen las diviciones con imagenes </div>
+     
+      <div class="movil-6" >
+        <div class="informacion-pri">
+          <a href="cotundo.php"><img src="../img/cotundo.jpg"></a>
+          <div class="informacion-tours-seccion">
+            <p> <a href="cotundo.php">Cañón de Cotundo</a><br>
+            <div class="tours_populares_info_dis_y_pais">
+              <div class="tours_populares_dispinibilidad ">
+                <button class="disponibilidad">Disponible</button>
+              </div>
+              <div class="no-disponible tours_populares_dispinibilidad ocultar">
+                <button>No Disponible</button>
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+        <!--
         <div class="informacion-seg "></div>
         <div class="informacion-ter "></div>
-        <div class="informacion-cuar"></div>
+        <div class="informacion-cuar"></div>-->
 
-      </div>--->
+    </div >
     </div>
-    <div class="paginacion">
+    <div class="paginacion paginacion-noM">
       <div class="paginacion-principal">
         <div class="paginacion-pri">
           <p class="paginacion-pri"> 1</p>
@@ -371,7 +389,28 @@ https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css
           <p class="paginacion-ter"> 3</p>
         </div>
       </div>
-
+    </div>
+    <div class="paginacion paginacion-M">
+      <div class="paginacion-principal">
+        <div class="paginacion-1">
+          <p class="paginacion-1"> 1</p>
+        </div>
+        <div class="paginacion-2">
+          <p class="paginacion-2"> 2</p>
+        </div>
+        <div class="paginacion-3">
+          <p class="paginacion-3"> 3</p>
+        </div>
+        <div class="paginacion-4">
+          <p class="paginacion-4"> 4</p>
+        </div>
+        <div class="paginacion-5">
+          <p class="paginacion-5"> 5</p>
+        </div>
+        <div class="paginacion-6">
+          <p class="paginacion-6"> 6</p>
+        </div>
+      </div>
     </div>
     <?php include "footer.php";?>
   </div>

@@ -31,17 +31,16 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/cuencaP1.jpg" class="w3-hover-opacity">
-
+        <img src="../img/cuencaP1.jpg" alt="Ruinas de Ingapirca" class="w3-hover-opacity">
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cuencaP2.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cuencaP3.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuencaP2.jpg" alt="Ruinas de Ingapirca" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuencaP3.jpg" alt="Ruinas de Ingapirca" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/cuencaP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/cuencaP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuencaP0.jpg" alt="Casa de fondo en las Ruinas de Ingapirca" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/cuencaP4.jpg" alt="Alpacas y de fondo las Ruinas de Ingapirca" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -60,15 +59,15 @@
         </div>
       </div>
       <section class="linea-tiempo">
-        <h2 id="itinerario">Itinerario</h2>
+        <h2 id="itinerario" class="w3-center">Itinerario</h2>
         <h3 class="w3-center dia1">Día 1</h3>
         <div id="myTimeline">
             <div data-vtdate="Inicio">
                 <div data-vticon="true">
-                    <i class="fas fa-bread-slice"></i>
+                    <i class="fa-solid fa-mug-saucer"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cuenca-letras.jpg" class="cover-image">
+                <img src="../img/cuenca-letras.jpg" alt="Letras de Cuenca" class="cover-image">
               </div>
               <div class="content-column d1_Cuenca_Ingapirca_inicio">
                 Nuestra aventura comienza en Cuenca con un rico:<br> •Desayuno<br>•Check in hotel<br>•Un tiempo de descanso por el viaje largo
@@ -76,10 +75,10 @@
             </div>
             <div data-vtdate="Primera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                   <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Chordeleg.jpg" class="cover-image">
+                <img src="../img/Chordeleg.jpg" alt="Artesanías en Chordelec" class="cover-image">
               </div>
               <div class="content-column d1_Cuenca_Ingapirca_p1">
                 Visita a chordelec: <br>Conocida por sus artesanías la tierra de oro y plata, centro artesanal de gran trascendencia a nivel nacional e internacional
@@ -97,10 +96,10 @@
             </div>
             <div data-vtdate="Segunda parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-bus"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cuencaNocturna.jpg" class="cover-image">
+                <img src="../img/cuencaNocturna.jpg" alt="Vista de Cuenca en la noche" class="cover-image">
               </div>
               <div class="content-column d1_Cuenca_Ingapirca_p2">
                 City tour Cuenca en bus de dos pisos: En la noche el cliente podra disfrutar de la vida nocturna en la ciudad de Cuenca
@@ -112,7 +111,7 @@
         <div id="myTimeline2" class="timeline-red">
           <div data-vtdate="Inicio">
             <div data-vticon="true">
-              <i class="fas fa-bread-slice"></i>
+              <i class="fa-solid fa-mug-saucer"></i>
             </div>
             
             <div class="content-column desayuno">
@@ -121,10 +120,10 @@
           </div>
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-hiking"></i>
+              <i class="fas fa-camera"></i>
             </div>
             <div class="image-column">
-                <img src="../img/el-cajas.jpg" class="cover-image">
+                <img src="../img/el-cajas.jpg" alt="Parque Nacional Cajas" class="cover-image">
               </div>
             <div class="content-column d2_Cuenca_Ingapirca_p1">
               Visita parque nacional cajas: Parque nacional el Cajas es conocido por los senderos que atraviesan bosques nubosos de hoja perenne y sus cientos de lagunas como la Toreadora, también alberga fauna muy diversa como cóndores andinos, colibríes, coaties, perfecto para disfrutar de la naturaleza
@@ -143,7 +142,7 @@
               <i class="fas fa-water"></i>
             </div>
             <div class="image-column">
-                <img src="../img/CUENCA-termas.jpg" class="cover-image">
+                <img src="../img/CUENCA-termas.jpg" alt="Termas Piedra de agua" class="cover-image">
               </div>
             <div class="content-column d2_Cuenca_Ingapirca_p2">
               Termas en piedra de agua: Piedra de agua es un moderno y completo centro turístico donde encontraremos una
@@ -159,7 +158,7 @@ piscina de agua termal, baño turco, terma caliente, área de descanso, ducha vo
         <div id="myTimeline3" >
           <div data-vtdate="Inicio">
             <div data-vticon="true">
-              <i class="fa-solid fa-dove"></i>
+              <i class="fa-solid fa-mug-saucer"></i>
             </div>
             <div class="content-column d3_Cuenca_Ingapirca_inicio">
               Desayuno 8:00 a 9:00AM
@@ -167,10 +166,10 @@ piscina de agua termal, baño turco, terma caliente, área de descanso, ducha vo
           </div>
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-bread-slice"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/ingapirca-1.jpg" class="cover-image">
+                <img src="../img/ingapirca-1.jpg" alt="Ingapirca" class="cover-image">
               </div>
             <div class="content-column d3_Cuenca_Ingapirca_p1">
               Visita a Ingapirca: En Quechua significa muro o pared del Inca, es una construcción auténticamente Cañari hecha a principios del siglo XVI de nuestra era, que se presume pudo ser un observatorio del Sol y la luna poco tiempo antes de la llegada de lo españoles
@@ -178,7 +177,7 @@ piscina de agua termal, baño turco, terma caliente, área de descanso, ducha vo
           </div>
           <div>
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fas fa-drumstick-bite"></i>
             </div>
             
             <div class="content-column almuerzo">
@@ -187,10 +186,10 @@ piscina de agua termal, baño turco, terma caliente, área de descanso, ducha vo
           </div>
           <div data-vtdate="Segunda parada">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fas fa-camera"></i>
             </div>
             <div class="image-column">
-                <img src="../img/desierto-palmiro.jpg" class="cover-image">
+                <img src="../img/desierto-palmiro.jpg" alt="El desierto de Palmira" class="cover-image">
               </div>
             <div class="content-column d3_Cuenca_Ingapirca_p2">
               Desierto de Palmira: Un desierto pequeño pero de atractivo único, pues se asemeja al gran desierto de Sáhara , fantástico para
@@ -201,7 +200,7 @@ tomar fotos
         
           <div data-vtdate="Fin del Tour">
             <div data-vticon="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-bus"></i>
             </div>
             <div class="content-column d3_Cuenca_Ingapirca_fin">
               Retorno a Quito, fin de tour.

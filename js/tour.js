@@ -27,7 +27,7 @@ $(document).ready(function() {
   
 
 
-$('.paginacion-pri').on('click', function () {
+      $('.paginacion-pri').on('click', function () {
         $('.primero').fadeIn(900);
         $('.segundo, .tercero').hide(900);
       });
@@ -42,4 +42,35 @@ $('.paginacion-pri').on('click', function () {
         $('.primero, .segundo').hide(900);
       });
 
+    //Movil paginacion
+   
+   $('.paginacion-1').on('click', function () {
+    $('.movil-1, .primero').fadeIn(900);
+    $('.movil-2, .movil-3, .movil-4, .movil-5, .movil-6').hide(900);
+  });
+  
+  $('.paginacion-2').on('click', function () {
+      $('.movil-2, .primero ').fadeIn(900);
+      $('.movil-1, .movil-3, .movil-4, .movil-5, .movil-6').hide(900);
+  });
+  
+  $('.paginacion-3').on('click', function () {
+      $('.movil-3, .segundo').fadeIn(900);
+      $('.movil-1, .movil-2, .movil-4, .movil-5, .movil-6').hide(900);
+  });
+  
+  $('.paginacion-4').on('click', function () {
+      $('.movil-4, .segundo').fadeIn(900);
+      $('.movil-1, .movil-2, .movil-3, .movil-5, .movil-6').hide(900);
+  });
+  
+  $('.paginacion-5').on('click', function () {
+      $('.movil-5, .tercero').fadeIn(900);
+      $('.movil-1, .movil-2, .movil-3, .movil-4, .movil-6').hide(900);
+  });
+  
+  $('.paginacion-6').on('click', function () {
+      $('.movil-6, .tercero').fadeIn(900);
+      $('.movil-1, .movil-2, .movil-3, .movil-4, .movil-5').hide(900);
+  });
 	});

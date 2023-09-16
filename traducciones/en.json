@@ -1,6 +1,8 @@
 {
   "inicio": "Index",
   "acerca": "About us ",
+  "todosLosTours":"All tours",
+  "guianzaToursPrivados":"Private tours and guides",
   "contacto": "Contact",
   "contactanos": "Contact us",
   
@@ -25,11 +27,41 @@
   "cotopaxi": "Cotopaxi Volcano",
   "chimborazo": "Chimborazo Volcano",
 
+  "verTodosLosTours":"See all tours",
+
+  "direccion":"<b><i class=\"fa-solid fa-location-dot\"></i>&nbsp; Address</b>",
+  "direccionTexto":"Venezuela and Espejo Street, in front of the Presidential Palace at the Tourist Information Point \"El Quinde\".",
+  "telefonos":"<b><i class=\"fa-solid fa-phone\"></i>&nbsp; Phones</b>",
+  "chatear":"Chat on WhatsApp",
+  "correoElectronico":"<b><i class=\"fa-solid fa-envelope\"></i>&nbsp; Email</b>",
+  "formularioDeContacto":"<b>Contact Form</b>",
+  "nombreApellido":"Name and surname",
+  "codigoPais":"Code of Country",
+  "telefono":"Phone",
+  "asunto":"Subject",
+  "asuntoPlaceholder":"Write the Subject",
+  "mensaje":"Message",
+  "mensajePlaceholder":"Write your message...",
+  "enviar":"Send",
+
+  "quienesSomos":"About us?",
+  "quienesSomosTexto":"",
+  "mision":"Mission",
+  "misionTexto":"Tour Ecuador S.A.S, is a Travel Agency company, mainly dedicated to selling wholesale and retail organized transportation and accommodation travel services to the general public and commercial clients. Its mission is to provide the best service in order to achieve full customer satisfaction with our tourist packages at affordable prices so that families enjoy getting to know the most important wonders of each city in Ecuador. The purpose is to be leaders in the travel agency service and position ourselves nationally, providing quality, efficiency and responsibility in all the packages contracted by our clients. Giving the creation of new sources of work in the tourism sector and in this way establishing alliances and consolidating new products within the branch.",
+  "vision":"Vision",
+  "visionTexto":"Tour Ecuador S.A.S., in the next 5 years by providing a travel agency service, will rely on adequate technology, committed human capital and a vocation for service, which will help us position ourselves as one of the most competitive companies in packages. tourism, recognized for working under principles of social responsibility. It will consolidate itself as one of the best travel agencies in Ecuador, providing quality service, with a work team that focuses on creation, promotion and training, resulting in tourist packages that have not been offered by any other agency. Nacional level. ",
+  "testimonios":"Testimonials",
   "Ire_Ale_Mui": "I totally recommend this travel agency, from whoever answers the phone, whoever attends you in the agency Miss Cintia gives a very friendly service. The tour guide Miss Camila very concerned and attentive to the group all the time, the driver Mr. Diego also. And the tour experience was better than expected. I will come back soon to take another tour with you, what a great experience! Thank you",
   "Kleber_Mosquera": "The agency treated me very well, the guides were great, the transportation was impeccable and I highly recommend them.",
   "Pauline_Schorter": "We did a 3 days tour to Cotopaxi, Quilotoa and Baños. It was a great experience, thanks to Cynthia and Alejandro we were able to see so many things and learn a lot about Ecuador. This agency is great if you want to discover Ecuador and the guides are amazing",
   "Jean-Baptiste_Blaise": "Great experience of three days thought equator!  Cotopaxi, Quilotoa and Baños Cynthia and Alejandro were very professional and friendly. They are amazing guides, I strongly recommend them!",
   "Mathieu_Mokrzycki": "Great three-day tour. Incredible companions. Great freedom in activities. Top tip.",
+
+  "guianzas":"Private tours and guides",
+  "guianzasTitulo":"Guides",
+  "guianzasTexto":"At Tours Ecuador, we believe that guiding is an art, an opportunity to transform a simple trip into an enriching experience. Our tour guides are passionate and knowledgeable ambassadors for the destinations we explore. With a passion for history, culture and authenticity, our guides are here to reveal the secrets of each place you visit and take you on a journey beyond the ordinary.",
+  "toursTitulo":"Private tours",
+  "toursTexto":"At Tours Ecuador, we believe that trips are more meaningful when they adapt to your personal preferences. That's why we offer a variety of Private Tours designed exclusively for you and your loved ones. Whether you are looking for a romantic getaway, a family vacation, or a solo adventure, our Private Tours are the perfect answer.",
 
   "__Tabla_de_contenido__":"__INICIO__",
   "itinerario":"Itinerary",
@@ -234,7 +266,7 @@
   "d1_Misahualli_Cotundo_p3":"We will appreciate the monkeys, a great species of the Micos in which you will be able to enjoy their acrobatics.",
   "d1_Misahualli_Cotundo_p4":"Next stop, Misahualli Beach on the Napo River, known for the presence of its white sands and landscape, considered another wonder of Ecuador.",
     "d1_Misahualli_Cotundo_p5":"Boat ride on the Napo River towards the Quechua community Visit to a Quechua community where we can observe their way of life and ancestral traditions of the tribe such as: their dance, preparation of Maito and Ayahuasca chicha, shaman rituals *they also have a mini zoo with some local species* (optional).",
-    "d2_Misahualli_Cotundo_p1":"Tourist entrance to the Gran Cañon de Ñachiyacu: Sustainable-cultural ecotourism, where you can enjoy eco-tourism activities such as hiking, ancestral cleanings, waterfall recreation and other activities in its purest form.",
+    "d2_Misahualli_Cotundo_p1":"Tourist center of the Grand Canyon of Ñachiyacu: Sustainable-cultural ecotourism, where you can enjoy eco-tourism activities such as hiking, ancestral cleanings, waterfall recreation and other activities in its purest form.",
   "d2_Misahualli_Cotundo_p2":"Cotundo Canyon: The Canyon has a diameter of approximately 20 meters, at the base it forms a lagoon, the same that has a depth of 4 to 5 meters this is fed by a small waterfall that comes out of a cave, which is 10 meters deep, formed by water erosion, inside the cave has adequate a staircase which leads to the top just above the lagoon, where people practice jumps.",
   "d2_Misahualli_Cotundo_p3":"Visit to the Arca Zoo: here you can appreciate the mega biodiversity of species such as birds, reptiles, mammals, fish, amphibians, and insects that interact with the rich flora existing in the ecosystems of the canton.",
   "d2_Misahualli_Cotundo_fin":"Return to Quito, end of tour.",
@@ -349,11 +381,11 @@
 
 "baños_p6": "<h4>Return to Quito</h4> <p>We'll visit a typical sweets shop where you can taste sugar cane juice, and if desired, you can make purchases.</p>",
 
-"baños_incluye": "<ul> <li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Devil's Cauldron</li> <li>Cable car at Manto de la Novia</li> <li>Tree House</li> <li>Swing at the End of the World</li> </ul>",
+"baños_incluye": "<li>Full-equipped tourist transportation</li> <li>Travel insurance</li> <li>Guide throughout the journey</li> <li>Entrance to Devil's Cauldron</li> <li>Cable car at Manto de la Novia</li> <li>Tree House</li> <li>Swing at the End of the World</li>",
 
-"baños_no_incluye": "<ul> <li>Extra activities (extreme sports)</li> <li>Personal expenses of the tourist</li> <li>Breakfast, lunch</li> </ul>",
+"baños_no_incluye": "<li>Extra activities (extreme sports)</li> <li>Personal expenses of the tourist</li> <li>Breakfast, lunch</li>",
 
-"baños_indicaciones": "<ul> <li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Sturdy shoes</li> <li>Umbrella or rain poncho</li> <li>Camera</li> </ul>",
+"baños_indicaciones": "<li>Comfortable clothing</li> <li>Cap</li> <li>Sunscreen</li> <li>Sturdy shoes</li> <li>Umbrella or rain poncho</li> <li>Camera</li>",
   "__Tour_Baños_":"__FIN__",
 
 
@@ -492,7 +524,55 @@
 "no_incluye_Chimborazo": "<ul> <li>Extra activities</li> <li>Personal expenses of the tourist</li> </ul>",
 
 "indicaciones_Chimborazo": "<ul> <li>Comfortable and warm clothing </li> <li>Cap and woolen hat </li> <li>Sunscreen </li> <li>Well-treaded shoes</li> <li>Camera</li> <li>Gloves</li> </ul>",
-  "__Tour_Chimborazo__":"__FIN__"
+  "__Tour_Chimborazo__":"__FIN__",
+
+
+  "__Tour_Cuyabeno__":"__INICIO__",
+  "d1_cuyabeno_p1": "<h4>Entrance to Cuyabeno Reserve</h4> <p>The adventure begins at 11:00 AM at the entrance to Cuyabeno Reserve with a canoe trip downstream to our lodge (3 hours exploring the river in search of monkeys, birds, etc).</p>",
+
+"d1_cuyabeno_p2": "<h4>Lunch and Relaxation Time</h4> <p>In the afternoon, you will explore the river and lagoons in search of more wildlife, swim, and enjoy the sunset.</p>",
+
+"d1_cuyabeno_p3": "<h4>Expedition</h4><p>At night, you will go on a canoe expedition in search of caimans, followed by dinner. For all our guests interested in learning more about the Amazon rainforest, our naturalist guide will give different talks every night, covering topics such as 'Culture and Communities,' 'Flora,' 'Fauna,' and 'Conservation'.</p>",
+
+"d2_cuyabeno_p1": "<h4>Hike</h4> <p>In the morning, after breakfast, you will embark on a approximately 4-hour hike in the primary forest accompanied by the naturalist guide who will explain about medicinal plants, frogs, insects, birds, etc.</p>",
+
+"d2_cuyabeno_p2": "<h4>Lunch at the camp and Relaxation Time</h4> <p>After 2 hours of rest, you will explore the streams in a traditional paddle canoe to enjoy the uniqueness of nature. You will enjoy the sunset on the river and, if conditions allow, you may see pink dolphins.</p>",
+
+"d2_cuyabeno_p3": "Return to the lodge to prepare for the night walk and then dinner. Tonight, you will have the opportunity to get to know and taste different traditional Amazonian beverages.",
+
+"d3_cuyabeno_p1": "<h4>Paddle Canoe</h4> <p>After breakfast, get ready for an exciting morning. You will explore the streams and flooded forest in total tranquility and silence using a traditional paddle canoe. In this activity, as you move very slowly and silently, you have a better chance of observing more species of monkeys, birds, sloths, dolphins, and more.</p>",
+
+"d3_cuyabeno_p2": " <h4>Lunch at the camp and Relaxation Time</h4> <p>After 2 hours of rest, you will prepare and enjoy coffee and chocolate in a traditional way. In the evening, after dinner, you can join our talks or, if you like adventure, we have prepared a place for you in the middle of the forest where you can spend a few hours or the entire night enjoying the incredible sounds of the jungle.</p>",
+
+"d4_cuyabeno_p1": "<h4>Visit to Community</h4> <p>After a delicious breakfast, you will visit the community, where an indigenous woman will guide you through the community. There, you will learn about their culture, clothing, language, but above all, their cuisine, as you will prepare your lunch with her.</p>",
+
+"d4_cuyabeno_p2": "In the afternoon, the shaman of the community will teach you about medicinal plants and Amazonian rituals. After this exciting day, we return to the camp, have dinner, and relax.",
+
+"d5_cuyabeno_p1": "<h4>Cuyabeno – Quito</h4> <p>Early in the morning, you will explore the river in search of birds and enjoy the sunrise. After this activity, you will return to the camp, have breakfast, and have time to pack your luggage. Then, you will take the canoe back and explore the Cuyabeno River for 2 hours in search of more wildlife until the reserve's entrance (11 am), where you can take your transport back home.</p>",
+
+"d5_cuyabeno_p2": "Enjoy a comfortable return to Quito.",
+
+"incluye_cuyabeno": "<ul> <li>Tourist transportation: Quito-Cuyabeno Cuyabeno-Quito</li> <li>Travel insurance</li> <li>Naturalist Guide</li> <li>Entrance to Cuyabeno Reserve</li> <li>Breakfast, lunch, and dinner</li> <li>Accommodation</li> <li>Ponchos, rubber boots</li> <li>Activities within the reserve</li> <li>Canoe</li> </ul>",
+
+"no_incluye_cuyabeno": "<ul> <li>Extra activities payment to the community ($5 USD)</li> <li>Personal expenses of the tourist</li> <li>Breakfast on the first day</li> </ul>",
+
+"indicaciones_cuyabeno": "<ul> <li>Comfortable clothing </li> <li>Cap </li> <li>Sunscreen </li> <li>Change of shoes </li> <li>Camera</li> <li>Mosquito repellent</li> <li>Rubber boots (if available)</li> </ul>",
+  "__Tour_Cuyabeno__":"__FIN__",
+
+   "__Tour_Quito_Bus__":"__INICIO__",
+  "quito_bus_p1": "<h4>Naciones Unidas Boulevard</h4> <h5>Naciones Unidas Avenue and Shyris Avenue</h5> <p>This district represents the heart of modern Quito. Here, you can explore the charming La Carolina Park, enjoy a variety of shopping options in shopping centers, and savor the culinary offerings in restaurants and cafes surrounding the area.</p>",
+"quito_bus_p2": "<h4>La Mariscal / Plaza Foch</h4> <h5>Reina Victoria Street, between Calama and Mariscal Foch Streets</h5> <p>La Mariscal is a vibrant district that offers a wide range of gastronomic and cultural experiences. In its cafes, restaurants, museums, and galleries, you can immerse yourself in the rich culture of Ecuador. Surrounded by houses exhibiting various architectural styles, this area stands out for its diversity. At night, La Mariscal is the ideal place for entertainment, as it boasts numerous bars and nightclubs.</p>",
+"quito_bus_p3": "<h4>Artisan Market / El Ejido</h4> <h5>Jorge Washington Street and Reina Victoria Street</h5> <p>The Artisan Market is a place where you will find a dazzling variety of crafts, full of colors and unique designs. In the vicinity of El Ejido Park, next to La Circasiana arch, you can admire the works of numerous local artists, including paintings and sculptures that represent the rich culture of Ecuador.</p>",
+"quito_bus_p4": "<h4>La Basílica Church</h4> <h5>Venezuela Street and Carchi Street</h5> <p>Pay a visit to the largest neo-Gothic church in America and climb the stairs of one of its towers to reach one of the highest viewpoints in the city. From here, you will enjoy breathtaking panoramic views.</p>",
+"quito_bus_p5": "<h4>San Francisco</h4> <h5>Benalcázar Street and Sucre Street</h5> <p>This place is a must-visit for those who want to explore Quito's historic center. Here, you can walk and discover valuable architectural gems, churches, convents, museums, and restaurants just steps away. Exploring these streets is like stepping back in time and immersing yourself in the history of the city.</p>",
+"quito_bus_p6": "<h4>El Panecillo Viewpoint</h4> <h5>Melchor Aymerich Street (next to Pim's)</h5> <p>Visit the world's largest aluminum statue, located on the top of a sacred hill shaped like a bread called El Panecillo. From here, you can enjoy stunning panoramic views that span the north and south of the city.<br>Stop for 15 to 30 minutes, depending on traffic.</p>",
+"quito_bus_p7": "<h4>Return</h4> <h5>Naciones Unidas Boulevard</h5> <p>Finally, we return to the starting point on Naciones Unidas Boulevard, completing our tour of the wonders of Quito. We hope you have enjoyed this unique experience!</p>",
+"indicaciones_Quito_bus": "<ul> <li>Sunscreen</li> <li>Hat</li> <li>Comfortable clothing</li> <li>Camera</li> </ul>",
+  "titulo_quito_bus": "Discover Quito",
+"quito-bus-des": "Explore Quito from the heights with the unique Quito Tour Bus, a double-decker bus. Discover the city safely and enjoyably from 5 meters above ground level. With 7 strategic stops and the Hop On - Hop Off system, you can explore at your own pace for a full day. An exciting way to get to know Quito's most prominent places!",
+  "incluye-quito-tour":"<li>Double-decker bus tour</li>",
+  "__Tour_Quito_Bus__":"__FIN__"
+
 
 
   

@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/otavaloP2.jpg" class="w3-hover-opacity">
+        <img src="../img/otavaloP2.jpg" alt="Otavalo_Monumento a los danzantes" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/otavaloP0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/otavaloP1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/otavaloP0.jpg" alt="Cascada de Peguche" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/otavaloP1.jpg" alt="Mercado Artesanal de Otavalo" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/otavaloP3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/otavaloP4.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/otavaloP3.jpg" alt="Comerciante en Mercado Artesanal de Otavalo" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/otavaloP4.jpg" alt="Locales en Mercado Artesanal de Otavalo"class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
                     <i class="fas fa-volcano"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cayambe.jpg" class="cover-image">
+                <img src="../img/cayambe.jpg" alt="Volcán Cayambe" class="cover-image">
               </div>
               <div class="content-column otavalo_p1">
                 <h4>Cayambe</h4>
@@ -79,7 +79,7 @@
                     <i class="fas fa-camera"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Lago San Pablo.jpg" class="cover-image">
+                <img src="../img/Lago San Pablo.jpg" alt="Lago San Pablo" class="cover-image">
               </div>
               <div class="content-column otavalo_p2">
                 <h4>Mirador del Lago San Pablo</h4>
@@ -88,10 +88,10 @@
             </div>
             <div data-vtdate="Tercera parada">
               <div data-vticon="true">
-                    <i class="fas fa-water"></i>
+                    <i class="fas fa-store"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/mercadoO.jpg" class="cover-image">
+                <img src="../img/mercadoO.jpg" alt="Turista comprando en Mercado Artesanal de Otavalo" class="cover-image">
               </div>
               <div class="content-column otavalo_p3">
                 <h4>Mercado de Otavalo</h4>
@@ -100,10 +100,10 @@
             </div>
             <div data-vtdate="Cuarta parada">
               <div data-vticon="true">
-                    <i class="fas fa-camera"></i>
+                    <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/Cascada de Peguche_2.jpg" class="cover-image">
+                <img src="../img/Cascada de Peguche_2.jpg" alt="Cascada de Peguche" class="cover-image">
               </div>
               <div class="content-column otavalo_p4">
                 <h4>Cascada de Peguche</h4>

@@ -31,17 +31,17 @@
     </div>
     <div class="imagenes-portada">
       <div class="imagenes-portada-primero">
-        <img src="../img/baños.jpg" class="w3-hover-opacity">
+        <img src="../img/baños.jpg" alt="Cascada Pailón del Diablo" class="w3-hover-opacity">
 
       </div>
       <div class=" imagenes-portada-segunda">
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/quilotoap0.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/baños1_1.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap0.jpg" alt="Laguna de Quilotoa" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_1.jpg" alt="Tarabita en Baños" class="w3-hover-opacity"></div>
         </div>
         <div class="portada-pri">
-          <div class="portada-primera1"><img src="../img/baños1_3.jpg" class="w3-hover-opacity"></div>
-          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/baños1_3.jpg" alt="Animal park en Baños" class="w3-hover-opacity"></div>
+          <div class="portada-primera1"><img src="../img/quilotoap02.jpg" alt="Llama con Laguna de Quiloto de fondo" class="w3-hover-opacity"></div>
         </div>
       </div>
 
@@ -65,10 +65,10 @@
         <div id="myTimeline">
             <div data-vtdate="Primera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/machachi.jpg" class="cover-image">
+                <img src="../img/machachi.jpg" alt="Centro de Machachi" class="cover-image">
               </div>
               <div class="content-column d1_Baños_Quilotoa_p1">
                 <h4>Machachi</h4>
@@ -77,7 +77,7 @@
             </div>
             <div data-vtdate="Segunda parada">
               <div data-vticon="true">
-                    <i class="fas fa-drumstick-bite"></i>
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
              
               <div class="content-column d1_Baños_Quilotoa_p2">
@@ -87,10 +87,10 @@
             </div>
             <div data-vtdate="Tercera parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/cultura-renace.jpg" class="cover-image">
+                <img src="../img/cultura-renace.jpg" alt="Artesanías en Tigua" class="cover-image">
               </div>
               <div class="content-column d1_Baños_Quilotoa_p3">
                 <h4>Parada en Tigua</h4>
@@ -99,10 +99,10 @@
             </div>
             <div data-vtdate="Cuarta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-water"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/lagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/lagunaQuilotoa.jpg" alt="Vista desde el aire a la comunidad de Quilotoa" class="cover-image">
               </div>
               <div class="content-column d1_Baños_Quilotoa_p4">
                 <h4>Llegada a Quilotoa</h4>
@@ -111,10 +111,10 @@
             </div>
             <div data-vtdate="Quinta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-person-hiking"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/caminatalagunaQuilotoa.jpg" class="cover-image">
+                <img src="../img/caminatalagunaQuilotoa.jpg" alt="Sendero hacia a Lagunad de Quilotoa" class="cover-image">
               </div>
               <div class="content-column d1_Baños_Quilotoa_p5">
                 <h4>Caminata a la laguna</h4>
@@ -123,9 +123,8 @@
             </div>
             <div data-vtdate="Sexta parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-drumstick-bite"></i>
                 </div>
-              
               <div class="content-column d1_Baños_Quilotoa_p6">
                 <h4>Almuerzo en Quilotoa</h4>
                 <p>Después de la caminata, harás una parada para almorzar, donde te recomendamos probar un delicioso caldo de gallina o un seco de chivo (almuerzo no incluido).</p>
@@ -133,7 +132,7 @@
             </div>
             <div data-vtdate="Séptima parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                    <i class="fa-solid fa-bus"></i>
                 </div>
               
               <div class="content-column d1_Baños_Quilotoa_p7">
@@ -143,10 +142,10 @@
             </div>
             <div data-vtdate="Octava parada">
               <div data-vticon="true">
-                    <i class="fas fa-moon"></i>
+                  <i class="fa-solid fa-person-walking"></i>
                 </div>
               <div class="image-column">
-                <img src="../img/termas-baños.jpg" class="cover-image">
+                <img src="../img/termas-baños.jpg" alt="Baños termales en Baños" class="cover-image">
               </div>
               <div class="content-column d1_Baños_Quilotoa_p8">
                 <h4>Noche libre en Baños</h4>
@@ -168,7 +167,7 @@
         <div id="myTimeline2" class="timeline-red">
           <div data-vtdate="Primera parada">
             <div data-vticon="true">
-              <i class="fas fa-hiking"></i>
+              <i class="fa-solid fa-sun"></i>
             </div>
             
             <div class="content-column d2_Baños_Quilotoa_p1">
@@ -178,10 +177,10 @@
           </div>
           <div data-vtdate="Segunda parada">
             <div data-vticon="true">
-              <i class="fas fa-drumstick-bite"></i>
+              <i class="fas fa-water"></i>
             </div>
             <div class="image-column">
-                <img src="../img/pailon-cascada.jpg" class="cover-image">
+                <img src="../img/pailon-cascada.jpg" alt="Cascada Pailón del Diablo" class="cover-image">
               </div>
             <div class="content-column d2_Baños_Quilotoa_p2">
               <h4>Visita a la impresionante Cascada Pailón del Diablo</h4>
@@ -193,7 +192,8 @@
               <i class="fas fa-water"></i>
             </div>
             <div class="image-column">
-                <img src="../img/puente.jpg" class="cover-image">
+              <!--cambio-->
+                <img src="../img/puente.jpg" alt="Tarabita sobre el río Pastaza" class="cover-image">
               </div>
             <div class="content-column d2_Baños_Quilotoa_p3">
               <h4>Tarabita sobre el río Pastaza</h4>
@@ -202,7 +202,7 @@
           </div>
           <div data-vtdate="Cuarta parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             
             <div class="content-column d2_Baños_Quilotoa_p4">
@@ -212,10 +212,10 @@
           </div>
           <div data-vtdate="Quinta parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="image-column">
-                <img src="../img/columpio.jpg" class="cover-image">
+                <img src="../img/columpio.jpg" alt="Columpio del fin del mundo" class="cover-image">
               </div>
             <div class="content-column d2_Baños_Quilotoa_p5">
               <h4>Visita al "Columpio del fin del mundo"</h4>
@@ -224,7 +224,7 @@
           </div>
           <div data-vtdate="Sexta parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fas fa-drumstick-bite"></i>
             </div>
             
             <div class="content-column">
@@ -233,7 +233,7 @@
           </div>
           <div data-vtdate="Séptima parada">
             <div data-vticon="true">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-bus"></i>
             </div>
             
             <div class="content-column d2_Baños_Quilotoa_p7">
